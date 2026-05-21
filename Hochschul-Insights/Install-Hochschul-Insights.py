@@ -184,7 +184,8 @@ class Fabric:
 
 # Main --------------------------------------------------------------------------
 
-def install(workspace_id: str | None = None, genesis_token: str | None = None) -> dict:
+def install(workspace_id: str | None = None, genesis_token: str | None = None,
+            run_pipeline: bool = True) -> dict:
     """Deploy Hochschul-Insights into a Fabric workspace and return new IDs.
 
     Args:
@@ -193,9 +194,13 @@ def install(workspace_id: str | None = None, genesis_token: str | None = None) -
             inside a Fabric notebook.
         genesis_token: DESTATIS GENESIS API token. Falls back to env
             ``GENESIS_TOKEN``.
+        run_pipeline: If True (default), trigger the pipeline once after
+            install so the lakehouse populates and the Direct Lake model
+            lights up. The call is fire-and-return; it does not wait for
+            completion. Set False to skip.
 
     Returns:
-        dict with the new item IDs.
+        dict with the new item IDs (and ``pipeline_run_id`` if triggered).
     """
     workspace_id = workspace_id or os.environ.get("FABRIC_WORKSPACE_ID") or detect_fabric_workspace_id()
     genesis_token = genesis_token or os.environ.get("GENESIS_TOKEN")
@@ -284,11 +289,32 @@ def install(workspace_id: str | None = None, genesis_token: str | None = None) -
         print(f"      SKIPPED (DataAgent create failed): {e}")
         print(f"      You can recreate it manually from the report's 'Ask a question' tile.")
 
+    pl_run_id = None
+    if run_pipeline:
+        print(f"\n[9/9] Triggering pipeline (fire-and-forget) ...")
+        try:
+            r = fab.s.post(
+                f"{FABRIC}/workspaces/{workspace_id}/items/{pl_id}/jobs/instances?jobType=Pipeline",
+                json={},
+            )
+            r.raise_for_status()
+            loc = r.headers.get("Location", "")
+            pl_run_id = loc.rsplit("/", 1)[-1] if loc else None
+            print(f"      pipeline_run_id = {pl_run_id}")
+            print(f"      Monitor: https://app.powerbi.com/groups/{workspace_id}/pipelines/{pl_id}")
+        except Exception as e:
+            print(f"      SKIPPED (pipeline trigger failed): {e}")
+            print(f"      You can run it manually from the workspace.")
+
     print("\n" + "=" * 60)
     print(f"Done. Open: https://app.powerbi.com/groups/{workspace_id}/list")
     print("\nNext steps:")
-    print("  1. Run the pipeline once to populate the lakehouse (~5-10 min).")
-    print("     The Direct Lake model will auto-light up after the first load.")
+    if run_pipeline and pl_run_id:
+        print("  1. Wait ~5-10 min for the pipeline to finish populating the lakehouse.")
+        print("     The Direct Lake model will auto-light up once the first load completes.")
+    else:
+        print("  1. Run the pipeline once to populate the lakehouse (~5-10 min).")
+        print("     The Direct Lake model will auto-light up after the first load.")
     print("  2. Open 'Webinar Hochschule' report.")
     print("  3. Schedule the pipeline weekly (DESTATIS updates monthly at most).")
 
@@ -302,6 +328,7 @@ def install(workspace_id: str | None = None, genesis_token: str | None = None) -
         "report_id":        rpt_id,
         "pipeline_id":      pl_id,
         "dataagent_id":     da_id,
+        "pipeline_run_id":  pl_run_id,
     }
 
 
@@ -312,8 +339,11 @@ def main():
                          "or auto-detected when running inside a Fabric notebook)")
     ap.add_argument("--genesis-token", default=None,
                     help="DESTATIS GENESIS API token (or env GENESIS_TOKEN)")
+    ap.add_argument("--no-run-pipeline", action="store_true",
+                    help="Skip the initial pipeline run (default: run after install).")
     args = ap.parse_args()
-    install(workspace_id=args.workspace_id, genesis_token=args.genesis_token)
+    install(workspace_id=args.workspace_id, genesis_token=args.genesis_token,
+            run_pipeline=not args.no_run_pipeline)
 
 
 if __name__ == "__main__":
