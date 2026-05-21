@@ -260,12 +260,16 @@ def install(workspace_id: str | None = None, lakehouse_name: str = LAKEHOUSE_NAM
     print(f"\n[3/9] Creating Fabric Environment 'DWD-Wetter-Env' (pre-installs wetterdienst+polars) ...")
     env_id = fab.create_or_get_environment("DWD-Wetter-Env", folder_id)
     print(f"      env_id = {env_id}")
+    # Fabric env publish treats top-level deps as conda; wetterdienst/polars are pip-only,
+    # so nest them under `pip:` (conda environment.yml format)
     requirements_yaml = (
         "name: dwd-wetter-env\n"
         "dependencies:\n"
-        "  - typing_extensions>=4.12\n"
-        "  - polars>=1.15,<2\n"
-        "  - wetterdienst>=0.115,<0.118\n"
+        "  - pip\n"
+        "  - pip:\n"
+        "    - typing_extensions>=4.12\n"
+        "    - polars>=1.15,<2\n"
+        "    - wetterdienst>=0.115,<0.118\n"
     )
     print("      uploading requirements.yml ...")
     fab.upload_env_requirements(env_id, requirements_yaml)
