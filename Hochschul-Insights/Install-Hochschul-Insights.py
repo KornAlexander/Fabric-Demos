@@ -341,30 +341,45 @@ def install(workspace_id: str | None = None, genesis_token: str | None = None,
                     print(f"      WARN: pipeline ended with status={final.get('status')}; skipping refresh.")
                     print(f"      failureReason: {final.get('failureReason')}")
                 else:
-                    print(f"\n      Refreshing semantic model 'Hochschule' ...")
-                    try:
-                        pbi_tok = get_pbi_token()
-                        pbi_s = requests.Session()
-                        pbi_s.headers["Authorization"] = f"Bearer {pbi_tok}"
-                        rr = pbi_s.post(
-                            f"https://api.powerbi.com/v1.0/myorg/groups/{workspace_id}/datasets/{sm_id}/refreshes",
-                            json={"type": "full", "commitMode": "transactional", "applyRefreshPolicy": False},
-                        )
-                        rr.raise_for_status()
-                        refresh_loc = rr.headers.get("Location", "")
-                        sm_refresh_id = refresh_loc.rsplit("/", 1)[-1] if refresh_loc else rr.headers.get("RequestId")
-                        print(f"      refresh_id = {sm_refresh_id}")
-                        # Poll refresh (usually completes in seconds for Direct Lake)
-                        rdeadline = time.time() + 5 * 60
-                        while refresh_loc and time.time() < rdeadline:
-                            time.sleep(5)
-                            rs = pbi_s.get(refresh_loc).json()
-                            st = rs.get("status")
-                            print(f"        refresh status={st}")
-                            if st in ("Completed", "Failed", "Cancelled"):
+                    # SQL endpoint needs ~30-60s to sync metadata from Lakehouse Delta writes
+                    # before the Direct Lake model can refresh. Retry on failure.
+                    print(f"\n      Waiting 45s for SQL endpoint to sync lakehouse metadata ...")
+                    time.sleep(45)
+                    pbi_tok = get_pbi_token()
+                    pbi_s = requests.Session()
+                    pbi_s.headers["Authorization"] = f"Bearer {pbi_tok}"
+                    final_st = None
+                    for refresh_attempt in range(1, 4):
+                        print(f"\n      Refreshing semantic model 'Hochschule' (attempt {refresh_attempt}/3) ...")
+                        try:
+                            rr = pbi_s.post(
+                                f"https://api.powerbi.com/v1.0/myorg/groups/{workspace_id}/datasets/{sm_id}/refreshes",
+                                json={"type": "full", "commitMode": "transactional", "applyRefreshPolicy": False},
+                            )
+                            rr.raise_for_status()
+                            refresh_loc = rr.headers.get("Location", "")
+                            sm_refresh_id = refresh_loc.rsplit("/", 1)[-1] if refresh_loc else rr.headers.get("RequestId")
+                            print(f"      refresh_id = {sm_refresh_id}")
+                            rdeadline = time.time() + 5 * 60
+                            final_st = None
+                            while refresh_loc and time.time() < rdeadline:
+                                time.sleep(5)
+                                rs = pbi_s.get(refresh_loc).json()
+                                final_st = rs.get("status")
+                                print(f"        refresh status={final_st}")
+                                if final_st in ("Completed", "Failed", "Cancelled"):
+                                    break
+                            if final_st == "Completed":
                                 break
-                    except Exception as e:
-                        print(f"      WARN: semantic model refresh failed: {e}")
+                            if refresh_attempt < 3:
+                                print(f"      Refresh status={final_st}; sleeping 30s and retrying ...")
+                                time.sleep(30)
+                        except Exception as e:
+                            print(f"      WARN: semantic model refresh attempt {refresh_attempt} failed: {e}")
+                            if refresh_attempt < 3:
+                                time.sleep(30)
+                    if final_st != "Completed":
+                        print(f"      WARN: semantic model refresh did not complete (final status={final_st}).")
         except Exception as e:
             print(f"      SKIPPED (pipeline trigger failed): {e}")
             print(f"      You can run it manually from the workspace.")
