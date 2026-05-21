@@ -341,16 +341,37 @@ def install(workspace_id: str | None = None, genesis_token: str | None = None,
                     print(f"      WARN: pipeline ended with status={final.get('status')}; skipping refresh.")
                     print(f"      failureReason: {final.get('failureReason')}")
                 else:
-                    # SQL endpoint needs ~30-60s to sync metadata from Lakehouse Delta writes
-                    # before the Direct Lake model can refresh. Retry on failure.
-                    print(f"\n      Waiting 45s for SQL endpoint to sync lakehouse metadata ...")
-                    time.sleep(45)
+                    # Direct Lake needs the SQL endpoint to discover the new Delta tables.
+                    # Force a metadata sync via the SQL endpoint refreshMetadata API, then poll.
+                    print(f"\n      Forcing SQL endpoint metadata refresh ...")
+                    try:
+                        rm = fab.s.post(
+                            f"{FABRIC}/workspaces/{workspace_id}/sqlEndpoints/{sql_ep_id}/refreshMetadata?preview=true",
+                            json={},
+                        )
+                        if rm.status_code in (200, 202):
+                            rm_loc = rm.headers.get("Location", "")
+                            if rm_loc:
+                                rmdeadline = time.time() + 180
+                                while time.time() < rmdeadline:
+                                    time.sleep(10)
+                                    rms = fab.s.get(rm_loc).json()
+                                    rmst = rms.get("status")
+                                    print(f"        sqlendpoint-refresh status={rmst}")
+                                    if rmst in ("Succeeded", "Failed", "Completed"):
+                                        break
+                        else:
+                            print(f"        WARN: refreshMetadata returned {rm.status_code} {rm.text[:200]}")
+                    except Exception as e:
+                        print(f"        WARN: SQL endpoint metadata refresh failed: {e}")
+                    print(f"      Waiting 30s safety margin before semantic model refresh ...")
+                    time.sleep(30)
                     pbi_tok = get_pbi_token()
                     pbi_s = requests.Session()
                     pbi_s.headers["Authorization"] = f"Bearer {pbi_tok}"
                     final_st = None
-                    for refresh_attempt in range(1, 4):
-                        print(f"\n      Refreshing semantic model 'Hochschule' (attempt {refresh_attempt}/3) ...")
+                    for refresh_attempt in range(1, 6):
+                        print(f"\n      Refreshing semantic model 'Hochschule' (attempt {refresh_attempt}/5) ...")
                         try:
                             rr = pbi_s.post(
                                 f"https://api.powerbi.com/v1.0/myorg/groups/{workspace_id}/datasets/{sm_id}/refreshes",
@@ -371,13 +392,13 @@ def install(workspace_id: str | None = None, genesis_token: str | None = None,
                                     break
                             if final_st == "Completed":
                                 break
-                            if refresh_attempt < 3:
-                                print(f"      Refresh status={final_st}; sleeping 30s and retrying ...")
-                                time.sleep(30)
+                            if refresh_attempt < 5:
+                                print(f"      Refresh status={final_st}; sleeping 45s and retrying ...")
+                                time.sleep(45)
                         except Exception as e:
                             print(f"      WARN: semantic model refresh attempt {refresh_attempt} failed: {e}")
-                            if refresh_attempt < 3:
-                                time.sleep(30)
+                            if refresh_attempt < 5:
+                                time.sleep(45)
                     if final_st != "Completed":
                         print(f"      WARN: semantic model refresh did not complete (final status={final_st}).")
         except Exception as e:
