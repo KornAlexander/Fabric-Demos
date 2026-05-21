@@ -44,6 +44,8 @@ import time
 import urllib.request
 from typing import Any
 
+import requests
+
 REPO_RAW = "https://raw.githubusercontent.com/KornAlexander/Fabric-Demos/main/Hochschul-Insights/templates"
 FABRIC = "https://api.fabric.microsoft.com/v1"
 FOLDER_NAME = "Hochschul-Insights"
@@ -84,20 +86,31 @@ def substitute(definition: dict, mapping: dict[str, str]) -> dict:
 
 # Auth --------------------------------------------------------------------------
 
-def get_token() -> str:
-    # Inside a Fabric notebook: use notebookutils — no extra deps, no az login.
+def _get_token(scope: str) -> str:
+    """Acquire a bearer token. Uses notebookutils inside Fabric, azure-identity locally."""
     try:
         import notebookutils  # type: ignore
-        return notebookutils.credentials.getToken("pbi")
+        # notebookutils audiences: 'pbi' -> analysis.windows.net/powerbi/api (works for Fabric API too)
+        aud = "pbi" if "powerbi" in scope or "fabric" in scope else "storage"
+        return notebookutils.credentials.getToken(aud)
     except Exception:
         pass
-    # Local machine: use azure-identity (az CLI / VS Code / env / interactive browser).
     try:
         from azure.identity import DefaultAzureCredential
     except ImportError:
         sys.exit("ERROR: azure-identity not installed. Run: pip install azure-identity requests")
     cred = DefaultAzureCredential(exclude_interactive_browser_credential=False)
-    return cred.get_token("https://api.fabric.microsoft.com/.default").token
+    return cred.get_token(scope).token
+
+
+def get_token() -> str:
+    """Token for Fabric REST API."""
+    return _get_token("https://api.fabric.microsoft.com/.default")
+
+
+def get_pbi_token() -> str:
+    """Token for Power BI REST API (used for semantic model refresh)."""
+    return _get_token("https://analysis.windows.net/powerbi/api/.default")
 
 
 def detect_fabric_workspace_id() -> str | None:
@@ -185,7 +198,8 @@ class Fabric:
 # Main --------------------------------------------------------------------------
 
 def install(workspace_id: str | None = None, genesis_token: str | None = None,
-            run_pipeline: bool = True) -> dict:
+            run_pipeline: bool = True, wait_for_pipeline: bool = True,
+            pipeline_timeout_min: int = 30) -> dict:
     """Deploy Hochschul-Insights into a Fabric workspace and return new IDs.
 
     Args:
@@ -196,11 +210,17 @@ def install(workspace_id: str | None = None, genesis_token: str | None = None,
             ``GENESIS_TOKEN``.
         run_pipeline: If True (default), trigger the pipeline once after
             install so the lakehouse populates and the Direct Lake model
-            lights up. The call is fire-and-return; it does not wait for
-            completion. Set False to skip.
+            lights up. Set False to skip.
+        wait_for_pipeline: If True (default) and ``run_pipeline`` is True,
+            poll the pipeline to completion, then refresh the semantic model
+            (so calculated tables like ``Calendar`` are populated and the
+            report renders without manual refresh). Set False for fire-and-
+            forget behavior.
+        pipeline_timeout_min: Max minutes to wait for the pipeline. Default 30.
 
     Returns:
-        dict with the new item IDs (and ``pipeline_run_id`` if triggered).
+        dict with the new item IDs (and ``pipeline_run_id`` /
+        ``sm_refresh_id`` if triggered).
     """
     workspace_id = workspace_id or os.environ.get("FABRIC_WORKSPACE_ID") or detect_fabric_workspace_id()
     genesis_token = genesis_token or os.environ.get("GENESIS_TOKEN")
@@ -290,8 +310,9 @@ def install(workspace_id: str | None = None, genesis_token: str | None = None,
         print(f"      You can recreate it manually from the report's 'Ask a question' tile.")
 
     pl_run_id = None
+    sm_refresh_id = None
     if run_pipeline:
-        print(f"\n[9/9] Triggering pipeline (fire-and-forget) ...")
+        print(f"\n[9/9] Triggering pipeline ...")
         try:
             r = fab.s.post(
                 f"{FABRIC}/workspaces/{workspace_id}/items/{pl_id}/jobs/instances?jobType=Pipeline",
@@ -302,6 +323,48 @@ def install(workspace_id: str | None = None, genesis_token: str | None = None,
             pl_run_id = loc.rsplit("/", 1)[-1] if loc else None
             print(f"      pipeline_run_id = {pl_run_id}")
             print(f"      Monitor: https://app.powerbi.com/groups/{workspace_id}/pipelines/{pl_id}")
+
+            if wait_for_pipeline and pl_run_id and loc:
+                print(f"      Waiting for pipeline to finish (poll every 30s, max {pipeline_timeout_min} min) ...")
+                deadline = time.time() + pipeline_timeout_min * 60
+                final = None
+                while time.time() < deadline:
+                    time.sleep(30)
+                    pr = fab.s.get(loc).json()
+                    print(f"        status={pr.get('status')}")
+                    if pr.get("status") in ("Completed", "Failed", "Cancelled", "Deduped"):
+                        final = pr
+                        break
+                if not final:
+                    print("      WARN: pipeline did not finish before timeout; skipping refresh.")
+                elif final.get("status") != "Completed":
+                    print(f"      WARN: pipeline ended with status={final.get('status')}; skipping refresh.")
+                    print(f"      failureReason: {final.get('failureReason')}")
+                else:
+                    print(f"\n      Refreshing semantic model 'Hochschule' ...")
+                    try:
+                        pbi_tok = get_pbi_token()
+                        pbi_s = requests.Session()
+                        pbi_s.headers["Authorization"] = f"Bearer {pbi_tok}"
+                        rr = pbi_s.post(
+                            f"https://api.powerbi.com/v1.0/myorg/groups/{workspace_id}/datasets/{sm_id}/refreshes",
+                            json={"type": "full", "commitMode": "transactional", "applyRefreshPolicy": False},
+                        )
+                        rr.raise_for_status()
+                        refresh_loc = rr.headers.get("Location", "")
+                        sm_refresh_id = refresh_loc.rsplit("/", 1)[-1] if refresh_loc else rr.headers.get("RequestId")
+                        print(f"      refresh_id = {sm_refresh_id}")
+                        # Poll refresh (usually completes in seconds for Direct Lake)
+                        rdeadline = time.time() + 5 * 60
+                        while refresh_loc and time.time() < rdeadline:
+                            time.sleep(5)
+                            rs = pbi_s.get(refresh_loc).json()
+                            st = rs.get("status")
+                            print(f"        refresh status={st}")
+                            if st in ("Completed", "Failed", "Cancelled"):
+                                break
+                    except Exception as e:
+                        print(f"      WARN: semantic model refresh failed: {e}")
         except Exception as e:
             print(f"      SKIPPED (pipeline trigger failed): {e}")
             print(f"      You can run it manually from the workspace.")
@@ -329,6 +392,7 @@ def install(workspace_id: str | None = None, genesis_token: str | None = None,
         "pipeline_id":      pl_id,
         "dataagent_id":     da_id,
         "pipeline_run_id":  pl_run_id,
+        "sm_refresh_id":    sm_refresh_id,
     }
 
 
@@ -341,9 +405,15 @@ def main():
                     help="DESTATIS GENESIS API token (or env GENESIS_TOKEN)")
     ap.add_argument("--no-run-pipeline", action="store_true",
                     help="Skip the initial pipeline run (default: run after install).")
+    ap.add_argument("--no-wait", action="store_true",
+                    help="Don't wait for pipeline completion or refresh the semantic model (default: wait+refresh).")
+    ap.add_argument("--pipeline-timeout-min", type=int, default=30,
+                    help="Max minutes to wait for the pipeline (default: 30).")
     args = ap.parse_args()
     install(workspace_id=args.workspace_id, genesis_token=args.genesis_token,
-            run_pipeline=not args.no_run_pipeline)
+            run_pipeline=not args.no_run_pipeline,
+            wait_for_pipeline=not args.no_wait,
+            pipeline_timeout_min=args.pipeline_timeout_min)
 
 
 if __name__ == "__main__":
