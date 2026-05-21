@@ -36,6 +36,34 @@ Power BI Report  +  Data Agent (NL Q&A)
 
 All items are placed in a new workspace folder named `Hochschul-Insights`.
 
+## Report preview
+
+The deployed `Webinar Hochschule` report is an 8-page IBCS-styled walk through German higher-education statistics. The first three pages:
+
+**Home — landing page with KPIs and Top-10 university ranking**
+
+![Report — Home](docs/report-1-home.png)
+
+**Übersicht — KPI cards plus IBCS comparison charts for Studierende, Einnahmen, Ausgaben across Bundesländer**
+
+![Report — Übersicht](docs/report-2-uebersicht.png)
+
+**Studenten — Studierenden split by gender, city, and university, including Azure Maps geo visuals**
+
+![Report — Studenten](docs/report-3-studenten.png)
+
+## Pipeline
+
+`Hochschul-Insights GENESIS Pipeline` runs all 10 fact-table loader notebooks in parallel, then triggers the Dimensions notebook once the facts are in place:
+
+![Pipeline — parallel facts then dimensions](docs/pipeline.png)
+
+## Loader notebook
+
+`Hochschul-Insights GENESIS Loader` fetches each table from the GENESIS REST API, reshapes it into a tidy Spark DataFrame, and writes Delta to the lakehouse — idempotent, overwrite-each-run:
+
+![Loader notebook](docs/loader.png)
+
 ## Data scope
 
 10 fact tables + 6 dimension tables covering:
