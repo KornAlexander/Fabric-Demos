@@ -83,6 +83,7 @@ https://raw.githubusercontent.com/KornAlexander/Fabric-Demos/main/Hochschul-Insi
 ```
 Hochschul-Insights/
   Install-Hochschul-Insights.ipynb   # Fabric notebook installer
+  Install-Hochschul-Insights.py      # Installer module fetched by the notebook
   README.md                          # this file
   templates/
     loader_notebook.json      # GENESIS REST API loader (PySpark)
