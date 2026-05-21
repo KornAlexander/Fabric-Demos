@@ -266,6 +266,7 @@ def install(workspace_id: str | None = None, lakehouse_name: str = LAKEHOUSE_NAM
     pl_def = substitute(load_template("pipeline.json"), {
         "WORKSPACE_ID":        workspace_id,
         "LOADER_NB_ID":        loader_nb_id,
+        "FORECAST_NB_ID":      forecast_nb_id,
         "REFRESH_SM_NB_ID":    refresh_sm_nb_id,
         "NOTIFY_NB_ID":        notify_nb_id,
     })
@@ -295,6 +296,18 @@ def install(workspace_id: str | None = None, lakehouse_name: str = LAKEHOUSE_NAM
                     if st in ("Completed", "Failed", "Cancelled", "Deduped"):
                         final = pr
                         break
+                if not final:
+                    raise RuntimeError(
+                        f"Pipeline did not finish within {pipeline_timeout_min} min. "
+                        f"Monitor: https://app.powerbi.com/groups/{workspace_id}/pipelines/{pl_id}"
+                    )
+                if final.get("status") != "Completed":
+                    reason = final.get("failureReason") or {}
+                    msg = reason.get("message") if isinstance(reason, dict) else str(reason)
+                    raise RuntimeError(
+                        f"Pipeline run {pl_run_id} ended with status={final.get('status')}. "
+                        f"Reason: {msg}"
+                    )
                 if final and final.get("status") == "Completed":
                     print("\n      Refreshing semantic model 'Wetter-Insights' ...")
                     try:
@@ -309,15 +322,14 @@ def install(workspace_id: str | None = None, lakehouse_name: str = LAKEHOUSE_NAM
                         print(f"      refresh requestId = {sm_refresh_id}")
                     except Exception as e:
                         print(f"      WARN: semantic model refresh failed: {e}")
-        except Exception as e:
-            print(f"      SKIPPED (pipeline trigger failed): {e}")
+        except requests.exceptions.RequestException as e:
+            raise RuntimeError(f"Pipeline trigger HTTP error: {e}") from e
 
     print("\n" + "=" * 60)
     print(f"Done. Open: https://app.powerbi.com/groups/{workspace_id}/list")
     print("\nNext steps:")
     print("  1. Open the 'DWD Wetter-Insights' report (Home page).")
-    print("  2. Run 'DWD-Wetter-Insights Forecast Loader' once to populate Mosmix forecasts.")
-    print("  3. Schedule the 'DWD-Wetter-Insights Daily' pipeline (e.g., daily 06:00).")
+    print("  2. Schedule the 'DWD-Wetter-Insights Daily' pipeline (e.g., daily 06:00).")
 
     return {
         "folder_id":         folder_id,

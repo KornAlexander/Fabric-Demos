@@ -117,10 +117,9 @@ python Install-DWD-Wetter-Insights.py --workspace-id <guid>
 ## After install
 
 1. Open the workspace → folder `DWD-Wetter-Insights`.
-2. The Daily pipeline has already kicked off (~10–20 min for the initial historic load).
+2. The Daily pipeline has already kicked off (~15–25 min for the initial historic + Mosmix load + SM refresh).
 3. Open the **`DWD Wetter-Insights`** report — Direct Lake lights up automatically.
-4. Run **`DWD-Wetter-Insights Forecast Loader`** once to populate the Mosmix forecast tables (~5 min).
-5. **Schedule** the `DWD-Wetter-Insights Daily` pipeline daily at 06:00 (DWD publishes overnight).
+4. **Schedule** the `DWD-Wetter-Insights Daily` pipeline daily at 06:00 (DWD publishes overnight).
 
 ## Repository structure
 
