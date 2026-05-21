@@ -7,6 +7,7 @@ End-to-end Microsoft Fabric demos with one-click installers. Each demo follows t
 | Demo | Description | Source data | Install |
 |---|---|---|---|
 | [Hochschul-Insights](./Hochschul-Insights) | German higher-education statistics (Studierende, Personal, Finanzen) with an 8-page Power BI report, Direct Lake semantic model, and natural-language Data Agent. | [DESTATIS GENESIS](https://www-genesis.destatis.de/) REST API | [`Install-Hochschul-Insights.ipynb`](./Hochschul-Insights/Install-Hochschul-Insights.ipynb) (Fabric notebook) · [`Install-Hochschul-Insights.py`](./Hochschul-Insights/Install-Hochschul-Insights.py) (local) |
+| [DWD-Wetter-Insights](./DWD-Wetter-Insights) | German weather observations + Mosmix forecasts (1900–today, ~7.5M daily obs, ~1,400 stations, 48M hourly forecasts) with a 4-page IBCS Power BI report, Direct Lake semantic model with PY measures, and a Daily pipeline including Notify-on-failure. | [DWD Climate Data Center](https://opendata.dwd.de/) — open data, **no auth required** | [`Install-DWD-Wetter-Insights.ipynb`](./DWD-Wetter-Insights/Install-DWD-Wetter-Insights.ipynb) (Fabric notebook) · [`Install-DWD-Wetter-Insights.py`](./DWD-Wetter-Insights/Install-DWD-Wetter-Insights.py) (local) |
 
 More demos coming soon.
 
