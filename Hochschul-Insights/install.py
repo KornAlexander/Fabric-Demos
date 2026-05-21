@@ -81,12 +81,29 @@ def substitute(definition: dict, mapping: dict[str, str]) -> dict:
 # Auth --------------------------------------------------------------------------
 
 def get_token() -> str:
+    # Inside a Fabric notebook: use notebookutils — no extra deps, no az login.
+    try:
+        import notebookutils  # type: ignore
+        return notebookutils.credentials.getToken("pbi")
+    except Exception:
+        pass
+    # Local machine: use azure-identity (az CLI / VS Code / env / interactive browser).
     try:
         from azure.identity import DefaultAzureCredential
     except ImportError:
         sys.exit("ERROR: azure-identity not installed. Run: pip install azure-identity requests")
     cred = DefaultAzureCredential(exclude_interactive_browser_credential=False)
     return cred.get_token("https://api.fabric.microsoft.com/.default").token
+
+
+def detect_fabric_workspace_id() -> str | None:
+    """When running inside a Fabric notebook, get the current workspace id."""
+    try:
+        import notebookutils  # type: ignore
+        ctx = notebookutils.runtime.context
+        return ctx.get("currentWorkspaceId") or ctx.get("workspaceId")
+    except Exception:
+        return None
 
 
 # Fabric REST helpers -----------------------------------------------------------
@@ -163,27 +180,36 @@ class Fabric:
 
 # Main --------------------------------------------------------------------------
 
-def main():
-    ap = argparse.ArgumentParser(description="Deploy Hochschul-Insights to Microsoft Fabric.")
-    ap.add_argument("--workspace-id", default=os.environ.get("FABRIC_WORKSPACE_ID"),
-                    help="Target Fabric workspace GUID (or env FABRIC_WORKSPACE_ID)")
-    ap.add_argument("--genesis-token", default=os.environ.get("GENESIS_TOKEN"),
-                    help="DESTATIS GENESIS API token (or env GENESIS_TOKEN)")
-    args = ap.parse_args()
+def install(workspace_id: str | None = None, genesis_token: str | None = None) -> dict:
+    """Deploy Hochschul-Insights into a Fabric workspace and return new IDs.
 
-    if not args.workspace_id:
-        sys.exit("ERROR: --workspace-id or env FABRIC_WORKSPACE_ID required.")
-    if not args.genesis_token:
-        sys.exit("ERROR: --genesis-token or env GENESIS_TOKEN required. "
-                 "Register at https://www-genesis.destatis.de/ to get one (free).")
+    Args:
+        workspace_id: Target Fabric workspace GUID. Falls back to env
+            ``FABRIC_WORKSPACE_ID`` and then to auto-detection when running
+            inside a Fabric notebook.
+        genesis_token: DESTATIS GENESIS API token. Falls back to env
+            ``GENESIS_TOKEN``.
 
-    print(f"Authenticating ...")
+    Returns:
+        dict with the new item IDs.
+    """
+    workspace_id = workspace_id or os.environ.get("FABRIC_WORKSPACE_ID") or detect_fabric_workspace_id()
+    genesis_token = genesis_token or os.environ.get("GENESIS_TOKEN")
+
+    if not workspace_id:
+        raise SystemExit("ERROR: workspace_id required (arg, env FABRIC_WORKSPACE_ID, "
+                         "or run inside a Fabric notebook).")
+    if not genesis_token:
+        raise SystemExit("ERROR: genesis_token required (arg or env GENESIS_TOKEN). "
+                         "Register at https://www-genesis.destatis.de/ to get one (free).")
+
+    print("Authenticating ...")
     token = get_token()
-    fab = Fabric(token, args.workspace_id)
+    fab = Fabric(token, workspace_id)
 
     ws = fab.get_workspace()
     ws_name = ws["displayName"]
-    print(f"Workspace: {ws_name} ({args.workspace_id})")
+    print(f"Workspace: {ws_name} ({workspace_id})")
 
     print(f"\n[1/8] Creating folder '{FOLDER_NAME}' ...")
     folder_id = fab.create_folder(FOLDER_NAME)
@@ -196,28 +222,28 @@ def main():
 
     print(f"\n[3/8] Creating loader notebook ...")
     loader_def = substitute(load_template("loader_notebook.json"), {
-        "WORKSPACE_ID": args.workspace_id,
-        "LAKEHOUSE_ID": lh_id,
-        "STALE_LH_ID":  lh_id,           # rebind stale metadata to new LH
-        "STALE_WS_ID":  args.workspace_id,
-        "GENESIS_TOKEN": args.genesis_token,
+        "WORKSPACE_ID":  workspace_id,
+        "LAKEHOUSE_ID":  lh_id,
+        "STALE_LH_ID":   lh_id,
+        "STALE_WS_ID":   workspace_id,
+        "GENESIS_TOKEN": genesis_token,
     })
     loader_nb_id = fab.create_item("Hochschul-Insights GENESIS Loader", "Notebook", loader_def, folder_id)
     print(f"      loader_nb_id = {loader_nb_id}")
 
     print(f"\n[4/8] Creating dimensions notebook ...")
     dims_def = substitute(load_template("dims_notebook.json"), {
-        "WORKSPACE_ID": args.workspace_id,
+        "WORKSPACE_ID": workspace_id,
         "LAKEHOUSE_ID": lh_id,
         "STALE_LH_ID":  lh_id,
-        "STALE_WS_ID":  args.workspace_id,
+        "STALE_WS_ID":  workspace_id,
     })
     dims_nb_id = fab.create_item("Hochschul-Insights GENESIS Dimensions", "Notebook", dims_def, folder_id)
     print(f"      dims_nb_id = {dims_nb_id}")
 
     print(f"\n[5/8] Creating Direct Lake semantic model 'Hochschule' ...")
     sm_def = substitute(load_template("semantic_model.json"), {
-        "WORKSPACE_ID": args.workspace_id,
+        "WORKSPACE_ID": workspace_id,
         "LAKEHOUSE_ID": lh_id,
     })
     sm_id = fab.create_item("Hochschule", "SemanticModel", sm_def, folder_id)
@@ -233,35 +259,59 @@ def main():
 
     print(f"\n[7/8] Creating pipeline ...")
     pl_def = substitute(load_template("pipeline.json"), {
-        "WORKSPACE_ID":  args.workspace_id,
-        "LOADER_NB_ID":  loader_nb_id,
-        "DIMS_NB_ID":    dims_nb_id,
+        "WORKSPACE_ID": workspace_id,
+        "LOADER_NB_ID": loader_nb_id,
+        "DIMS_NB_ID":   dims_nb_id,
     })
     pl_id = fab.create_item("Hochschul-Insights GENESIS Pipeline", "DataPipeline", pl_def, folder_id)
     print(f"      pipeline_id = {pl_id}")
 
     print(f"\n[8/8] Creating DataAgent 'Hochschul-Stats-Agent' ...")
+    da_id = None
     try:
         da_def = substitute(load_template("dataagent.json"), {
-            "WORKSPACE_ID":     args.workspace_id,
+            "WORKSPACE_ID":     workspace_id,
             "LAKEHOUSE_ID":     lh_id,
             "SEMANTICMODEL_ID": sm_id,
         })
         da_id = fab.create_item("Hochschul-Stats-Agent", "DataAgent", da_def, folder_id)
         print(f"      dataagent_id = {da_id}")
     except Exception as e:
-        # DataAgent creation via Items API can fail in tenants without preview enabled.
         print(f"      SKIPPED (DataAgent create failed): {e}")
         print(f"      You can recreate it manually from the report's 'Ask a question' tile.")
 
-    print(f"\n{'='*60}")
-    print(f"Done. Open: https://app.powerbi.com/groups/{args.workspace_id}/list")
-    print(f"\nNext steps:")
-    print(f"  1. Run the pipeline once to populate the lakehouse (~5-10 min).")
-    print(f"     The Direct Lake model will auto-light up after the first load.")
-    print(f"  2. Open 'Webinar Hochschule' report.")
-    print(f"  3. Schedule the pipeline weekly (DESTATIS updates monthly at most).")
+    print("\n" + "=" * 60)
+    print(f"Done. Open: https://app.powerbi.com/groups/{workspace_id}/list")
+    print("\nNext steps:")
+    print("  1. Run the pipeline once to populate the lakehouse (~5-10 min).")
+    print("     The Direct Lake model will auto-light up after the first load.")
+    print("  2. Open 'Webinar Hochschule' report.")
+    print("  3. Schedule the pipeline weekly (DESTATIS updates monthly at most).")
+
+    return {
+        "folder_id":        folder_id,
+        "lakehouse_id":     lh_id,
+        "sql_endpoint_id":  sql_ep_id,
+        "loader_nb_id":     loader_nb_id,
+        "dims_nb_id":       dims_nb_id,
+        "semanticmodel_id": sm_id,
+        "report_id":        rpt_id,
+        "pipeline_id":      pl_id,
+        "dataagent_id":     da_id,
+    }
+
+
+def main():
+    ap = argparse.ArgumentParser(description="Deploy Hochschul-Insights to Microsoft Fabric.")
+    ap.add_argument("--workspace-id", default=None,
+                    help="Target Fabric workspace GUID (or env FABRIC_WORKSPACE_ID, "
+                         "or auto-detected when running inside a Fabric notebook)")
+    ap.add_argument("--genesis-token", default=None,
+                    help="DESTATIS GENESIS API token (or env GENESIS_TOKEN)")
+    args = ap.parse_args()
+    install(workspace_id=args.workspace_id, genesis_token=args.genesis_token)
 
 
 if __name__ == "__main__":
     main()
+

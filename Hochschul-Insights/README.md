@@ -50,15 +50,32 @@ License: [Datenlizenz Deutschland 2.0](https://www.govdata.de/dl-de/by-2-0) — 
 ## Prerequisites
 
 1. **Microsoft Fabric workspace** on a Fabric/Power BI Premium or Trial capacity.
-2. **Azure CLI** with `az login --tenant <your-fabric-tenant>` performed.
-3. **Python 3.10+** with `requests` and `azure-identity`.
-4. **DESTATIS GENESIS token** (free):
+2. **DESTATIS GENESIS token** (free):
    - Register at [https://www-genesis.destatis.de/](https://www-genesis.destatis.de/genesis/online).
    - Profile -> *"Token zuruecksetzen"* -> copy your **username** token.
    - The free tier is sufficient (the loader only uses synchronous calls).
    - For larger volumes / async jobs, request a Premium token via `genesis-online@destatis.de` (free for institutions).
 
-## One-liner install (PowerShell)
+## Install — Option A (recommended): Fabric notebook
+
+This is the fastest path — no local Python, no `az login`, no env vars.
+
+1. Open your target Fabric workspace.
+2. **New -> Import notebook -> Upload** -> pick [`install.ipynb`](./install.ipynb) (or use the raw URL below).
+3. Paste your DESTATIS token into the `GENESIS_TOKEN` parameter cell.
+4. **Run all** — the notebook authenticates itself via `notebookutils`, auto-detects the workspace, and deploys all 7 items.
+
+Direct raw URL of the installer notebook:
+
+```
+https://raw.githubusercontent.com/KornAlexander/Fabric-Demos/main/Hochschul-Insights/install.ipynb
+```
+
+## Install — Option B: from your laptop
+
+Requires `python>=3.10`, `azure-identity`, `requests`, and `az login --tenant <your-fabric-tenant>`.
+
+### PowerShell one-liner
 
 ```powershell
 $env:FABRIC_WORKSPACE_ID = "<workspace-guid>"
@@ -67,7 +84,7 @@ python -m pip install --quiet requests azure-identity
 python -c "import urllib.request as u; exec(u.urlopen('https://raw.githubusercontent.com/KornAlexander/Fabric-Demos/main/Hochschul-Insights/install.py').read())"
 ```
 
-## One-liner install (bash/zsh)
+### bash/zsh one-liner
 
 ```bash
 export FABRIC_WORKSPACE_ID="<workspace-guid>"
@@ -76,7 +93,7 @@ python -m pip install --quiet requests azure-identity && \
 python -c "import urllib.request as u; exec(u.urlopen('https://raw.githubusercontent.com/KornAlexander/Fabric-Demos/main/Hochschul-Insights/install.py').read())"
 ```
 
-## Install from a clone
+### From a clone
 
 ```bash
 git clone https://github.com/KornAlexander/Fabric-Demos.git
@@ -96,7 +113,8 @@ python install.py --workspace-id <guid> --genesis-token <token>
 
 ```
 Hochschul-Insights/
-  install.py                  # one-click deployer
+  install.ipynb               # Fabric notebook installer (recommended)
+  install.py                  # Local-Python installer (CLI / one-liner)
   README.md                   # this file
   templates/
     loader_notebook.json      # GENESIS REST API loader (PySpark)
