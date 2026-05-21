@@ -179,6 +179,57 @@ class Fabric:
         r = self.s.post(f"{FABRIC}/workspaces/{self.ws}/items", json=body)
         return self._wait(r)["id"]
 
+    def create_or_get_environment(self, name: str, folder_id: str) -> str:
+        existing = self.s.get(f"{FABRIC}/workspaces/{self.ws}/environments").json().get("value", [])
+        for e in existing:
+            if e.get("displayName") == name:
+                print(f"  Environment '{name}' already exists -> reusing")
+                return e["id"]
+        body = {"displayName": name, "description": "DWD-Wetter-Insights runtime (wetterdienst + polars)", "folderId": folder_id}
+        r = self.s.post(f"{FABRIC}/workspaces/{self.ws}/environments", json=body)
+        return self._wait(r)["id"]
+
+    def upload_env_requirements(self, env_id: str, yaml_text: str) -> None:
+        url = f"{FABRIC}/workspaces/{self.ws}/environments/{env_id}/staging/libraries/importExternalLibraries"
+        # Use a fresh request so we can override Content-Type without leaking it to JSON calls
+        token = self.s.headers["Authorization"]
+        r = requests.post(
+            url,
+            data=yaml_text.encode("utf-8"),
+            headers={"Authorization": token, "Content-Type": "application/octet-stream"},
+        )
+        if r.status_code not in (200, 201, 202):
+            raise RuntimeError(f"upload env requirements failed: {r.status_code} {r.text}")
+        if r.status_code == 202:
+            loc = r.headers.get("Location")
+            for _ in range(60):
+                time.sleep(5)
+                p = self.s.get(loc).json()
+                if p.get("status") == "Succeeded":
+                    return
+                if p.get("status") in ("Failed", "Undefined"):
+                    raise RuntimeError(f"upload env requirements failed: {p}")
+            raise TimeoutError("upload env requirements: did not finish within 5 min")
+
+    def publish_env(self, env_id: str, timeout_min: int = 15) -> None:
+        url = f"{FABRIC}/workspaces/{self.ws}/environments/{env_id}/staging/publish"
+        r = self.s.post(url)
+        if r.status_code not in (200, 201, 202):
+            raise RuntimeError(f"publish env failed: {r.status_code} {r.text}")
+        # Poll environment status (publishDetails.state) until done
+        deadline = time.time() + timeout_min * 60
+        while time.time() < deadline:
+            time.sleep(20)
+            d = self.s.get(f"{FABRIC}/workspaces/{self.ws}/environments/{env_id}").json()
+            pd = (d.get("properties") or {}).get("publishDetails") or {}
+            state = pd.get("state")
+            print(f"        env publish state={state}")
+            if state in ("Success", "Published"):
+                return
+            if state in ("Failed", "Cancelled"):
+                raise RuntimeError(f"environment publish failed: {pd}")
+        raise TimeoutError(f"environment publish did not finish within {timeout_min} min")
+
 
 def install(workspace_id: str | None = None, lakehouse_name: str = LAKEHOUSE_NAME,
             run_pipeline: bool = True, wait_for_pipeline: bool = True,
@@ -197,36 +248,53 @@ def install(workspace_id: str | None = None, lakehouse_name: str = LAKEHOUSE_NAM
     ws_name = ws["displayName"]
     print(f"Workspace: {ws_name} ({workspace_id})")
 
-    print(f"\n[1/8] Creating folder '{FOLDER_NAME}' ...")
+    print(f"\n[1/9] Creating folder '{FOLDER_NAME}' ...")
     folder_id = fab.create_folder(FOLDER_NAME)
     print(f"      folder_id = {folder_id}")
 
-    print(f"\n[2/8] Creating Lakehouse '{lakehouse_name}' (schemas enabled) ...")
+    print(f"\n[2/9] Creating Lakehouse '{lakehouse_name}' (schemas enabled) ...")
     lh_id, sql_ep_id = fab.create_lakehouse(lakehouse_name, folder_id)
     print(f"      lakehouse_id = {lh_id}")
     print(f"      sql_endpoint = {sql_ep_id or '(still provisioning)'}")
+
+    print(f"\n[3/9] Creating Fabric Environment 'DWD-Wetter-Env' (pre-installs wetterdienst+polars) ...")
+    env_id = fab.create_or_get_environment("DWD-Wetter-Env", folder_id)
+    print(f"      env_id = {env_id}")
+    requirements_yaml = (
+        "name: dwd-wetter-env\n"
+        "dependencies:\n"
+        "  - typing_extensions>=4.12\n"
+        "  - polars>=1.15,<2\n"
+        "  - wetterdienst>=0.115,<0.118\n"
+    )
+    print("      uploading requirements.yml ...")
+    fab.upload_env_requirements(env_id, requirements_yaml)
+    print("      publishing environment (this can take 5-10 minutes) ...")
+    fab.publish_env(env_id, timeout_min=20)
+    print("      environment published.")
 
     common = {
         "WORKSPACE_ID":   workspace_id,
         "LAKEHOUSE_ID":   lh_id,
         "LAKEHOUSE_NAME": lakehouse_name,
+        "ENV_ID":         env_id,
     }
 
-    print(f"\n[3/8] Creating Loader notebook (DWD observations via dwdown) ...")
+    print(f"\n[4/9] Creating Loader notebook (DWD observations via dwdown) ...")
     loader_nb_id = fab.create_item(
         "DWD-Wetter-Insights Loader", "Notebook",
         substitute(load_template("nb_loader.json"), common), folder_id,
     )
     print(f"      loader_nb_id = {loader_nb_id}")
 
-    print(f"\n[4/8] Creating Forecast Loader notebook (DWD Mosmix) ...")
+    print(f"\n[5/9] Creating Forecast Loader notebook (DWD Mosmix, bound to DWD-Wetter-Env) ...")
     forecast_nb_id = fab.create_item(
         "DWD-Wetter-Insights Forecast Loader", "Notebook",
         substitute(load_template("nb_forecast.json"), common), folder_id,
     )
     print(f"      forecast_nb_id = {forecast_nb_id}")
 
-    print(f"\n[5/8] Creating Refresh SM notebook ...")
+    print(f"\n[6/9] Creating Refresh SM notebook ...")
     # SM ID not yet known — create with placeholder, patch after SM is created.
     refresh_sm_nb_id = fab.create_item(
         "DWD-Wetter-Insights Refresh SM", "Notebook",
@@ -235,14 +303,14 @@ def install(workspace_id: str | None = None, lakehouse_name: str = LAKEHOUSE_NAM
     )
     print(f"      refresh_sm_nb_id = {refresh_sm_nb_id}")
 
-    print(f"\n[6/8] Creating Notify notebook ...")
+    print(f"\n[7/9] Creating Notify notebook ...")
     notify_nb_id = fab.create_item(
         "DWD-Wetter-Insights Notify", "Notebook",
         substitute(load_template("nb_notify.json"), common), folder_id,
     )
     print(f"      notify_nb_id = {notify_nb_id}")
 
-    print(f"\n[7/8] Creating Direct Lake semantic model 'Wetter-Insights' ...")
+    print(f"\n[8/9] Creating Direct Lake semantic model 'Wetter-Insights' ...")
     sm_id = fab.create_item(
         "Wetter-Insights", "SemanticModel",
         substitute(load_template("semantic_model.json"), common), folder_id,
@@ -257,12 +325,12 @@ def install(workspace_id: str | None = None, lakehouse_name: str = LAKEHOUSE_NAM
         json={"definition": refresh_def["definition"]},
     )
 
-    print(f"\n[7b/8] Creating report 'DWD Wetter-Insights' ...")
+    print(f"\n[8b/9] Creating report 'DWD Wetter-Insights' ...")
     rpt_def = substitute(load_template("report.json"), {"SEMANTICMODEL_ID": sm_id})
     rpt_id = fab.create_item("DWD Wetter-Insights", "Report", rpt_def, folder_id)
     print(f"      report_id = {rpt_id}")
 
-    print(f"\n[8/8] Creating Daily pipeline ...")
+    print(f"\n[9/9] Creating Daily pipeline ...")
     pl_def = substitute(load_template("pipeline.json"), {
         "WORKSPACE_ID":        workspace_id,
         "LOADER_NB_ID":        loader_nb_id,
@@ -335,6 +403,7 @@ def install(workspace_id: str | None = None, lakehouse_name: str = LAKEHOUSE_NAM
         "folder_id":         folder_id,
         "lakehouse_id":      lh_id,
         "sql_endpoint_id":   sql_ep_id,
+        "environment_id":    env_id,
         "loader_nb_id":      loader_nb_id,
         "forecast_nb_id":    forecast_nb_id,
         "refresh_sm_nb_id":  refresh_sm_nb_id,
