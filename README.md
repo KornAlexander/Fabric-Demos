@@ -6,7 +6,7 @@ End-to-end Microsoft Fabric demos with one-click installers. Each demo follows t
 
 | Demo | Description | Source data | Install |
 |---|---|---|---|
-| [Hochschul-Insights](./Hochschul-Insights) | German higher-education statistics (Studierende, Personal, Finanzen) with an 8-page Power BI report, Direct Lake semantic model, and natural-language Data Agent. | [DESTATIS GENESIS](https://www-genesis.destatis.de/) REST API | [`install.ipynb`](./Hochschul-Insights/install.ipynb) (Fabric notebook) · [`install.py`](./Hochschul-Insights/install.py) (local) |
+| [Hochschul-Insights](./Hochschul-Insights) | German higher-education statistics (Studierende, Personal, Finanzen) with an 8-page Power BI report, Direct Lake semantic model, and natural-language Data Agent. | [DESTATIS GENESIS](https://www-genesis.destatis.de/) REST API | [`Install-Hochschul-Insights.ipynb`](./Hochschul-Insights/Install-Hochschul-Insights.ipynb) (Fabric notebook) · [`Install-Hochschul-Insights.py`](./Hochschul-Insights/Install-Hochschul-Insights.py) (local) |
 
 More demos coming soon.
 
@@ -14,8 +14,8 @@ More demos coming soon.
 
 Every demo ships two installer flavours:
 
-- **`install.ipynb`** — import into your Fabric workspace and Run All. Authenticates via `notebookutils`, auto-detects the current workspace. No local Python, no `az login`, no env vars.
-- **`install.py`** — run from your laptop. Authenticates via `azure-identity` (`DefaultAzureCredential` — picks up `az login`, VS Code, env vars, or interactive browser).
+- **`Install-<demo>.ipynb`** — import into your Fabric workspace and Run All. Authenticates via `notebookutils`, auto-detects the current workspace. No local Python, no `az login`, no env vars.
+- **`Install-<demo>.py`** — run from your laptop. Authenticates via `azure-identity` (`DefaultAzureCredential` — picks up `az login`, VS Code, env vars, or interactive browser).
 
 Both share the same `install()` function and produce identical results: create a folder, create the Lakehouse, then patch and POST every dependent item (notebooks, pipeline, semantic model, report, data agent) to the Fabric REST API.
 

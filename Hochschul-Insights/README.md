@@ -61,14 +61,14 @@ License: [Datenlizenz Deutschland 2.0](https://www.govdata.de/dl-de/by-2-0) — 
 This is the fastest path — no local Python, no `az login`, no env vars.
 
 1. Open your target Fabric workspace.
-2. **New -> Import notebook -> Upload** -> pick [`install.ipynb`](./install.ipynb) (or use the raw URL below).
+2. **New -> Import notebook -> Upload** -> pick [`Install-Hochschul-Insights.ipynb`](./Install-Hochschul-Insights.ipynb) (or use the raw URL below).
 3. Paste your DESTATIS token into the `GENESIS_TOKEN` parameter cell.
 4. **Run all** — the notebook authenticates itself via `notebookutils`, auto-detects the workspace, and deploys all 7 items.
 
 Direct raw URL of the installer notebook:
 
 ```
-https://raw.githubusercontent.com/KornAlexander/Fabric-Demos/main/Hochschul-Insights/install.ipynb
+https://raw.githubusercontent.com/KornAlexander/Fabric-Demos/main/Hochschul-Insights/Install-Hochschul-Insights.ipynb
 ```
 
 ## Install — Option B: from your laptop
@@ -81,7 +81,7 @@ Requires `python>=3.10`, `azure-identity`, `requests`, and `az login --tenant <y
 $env:FABRIC_WORKSPACE_ID = "<workspace-guid>"
 $env:GENESIS_TOKEN       = "<your-destatis-token>"
 python -m pip install --quiet requests azure-identity
-python -c "import urllib.request as u; exec(u.urlopen('https://raw.githubusercontent.com/KornAlexander/Fabric-Demos/main/Hochschul-Insights/install.py').read())"
+python -c "import urllib.request as u; exec(u.urlopen('https://raw.githubusercontent.com/KornAlexander/Fabric-Demos/main/Hochschul-Insights/Install-Hochschul-Insights.py').read())"
 ```
 
 ### bash/zsh one-liner
@@ -90,7 +90,7 @@ python -c "import urllib.request as u; exec(u.urlopen('https://raw.githubusercon
 export FABRIC_WORKSPACE_ID="<workspace-guid>"
 export GENESIS_TOKEN="<your-destatis-token>"
 python -m pip install --quiet requests azure-identity && \
-python -c "import urllib.request as u; exec(u.urlopen('https://raw.githubusercontent.com/KornAlexander/Fabric-Demos/main/Hochschul-Insights/install.py').read())"
+python -c "import urllib.request as u; exec(u.urlopen('https://raw.githubusercontent.com/KornAlexander/Fabric-Demos/main/Hochschul-Insights/Install-Hochschul-Insights.py').read())"
 ```
 
 ### From a clone
@@ -99,7 +99,7 @@ python -c "import urllib.request as u; exec(u.urlopen('https://raw.githubusercon
 git clone https://github.com/KornAlexander/Fabric-Demos.git
 cd Fabric-Demos/Hochschul-Insights
 pip install requests azure-identity
-python install.py --workspace-id <guid> --genesis-token <token>
+python Install-Hochschul-Insights.py --workspace-id <guid> --genesis-token <token>
 ```
 
 ## After install
@@ -113,9 +113,9 @@ python install.py --workspace-id <guid> --genesis-token <token>
 
 ```
 Hochschul-Insights/
-  install.ipynb               # Fabric notebook installer (recommended)
-  install.py                  # Local-Python installer (CLI / one-liner)
-  README.md                   # this file
+  Install-Hochschul-Insights.ipynb   # Fabric notebook installer (recommended)
+  Install-Hochschul-Insights.py      # Local-Python installer (CLI / one-liner)
+  README.md                          # this file
   templates/
     loader_notebook.json      # GENESIS REST API loader (PySpark)
     dims_notebook.json        # Hochschulen dim with Wikidata enrichment
