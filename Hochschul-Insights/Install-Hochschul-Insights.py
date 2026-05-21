@@ -52,11 +52,15 @@ FOLDER_NAME = "Hochschul-Insights"
 
 def load_template(name: str) -> dict:
     """Load a template either from the same folder as this script (local clone)
-    or from the GitHub raw URL (one-liner mode)."""
-    local = os.path.join(os.path.dirname(os.path.abspath(__file__)), "templates", name)
-    if os.path.isfile(local):
-        with open(local, encoding="utf-8") as f:
-            return json.load(f)
+    or from the GitHub raw URL (one-liner / Fabric-notebook mode)."""
+    try:
+        here = os.path.dirname(os.path.abspath(__file__))
+        local = os.path.join(here, "templates", name)
+        if os.path.isfile(local):
+            with open(local, encoding="utf-8") as f:
+                return json.load(f)
+    except NameError:
+        pass  # __file__ undefined when loaded via exec() inside a Fabric notebook
     url = f"{REPO_RAW}/{name}"
     with urllib.request.urlopen(url) as r:  # noqa: S310 — public raw URL
         return json.loads(r.read().decode("utf-8"))
