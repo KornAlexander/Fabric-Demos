@@ -30,7 +30,7 @@ browser). Make sure you are logged in to the *Fabric tenant* of your workspace.
 Get a DESTATIS GENESIS token (free)
 -----------------------------------
 1. Register: https://www-genesis.destatis.de/
-2. Profile -> "Token zuruecksetzen" -> copy your username token.
+2. Copy your username token from your profile page.
 3. Free tier is sufficient for this demo (no premium features used).
 """
 from __future__ import annotations

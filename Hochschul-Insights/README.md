@@ -78,11 +78,12 @@ License: [Datenlizenz Deutschland 2.0](https://www.govdata.de/dl-de/by-2-0) — 
 ## Prerequisites
 
 1. **Microsoft Fabric workspace** on a Fabric/Power BI Premium or Trial capacity.
-2. **DESTATIS GENESIS token** (free):
+2. **DESTATIS GENESIS token** (free, only needed for *live mode*):
    - Register at [https://www-genesis.destatis.de/](https://www-genesis.destatis.de/genesis/online).
-   - Profile -> *"Token zuruecksetzen"* -> copy your **username** token.
+   - Copy your **username** token from your profile page.
    - The free tier is sufficient (the loader only uses synchronous calls).
    - For larger volumes / async jobs, request a Premium token via `genesis-online@destatis.de` (free for institutions).
+   - Skip this entirely for *snapshot mode* (bundled CSVs).
 
 ## Install: Fabric notebook
 
