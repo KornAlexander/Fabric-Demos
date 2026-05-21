@@ -1,0 +1,937 @@
+Hochschule_Code,Hochschule,Parent_University,QID,Source,Wiki_Name,Lat,Lon,Bundesland,Gruendungsjahr,Stadt
+HS7300,TH Rosenheim in Rosenheim (FH),TH Rosenheim in Rosenheim (FH),,City,,47.856111111,12.128888888,Bayern,,Rosenheim
+HS7260,Ostbayerische Technische Hochschule Regensburg(FH),Ostbayerische Technische Hochschule Regensburg(FH),Q982435,A,Ostbayerische Technische Hochschule Regensburg,49.0037,12.0951,Bayern,1971,Regensburg
+HS2381,VWA-H f.berufsb.Stud.Stuttgart in Stuttg.(Priv.FH),VWA-H f.berufsb.Stud.Stuttgart in Stuttg.(Priv.FH),,City,,48.7775,9.18,Baden-Württemberg,,Stuttgart
+HS4890,Promotionszentrum Integrales Bauen München (FH),Promotionszentrum Integrales Bauen München (FH),,City,,48.1375,11.575,Bayern,,München
+HS0811,U der Bundeswehr München (FB UNI),U der Bundeswehr München (FB UNI),,City,,48.1375,11.575,Bayern,,München
+HS5692,Int. Sch. of Managem. Dortmund in Stuttg.(Priv.FH),Int. Sch. of Managem. Dortmund in Stuttg.(Priv.FH),,City,,51.513888888,7.465277777,Nordrhein-Westfalen,,Dortmund
+HS4940,GU - Deutsche H f. angew. Wiss. Potsdam (Priv. FH),GU - Deutsche H f. angew. Wiss. Potsdam (Priv. FH),,City,,52.4,13.066666666,Brandenburg,,Potsdam
+HS1360,Universität des Saarlandes Saarbrücken,Universität des Saarlandes Saarbrücken,,City,,49.233333333,7.0,Saarland,,Saarbrücken
+HS6079,FH f.öffentl.Verw.NW in Wuppertal (2001 aufgelöst),FH f.öffentl.Verw.NW in Wuppertal (2001 aufgelöst),,City,,51.266666666,7.183333333,Nordrhein-Westfalen,,Wuppertal
+HS7610,H f. Technik u. Wirtsch. d. Saarlandes Saarbrücken,H f. Technik u. Wirtsch. d. Saarlandes Saarbrücken,,City,,49.233333333,7.0,Saarland,,Saarbrücken
+HS8225,Duale HS Sachsen in Leipzig (FH),Duale HS Sachsen in Leipzig (FH),,City,,51.3406321,12.3747329,Sachsen,,Leipzig
+HS6414,Europ. FH (EUFH) Rhein/Erft in Köln (Priv. FH),Europ. FH (EUFH) Rhein/Erft in Köln (Priv. FH),,City,,50.942222222,6.957777777,Nordrhein-Westfalen,,Köln
+HS3360,Digital Busin. U of Appl. Scienc.Berlin (Priv. FH),Digital Busin. U of Appl. Scienc.Berlin (Priv. FH),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS4800,Promotionszentrum PZET TH Nürnberg (FH),Promotionszentrum PZET TH Nürnberg (FH),,City,,49.453888888,11.0775,Bayern,,Nürnberg
+HS8200,H für Gesundheitsberufe (HGE) Eberswalde (Priv.FH),H für Gesundheitsberufe (HGE) Eberswalde (Priv.FH),,City,,52.833055555,13.833055555,Brandenburg,,Eberswalde
+HS5386,FH Hildesh./H/G in Buxtehude (2010 aufgelöst),FH Hildesh./H/G in Buxtehude (2010 aufgelöst),,City,,53.476944444,9.701111111,Niedersachsen,,Buxtehude
+HS6523,Hochschule Kaiserslautern in Zweibrücken (FH),Hochschule Kaiserslautern in Zweibrücken (FH),,City,,49.444722222,7.768888888,Rheinland-Pfalz,,Kaiserslautern
+HS0761,IB H f. Ges. u. Soz. Berlin in Stuttgart (Priv.FH),IB H f. Ges. u. Soz. Berlin in Stuttgart (Priv.FH),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS6073,FH f.öffentl.Verw.NW in Düsseldorf(2001 aufgelöst),FH f.öffentl.Verw.NW in Düsseldorf(2001 aufgelöst),,City,,51.225555555,6.776666666,Nordrhein-Westfalen,,Düsseldorf
+HS6343,Hess. H f.ö.Man.u.Sich. Wiesb. in Gießen (VerwFH),Hess. H f.ö.Man.u.Sich. Wiesb. in Gießen (VerwFH),,City,,50.583333333,8.666666666,Hessen,,Gießen
+HS4930,Promotionszentrum CARRI München (FH),Promotionszentrum CARRI München (FH),,City,,48.1375,11.575,Bayern,,München
+HS1610,DEKRA H für Medien Berlin (Priv.FH) (2022 aufgel.),DEKRA H für Medien Berlin (Priv.FH) (2022 aufgel.),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS1350,Universität Augsburg,Universität Augsburg,Q32000608,A,Fachhochschule Augsburg,48.3555,10.90553,Bayern,,Augsburg
+HS2810,Hochschule für Bildende Künste Hamburg,Hochschule für Bildende Künste Hamburg,Q1622237,A,Hochschule für bildende Künste Hamburg,53.56757,10.03132,Hamburg,1767,Hamburg
+HS6205,"H des Bundes f.öff.Verw., FB Ausw. Angeleg. Berlin","H des Bundes f.öff.Verw., FB Ausw. Angeleg. Berlin",,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS0530,Universität Osnabrück,Universität Osnabrück,Q1622135,A,Hochschule Osnabrück,52.282438,8.024921,Niedersachsen,2003,Osnabrück
+HS810L,Priv. FH für Ökon. u. Managem. Essen in Frankfurt,Priv. FH für Ökon. u. Managem. Essen in Frankfurt,,City,,51.450833333,7.013055555,Nordrhein-Westfalen,,Essen
+HS6208,"H des Bundes f.öff.Verw., FB Finanzen Münster","H des Bundes f.öff.Verw., FB Finanzen Münster",,City,,51.9625,7.625555555,Nordrhein-Westfalen,,Münster
+HS2500,Hochschule für Musik und Theater Hamburg,Hochschule für Musik und Theater Hamburg,Q700824,A,Hochschule für Musik und Theater Hamburg,53.57055556,9.99888889,Hamburg,1950,Hamburg
+HS0590,Technische Universität Ilmenau,Technische Universität Ilmenau,Q129195,A,Technische Universität Ilmenau,50.68167,10.93889,Thüringen,1952,Ilmenau
+HS3020,Hochschule für evangelische Kirchenmusik Bayreuth,Hochschule für evangelische Kirchenmusik Bayreuth,Q1622241,A,Hochschule für evangelische Kirchenmusik Bayreuth,49.93962,11.57249,Bayern,1921,Bayreuth
+HS810W,H für Ökon. und Managem. Essen in Karlsr.(Priv.FH),H für Ökon. und Managem. Essen in Karlsr.(Priv.FH),,City,,51.450833333,7.013055555,Nordrhein-Westfalen,,Essen
+HS0990,Universität Lüneburg (2005-2009 HS0991),Universität Lüneburg (2005-2009 HS0991),,City,,53.2525,10.414444444,Niedersachsen,,Lüneburg
+HS2470,H für Kirchenmusik Görlitz (2009 aufgelöst),H für Kirchenmusik Görlitz (2009 aufgelöst),,City,,51.152777777,14.987222222,Sachsen,,Görlitz
+HS1040,Technische Universität Hamburg,Technische Universität Hamburg,Q1060,A,Technische Universität Hamburg,53.460958333,9.969505555,Hamburg,1978,Hamburg
+HS8074,AMD Akad.Mode Idst. i.München (P.FH) (2019 HS6284),AMD Akad.Mode Idst. i.München (P.FH) (2019 HS6284),,City,,48.1375,11.575,Bayern,,München
+HS3090,HSD Hochschule Döpfer Potsdam in Köln (Priv. FH),HSD Hochschule Döpfer Potsdam in Köln (Priv. FH),,City,,52.4,13.066666666,Brandenburg,,Potsdam
+HS620A,"FH Bund, FB Arb.verw., Mannheim (ab 09 zu HS0060)","FH Bund, FB Arb.verw., Mannheim (ab 09 zu HS0060)",,City,,49.487777777,8.466111111,Baden-Württemberg,,Mannheim
+HS6281,Hochschule Fresenius Idstein in Idstein (Priv. FH),Hochschule Fresenius,,City,,50.220555555,8.269166666,Hessen,,Idstein
+HS7521,TH Deggendorf in Deggendorf (FH),TH Deggendorf in Deggendorf (FH),,City,,48.835277777,12.964444444,Bayern,,Deggendorf
+HS0670,Europ.School of Managem. and Techn. Berlin(Priv.U),Europ.School of Managem. and Techn. Berlin(Priv.U),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS1751,SRH H der pop.Künste Berlin (Priv.FH) (21 zu 7971),SRH H der pop.Künste Berlin (Priv.FH) (21 zu 7971),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS5728,IU Int. H Erfurt in Mannheim (Priv. FH),IU Internationale Hochschule,,City,,50.978055555,11.028888888,Thüringen,,Erfurt
+HS1561,Media U of Appl.Sc. Berlin Campus Berlin (Priv.FH),Media U of Appl.Sc. Berlin Campus Berlin (Priv.FH),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS6510,Technische Hochschule Bingen (FH),Technische Hochschule Bingen (FH),Q878170,A,Technische Hochschule Bingen,49.9533,7.92356,Rheinland-Pfalz,1897,Bingium
+HS7660,Sparkassen H Lichtenwalde(Priv.FH)(2006 aufgelöst),Sparkassen H Lichtenwalde(Priv.FH)(2006 aufgelöst),,,,,,Sachsen,,Niederwiesa
+HS2640,Hochschule für Graphik und Buchkunst Leipzig,Hochschule für Graphik und Buchkunst Leipzig,Q315175,A,Hochschule für Grafik und Buchkunst Leipzig,51.33340583,12.36783611,Sachsen,1764,Leipzig
+HS5822,FH des Mittelstandes (FHM) in Frechen (Priv. FH),FH des Mittelstandes (FHM) in Frechen (Priv. FH),,City,,50.916666666,6.816666666,Nordrhein-Westfalen,,Frechen
+HS5421,Kath. FH Norddeutschl. in Osnabr. (ab 2006 HS5502),Kath. FH Norddeutschl. in Osnabr. (ab 2006 HS5502),,Manual,,52.278888888,8.043055555,Niedersachsen,,Osnabrück
+HS6412,Europ. FH (EUFH) Rhein/Erft in Neuss (Priv. FH),Europ. FH (EUFH) Rhein/Erft in Neuss (Priv. FH),,City,,51.200277777,6.693888888,Nordrhein-Westfalen,,Neuss
+HS6330,Hess. H Finanzen und Rechtspfl. in Rotenb.(VerwFH),Hess. H Finanzen und Rechtspfl. in Rotenb.(VerwFH),,,,,,Hessen,,Rotenburg an der Fulda
+HS8000,Hochschule Merseburg (FH),Hochschule Merseburg (FH),Q1622126,A,Hochschule Merseburg,51.354444444,11.992777777,Sachsen-Anhalt,1992,Merseburg
+HS7860,Thüringer FH für öff. Verwaltung Gotha (VerwFH),Thüringer FH für öff. Verwaltung Gotha (VerwFH),,City,,50.948888888,10.718333333,Thüringen,,Gotha
+HS6960,Fachhochschule für Sozialwesen Esslingen,Fachhochschule für Sozialwesen Esslingen,,Manual,,48.740555555,9.310833333,Baden-Württemberg,,Esslingen am Neckar
+HS5090,"Fachhochschule Westküste, Heide","Fachhochschule Westküste, Heide",,City,,54.196111111,9.093333333,Schleswig-Holstein,,Heide
+HS6900,Evangelische Hochschule Freiburg (FH),Evangelische Hochschule Freiburg (FH),Q880440,A,Evangelische Hochschule Freiburg,47.9975,7.80388889,Baden-Württemberg,1918,Freiburg im Breisgau
+HS1221,Universität Mainz in Mainz,Universität Mainz in Mainz,,City,,49.999444444,8.273611111,Rheinland-Pfalz,,Mainz
+HS810J,Priv. FH für Ökon. u. Management Essen in Bremen,Priv. FH für Ökon. u. Management Essen in Bremen,,City,,51.450833333,7.013055555,Nordrhein-Westfalen,,Essen
+HS5803,U of Europe f. Appl.Sc.Potsdam i.Hamburg (Priv.FH),U of Europe f. Appl.Sc.Potsdam i.Hamburg (Priv.FH),,City,,52.4,13.066666666,Brandenburg,,Potsdam
+HS6203,"H des Bundes f.öff.Verw., FB Wetterdienst Langen","H des Bundes f.öff.Verw., FB Wetterdienst Langen",,City,,49.989305555,8.680347222,Hessen,,Langen
+HS6731,Hochschule Esslingen in Esslingen (FH),Hochschule Esslingen in Esslingen (FH),,Manual,,48.740555555,9.310833333,Baden-Württemberg,,Esslingen am Neckar
+HS6820,Hochschule Ravensburg-Weingarten (FH),Hochschule Ravensburg-Weingarten (FH),Q2718933,A,Hochschule Ravensburg-Weingarten,47.81416667,9.65305556,Baden-Württemberg,1964,Ravensburg
+HS1470,DIU Dresden International University (Priv. U),DIU Dresden International University (Priv. U),,City,,51.0493286,13.7381437,Sachsen,,Dresden
+HS3091,HSD Hochschule Döpfer Potsdam in Regensb.(Priv.FH),HSD Hochschule Döpfer Potsdam in Regensb.(Priv.FH),,City,,52.4,13.066666666,Brandenburg,,Potsdam
+HS3260,DHSH-Duale H Schleswig-Holstein in Kiel (Priv. FH),DHSH-Duale H Schleswig-Holstein in Kiel (Priv. FH),,City,,54.515277777,9.569722222,Schleswig-Holstein,,Schleswig
+HS6411,Europ. FH (EUFH) Rhein/Erft in Brühl (Priv. FH),Europ. FH (EUFH) Rhein/Erft in Brühl (Priv. FH),,City,,50.833333333,6.9,Nordrhein-Westfalen,,Brühl
+HS5720,IU Int. H Erfurt in Bad-Honnef (Priv. FH),IU Internationale Hochschule,,City,,50.645,7.226944444,Nordrhein-Westfalen,,Bad Honnef
+HS5841,H Niederrhein in Krefeld (FH),H Niederrhein in Krefeld (FH),,City,,51.333333333,6.566666666,Nordrhein-Westfalen,,Krefeld
+HS7190,Evang. Hochschule Ludwigsburg in Ludwigsburg (FH),Evang. Hochschule Ludwigsburg in Ludwigsburg (FH),,City,,48.8975,9.191944444,Baden-Württemberg,,Ludwigsburg
+HS5162,Westsächsische H Zwickau in Schneeberg (FH),Westsächsische H Zwickau in Schneeberg (FH),,City,,50.718888888,12.496111111,Sachsen,,Zwickau
+HS1761,BSP Busin.and Law School Berlin in Hamb. (Priv.FH),BSP Busin.and Law School Berlin in Hamb. (Priv.FH),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS607C,H für Polizei u. öff. Vw. NW in Aachen (VerwFH),H für Polizei u. öff. Vw. NW in Aachen (VerwFH),,City,,50.776207,6.083788,Nordrhein-Westfalen,,Aachen
+HS6711,H Aalen - Techn.u.Wirtschaft in Schwäb. Gmünd (FH),H Aalen - Techn.u.Wirtschaft in Schwäb. Gmünd (FH),,Manual,,48.8,9.8,Baden-Württemberg,,Schwäbisch Gmünd
+HS2760,Hochschule für Musik Saarbrücken,Hochschule für Musik Saarbrücken,,City,,49.233333333,7.0,Saarland,,Saarbrücken
+HS0035,H Macromedia Stuttgart in Stuttgart (Priv. FH),H Macromedia Stuttgart in Stuttgart (Priv. FH),,City,,48.7775,9.18,Baden-Württemberg,,Stuttgart
+HS0240,"Brandenburgische TU, Cottbus (ab 2014 zu HS3971)","Brandenburgische TU, Cottbus (ab 2014 zu HS3971)",,City,,51.760805555,14.331861111,Brandenburg,,Cottbus
+HS0823,Dt. H für Ges. u. Sp. Berlin in Unna (Priv. FH),Dt. H für Ges. u. Sp. Berlin in Unna (Priv. FH),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS2371,Vitruvius-H Leipzig i.Schwerin(P.FH)(2018 aufgel.),Vitruvius-H Leipzig i.Schwerin(P.FH)(2018 aufgel.),,City,,51.3406321,12.3747329,Sachsen,,Leipzig
+HS3660,Pädagogische Hochschule Freiburg im Breisgau,Pädagogische Hochschule Freiburg im Breisgau,,City,,47.995,7.85,Baden-Württemberg,,Freiburg im Breisgau
+HS2440,praxisH Köln in Köln (Priv. FH) (2018 zu HS6414),praxisH Köln in Köln (Priv. FH) (2018 zu HS6414),,City,,50.942222222,6.957777777,Nordrhein-Westfalen,,Köln
+HS572L,IU Int. H Erfurt in Stuttgart (Priv. FH),IU Internationale Hochschule,,City,,50.978055555,11.028888888,Thüringen,,Erfurt
+HS620F,"H des Bundes f.öff.Verw., FB Nachrichtend. Berlin","H des Bundes f.öff.Verw., FB Nachrichtend. Berlin",,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS4830,"Promotionszentrum NISys, Würzburg-Schweinfurt (FH)","Promotionszentrum NISys, Würzburg-Schweinfurt (FH)",,City,,49.794444444,9.929444444,Bayern,,Würzburg
+HS3950,"Promotionskolleg NRW, Bochum (FH)","Promotionskolleg NRW, Bochum (FH)",,City,,51.483333333,7.216666666,Nordrhein-Westfalen,,Bochum
+HS6384,FH d.sächs.Verw.Meißen(FB Steuerv.)(ab 17 HS6380),FH d.sächs.Verw.Meißen(FB Steuerv.)(ab 17 HS6380),,City,,51.163611111,13.4775,Sachsen,,Meißen
+HS6341,VerwFH Wiesbaden in Darmstadt (ab 2006 HS6345),VerwFH Wiesbaden in Darmstadt (ab 2006 HS6345),,City,,50.0825,8.24,Hessen,,Wiesbaden
+HS7170,"Ev. FH für Diakonie, Ludwigsburg (ab 1999 HS7191)","Ev. FH für Diakonie, Ludwigsburg (ab 1999 HS7191)",,City,,48.8975,9.191944444,Baden-Württemberg,,Ludwigsburg
+HS0061,"H f.ang.Wiss.d.Bundesagentur f.Arb.,Schwerin (FH)","H f.ang.Wiss.d.Bundesagentur f.Arb.,Schwerin (FH)",,City,,53.628888888,11.415,Mecklenburg-Vorpommern,,Schwerin
+HS3880,Tomorrow U of Appl.Scienc.Frankf.a.M. (Pr.Fern-FH),Tomorrow U of Appl.Scienc.Frankf.a.M. (Pr.Fern-FH),,Manual,,50.110555555,8.682222222,Hessen,,Frankfurt am Main
+HS1260,Universität Konstanz,Universität Konstanz,Q835440,A,Universität Konstanz,47.690215,9.1881,Baden-Württemberg,1966,Konstanz
+HS7192,Evang. Hochschule Ludwigsburg in Reutlingen (FH),Evang. Hochschule Ludwigsburg in Reutlingen (FH),,City,,48.8975,9.191944444,Baden-Württemberg,,Ludwigsburg
+HS2870,Robert-Schumann-Hochschule Düsseldorf,Robert-Schumann-Hochschule Düsseldorf,Q315238,A,Robert-Schumann-Hochschule Düsseldorf,51.242222,6.771944,Nordrhein-Westfalen,1935,Düsseldorf
+HS7722,"HWR Berlin, FB Duales Studium (FH)","HWR Berlin, FB Duales Studium (FH)",,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS7650,"Private FH Döpfer, Schwandorf (2009 aufgelöst)","Private FH Döpfer, Schwandorf (2009 aufgelöst)",,City,,49.3236,12.09935,Bayern,,Schwandorf
+HS1200,Universität Trier,Universität Trier,Q702486,A,Universität Trier,49.7475,6.687777777,Rheinland-Pfalz,1473,Trier
+HS3972,"Brandenb. TU, Cottbus-Senftenberg in Senftenberg","Brandenb. TU, Cottbus-Senftenberg in Senftenberg",,City,,51.760805555,14.331861111,Brandenburg,,Cottbus
+HS5823,FH des Mittelstandes (FHM) in Rostock (Priv.),FH des Mittelstandes (FHM) in Rostock (Priv.),,City,,54.083333333,12.133333333,Mecklenburg-Vorpommern,,Rostock
+HS2610,Hochschule für Künste Bremen,Hochschule für Künste Bremen,Q466664,A,Hochschule für Künste Bremen,53.0981,8.7675,Bremen,1873,Bremen
+HS3291,HMU Health and Medical U Erfurt in Erfurt (Priv.U),HMU Health and Medical U Erfurt in Erfurt (Priv.U),,City,,50.978055555,11.028888888,Thüringen,,Erfurt
+HS620B,"H des Bundes f.öff.Verw., FB Bundeswehrv. Mannheim","H des Bundes f.öff.Verw., FB Bundeswehrv. Mannheim",,City,,49.487777777,8.466111111,Baden-Württemberg,,Mannheim
+HS2800,Hochschule für Musik Dresden,Hochschule für Musik Dresden,,City,,51.0493286,13.7381437,Sachsen,,Dresden
+HS7961,Steinbeis Hochschule in Magdeburg (Priv. FH),Steinbeis Hochschule in Magdeburg (Priv. FH),,City,,52.1315889,11.6399609,Sachsen-Anhalt,,Magdeburg
+HS6640,H für Finanzen Rheinland-Pf. in Edenkoben (VerwFH),H für Finanzen Rheinland-Pf. in Edenkoben (VerwFH),,,,,,Rheinland-Pfalz,,Edenkoben
+HS1542,EBS U für Wirt. u. R. Wiesb. in Wiesbaden (Priv.),EBS U für Wirt. u. R. Wiesb. in Wiesbaden (Priv.),,City,,50.0825,8.24,Hessen,,Wiesbaden
+HS8113,H Bonn-Rhein-Sieg in Hennef (FH),H Bonn-Rhein-Sieg in Hennef (FH),,City,,50.735277777,7.102222222,Nordrhein-Westfalen,,Bonn
+HS3140,CODE Univ. of Applied Sciences Berlin (Priv. FH),CODE Univ. of Applied Sciences Berlin (Priv. FH),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS2620,H für Musik und Darstellende Kunst Frankfurt a.M.,H für Musik und Darstellende Kunst Frankfurt a.M.,Q317796,A,Hochschule für Musik und Darstellende Kunst Frankfurt am Main,50.1201,8.6762,Hessen,1938,Frankfurt am Main
+HS3780,Pädagogische Hochschule Weingarten,Pädagogische Hochschule Weingarten,Q2120222,A,Pädagogische Hochschule Weingarten,47.808403,9.645904,Baden-Württemberg,1949,Weingarten
+HS8103,Priv. FH für Ökon. u. Management Essen in Neuss,Priv. FH für Ökon. u. Management Essen in Neuss,,City,,51.450833333,7.013055555,Nordrhein-Westfalen,,Essen
+HS2730,Hochschule für Fernsehen und Film München,Hochschule für Fernsehen und Film München,Q569350,A,Hochschule für Fernsehen und Film München,48.146758333,11.569038888,Bayern,1966,München
+HS2320,Lutherisch-Theologische H Oberursel (ev),Lutherisch-Theologische H Oberursel (ev),Q1877909,A,Lutherische Theologische Hochschule Oberursel,50.2105,8.5556,Hessen,1948,Oberursel
+HS5861,TH Ostwestfalen-Lippe in Lemgo (FH),TH Ostwestfalen-Lippe in Lemgo (FH),,City,,52.027680555,8.9043,Nordrhein-Westfalen,,Lemgo
+HS0200,Humboldt-Universität Berlin,Humboldt-Universität Berlin,,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS3230,H für Gesellschaftsgestaltung Koblenz (Priv. FH),H für Gesellschaftsgestaltung Koblenz (Priv. FH),,City,,50.359722222,7.597777777,Rheinland-Pfalz,,Koblenz
+HS6370,Frankfurt Sch. of Finance & Managem.-HfB (Priv. U),Frankfurt Sch. of Finance & Managem.-HfB (Priv. U),,Manual,,50.110555555,8.682222222,Hessen,,Frankfurt am Main
+HS3250,H Clara Hoffbauer Potsdam (Priv.FH) (2025 aufgel.),H Clara Hoffbauer Potsdam (Priv.FH) (2025 aufgel.),,City,,52.4,13.066666666,Brandenburg,,Potsdam
+HS3130,Barenboim-Said Akademie Berlin (Priv. KH),Barenboim-Said Akademie Berlin (Priv. KH),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS7561,H für angew. Wissensch. Ansbach in Weißenburg (FH),H für angew. Wissensch. Ansbach in Weißenburg (FH),,City,,49.3,10.583333333,Bayern,,Ansbach
+HS8180,H der Polizei Rheinl.-Pf. in Büchenbeuren (VerwFH),H der Polizei Rheinl.-Pf. in Büchenbeuren (VerwFH),,,,,,Rheinland-Pfalz,,Büchenbeuren
+HS1633,Technische Universität München in Garching,Technische Universität München in Garching,,City,,48.1375,11.575,Bayern,,München
+HS7311,H f.a.W. Weihenstephan-Triesdorf in Weihenst. (FH),H f.a.W. Weihenstephan-Triesdorf in Weihenst. (FH),,Manual,,48.402777777,11.748888888,Bayern,,Freising
+HS0812,U der Bundeswehr München (FB FH),U der Bundeswehr München (FB FH),,City,,48.1375,11.575,Bayern,,München
+HS5391,FH für die Wirtschaft Hannover (FHDW) (Priv. FH),FH für die Wirtschaft Hannover (FHDW) (Priv. FH),,City,,52.374444444,9.738611111,Niedersachsen,,Hannover
+HS5200,Vogtländische FH Plauen (Priv. FH)(2011 aufgelöst),Vogtländische FH Plauen (Priv. FH)(2011 aufgelöst),,City,,50.495,12.138333333,Sachsen,,Plauen
+HS4840,Promotionszentrum DigiTech Deggendorf (FH),Promotionszentrum DigiTech Deggendorf (FH),,City,,48.835277777,12.964444444,Bayern,,Deggendorf
+HS6650,H für Wirtschaft u. Gesellschaft Ludwigshafen (FH),H für Wirtschaft u. Gesellschaft Ludwigshafen (FH),Q1622125,A,Hochschule für Wirtschaft und Gesellschaft Ludwigshafen,49.48054889,8.44600139,Rheinland-Pfalz,1965,Ludwigshafen am Rhein
+HS1320,Universität München (ab 2017 HS1322/1323),Universität München (ab 2017 HS1322/1323),,City,,48.1375,11.575,Bayern,,München
+HS3000,Evangelische Hochschule für Kirchenmusik Halle,Evangelische Hochschule für Kirchenmusik Halle,Q1380222,A,Evangelische Hochschule für Kirchenmusik Halle,51.484755,11.9665376,Sachsen-Anhalt,1926,Halle (Saale)
+HS6233,Techn. H Mittelhessen (THM) in Wetzlar (FH),Techn. H Mittelhessen (THM) in Wetzlar (FH),,City,,50.566666666,8.5,Hessen,,Wetzlar
+HS1222,Universität Mainz in Germersheim,Universität Mainz in Germersheim,,City,,49.999444444,8.273611111,Rheinland-Pfalz,,Mainz
+HS3720,UoL-University of Labour Frankfurt a. M. (Priv.FH),UoL-University of Labour Frankfurt a. M. (Priv.FH),,Manual,,50.110555555,8.682222222,Hessen,,Frankfurt am Main
+HS5335,FH Hannover in Nienburg (ab 2010 aufgelöst),FH Hannover in Nienburg (ab 2010 aufgelöst),,City,,52.374444444,9.738611111,Niedersachsen,,Hannover
+HS0160,EBC H Hamburg Campus Bln. (Priv.FH) (2024 aufgel.),EBC H Hamburg Campus Bln. (Priv.FH) (2024 aufgel.),,City,,53.55,10.0,Hamburg,,Hamburg
+HS7950,Fachhochschule Potsdam,Fachhochschule Potsdam,Q896706,A,Fachhochschule Potsdam,52.412611111,13.050888888,Brandenburg,1991,Potsdam
+HS3290,HMU Health and Medical U Erfurt i.Potsdam (Priv.U),HMU Health and Medical U Erfurt i.Potsdam (Priv.U),,City,,50.978055555,11.028888888,Thüringen,,Erfurt
+HS1990,Medical School Berlin H f.Gesundh.u.Med. (Priv.FH),Medical School Berlin H f.Gesundh.u.Med. (Priv.FH),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS2180,Phil.-Theol. H Benediktbeuern (rk)(2016 aufgelöst),Phil.-Theol. H Benediktbeuern (rk)(2016 aufgelöst),,,,,,Bayern,,Benediktbeuern
+HS2290,Berlin Int. Univ. of Applied Sciences (Priv. FH),Berlin Int. Univ. of Applied Sciences (Priv. FH),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS5891,Fachhochschule Münster in Münster,Fachhochschule Münster in Münster,,City,,51.9625,7.625555555,Nordrhein-Westfalen,,Münster
+HS1190,Wiss. H f. Unternehmensführung Vallendar (Priv. U),Wiss. H f. Unternehmensführung Vallendar (Priv. U),,,,,,Rheinland-Pfalz,,Vallendar
+HS6345,Hess. H f.ö.Man.u.Sich. Wiesb. in Wiesb. (VerwFH),Hess. H f.ö.Man.u.Sich. Wiesb. in Wiesb. (VerwFH),,Manual,,50.0825,8.24,Hessen,,Wiesbaden
+HS3711,Pädagogische Hochschule Ludwigsburg in Ludwigsburg,Pädagogische Hochschule Ludwigsburg in Ludwigsburg,,City,,48.8975,9.191944444,Baden-Württemberg,,Ludwigsburg
+HS1840,Psychologische Hochschule Berlin (Priv.U),Psychologische Hochschule Berlin (Priv.U),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS810K,Priv. FH für Ökon. u. Management Essen in Leipzig,Priv. FH für Ökon. u. Management Essen in Leipzig,,City,,51.450833333,7.013055555,Nordrhein-Westfalen,,Essen
+HS2600,Burg Giebichenstein Kunsthochschule Halle,Burg Giebichenstein Kunsthochschule Halle,Q1011953,A,Burg Giebichenstein Kunsthochschule Halle,51.5027,11.9549,Sachsen-Anhalt,1915,Burg
+HS1000,Universität Kiel,Universität Kiel,,City,,54.323333333,10.139444444,Schleswig-Holstein,,Kiel
+HS6780,Hochschule Mannheim (FH),Hochschule Mannheim (FH),Q321369,A,Technische Hochschule Mannheim,49.469555555,8.482208333,Baden-Württemberg,1898,Mannheim
+HS5901,Priv. FH der Wirtschaft Paderborn in Paderborn,Priv. FH der Wirtschaft Paderborn in Paderborn,,City,,51.716666666,8.766666666,Nordrhein-Westfalen,,Paderborn
+HS7932,H Lausitz in Senftenberg (FH) (ab 2014 zu HS3972),H Lausitz in Senftenberg (FH) (ab 2014 zu HS3972),,City,,51.516666666,14.016666666,Brandenburg,,Senftenberg
+HS7600,SRH H f. W u. M Calw (Priv. FH)(ab 2018 zu HS7090),SRH H f. W u. M Calw (Priv. FH)(ab 2018 zu HS7090),,City,,48.714444444,8.7375,Baden-Württemberg,,Calw
+HS5574,"Nieders.FH f.Verw.u.Recht,Rinteln (2006 aufgelöst)","Nieders.FH f.Verw.u.Recht,Rinteln (2006 aufgelöst)",,City,,52.186039,9.079169,Niedersachsen,,Rinteln
+HS4780,Promotionszentr.SusLand Weihenstephan-Triesd. (FH),Promotionszentr.SusLand Weihenstephan-Triesd. (FH),,,,,,Bayern,,Triesdorf
+HS1160,Universität Frankfurt am Main,Universität Frankfurt am Main,,City,,50.110555555,8.682222222,Hessen,,Frankfurt am Main
+HS1540,Priv. wissenschaftliche H Oestrich-Winkel (E.B.S.),Priv. wissenschaftliche H Oestrich-Winkel (E.B.S.),,,,,,Hessen,,Oestrich-Winkel
+HS1562,Media U of Appl. Sc. Berlin Campus Köln (Priv. FH),Media U of Appl. Sc. Berlin Campus Köln (Priv. FH),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS5370,Evang. Fachhochschule Hannover (ab 2007 HS5332),Evang. Fachhochschule Hannover (ab 2007 HS5332),,City,,52.374444444,9.738611111,Niedersachsen,,Hannover
+HS746A,H f.d. öff. D. in Bayern Sulzbach-Rosenb.(Polizei),H f.d. öff. D. in Bayern Sulzbach-Rosenb.(Polizei),,,,,,Bayern,,Sulzbach-Rosenberg
+HS6231,Techn. H Mittelhessen (THM) in Gießen (FH),Techn. H Mittelhessen (THM) in Gießen (FH),,City,,50.583333333,8.666666666,Hessen,,Gießen
+HS7990,Nordd. Akad. für Finanzen und Steuerrecht Hamburg,Nordd. Akad. für Finanzen und Steuerrecht Hamburg,,City,,53.55,10.0,Hamburg,,Hamburg
+HS2212,HDBW in Bamberg (Priv. FH) (ab 2015 HS2211),HDBW in Bamberg (Priv. FH) (ab 2015 HS2211),,City,,49.891666666,10.891666666,Bayern,,Bamberg
+HS5191,"H der sächsischen Polizei, Bautzen (VerwFH)","H der sächsischen Polizei, Bautzen (VerwFH)",,City,,51.181388888,14.423888888,Sachsen,,Bautzen
+HS7092,SRH U of App.Sc. Heidelberg in Stuttgart (Priv.FH),SRH U of App.Sc. Heidelberg in Stuttgart (Priv.FH),,City,,49.412222222,8.71,Baden-Württemberg,,Heidelberg
+HS7723,"HWR Berlin, FB Verwaltung, Recht, Polizei (FH)","HWR Berlin, FB Verwaltung, Recht, Polizei (FH)",,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS6244,Hochschule RheinMain in Wiesbaden (FH),Hochschule RheinMain in Wiesbaden (FH),,City,,50.0825,8.24,Hessen,,Wiesbaden
+HS8177,Duale HS Baden-Württemberg in Mannheim,Duale HS Baden-Württemberg in Mannheim,Q1262608,A,Duale Hochschule Baden-Württemberg Mannheim,49.4744,8.53472,Baden-Württemberg,1974,Mannheim
+HS5311,FH Braunschw.-Wolfenb. in Braun. (2010 aufgelöst),FH Braunschw.-Wolfenb. in Braun. (2010 aufgelöst),,Manual,,52.269166666,10.521111111,Niedersachsen,,Braunschweig
+HS3062,H Rhein-Waal in Kamp-Lintfort (FH),H Rhein-Waal in Kamp-Lintfort (FH),,City,,51.5,6.533333333,Nordrhein-Westfalen,,Kamp-Lintfort
+HS7570,H für angewandte Wissenschaften Neu-Ulm (FH),H für angewandte Wissenschaften Neu-Ulm (FH),Q1622129,A,Hochschule für angewandte Wissenschaften Neu-Ulm,48.3804,10.0092,Bayern,1994,Neu-Ulm
+HS810C,Priv. FH für Ökon. u. Managem. Essen in Wuppertal,Priv. FH für Ökon. u. Managem. Essen in Wuppertal,,City,,51.450833333,7.013055555,Nordrhein-Westfalen,,Essen
+HS7050,Hochschule für Gestaltung Schwäbisch Gmünd (FH),Hochschule für Gestaltung Schwäbisch Gmünd (FH),Q248702,A,Hochschule für Gestaltung Schwäbisch Gmünd,48.793244,9.793727,Baden-Württemberg,1776,Schwäbisch Gmünd
+HS2880,Kunsthochschule für Medien Köln,Kunsthochschule für Medien Köln,Q827038,A,Kunsthochschule für Medien Köln,50.934755825,6.96215995,Nordrhein-Westfalen,1989,Köln
+HS7523,TH Deggendorf in Cham (FH),TH Deggendorf in Cham (FH),,City,,48.835277777,12.964444444,Bayern,,Deggendorf
+HS3680,Pädagogische Hochschule Karlsruhe,Pädagogische Hochschule Karlsruhe,Q1310061,A,Pädagogische Hochschule Karlsruhe,49.0137,8.39274,Baden-Württemberg,1962,Karlsruhe
+HS1580,"Karlsruher Institut für Technologie, Karlsruhe (U)","Karlsruher Institut für Technologie, Karlsruhe (U)",,City,,49.016666666,8.4,Baden-Württemberg,,Karlsruhe
+HS5703,Westfälische H in Recklinghausen (FH),Westfälische H in Recklinghausen (FH),,City,,51.616666666,7.2,Nordrhein-Westfalen,,Recklinghausen
+HS5315,H Braunschweig-Wolfenbüttel in Suderburg (FH),H Braunschweig-Wolfenbüttel in Suderburg (FH),,City,,52.269166666,10.521111111,Niedersachsen,,Braunschweig
+HS2520,Hochschule für Musik Berlin,Hochschule für Musik Berlin,,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS3270,German International University Berlin (Priv. U),German International University Berlin (Priv. U),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS6207,"H d.Bd.f.öff.Vw.,FB Nachr.Verf.Brühl (22 aufgel.)","H d.Bd.f.öff.Vw.,FB Nachr.Verf.Brühl (22 aufgel.)",,City,,50.833333333,6.9,Nordrhein-Westfalen,,Brühl
+HS8032,Hochschule Anhalt in Dessau (FH),Hochschule Anhalt in Dessau (FH),,Manual,,51.833333,12.233333,Sachsen-Anhalt,,Dessau-Roßlau
+HS0760,IB H f. Ges. u. Soz. Berlin in Berlin (Priv.FH),IB H f. Ges. u. Soz. Berlin in Berlin (Priv.FH),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS8031,Hochschule Anhalt in Bernburg (FH),Hochschule Anhalt in Bernburg (FH),,City,,51.8,11.733333333,Sachsen-Anhalt,,Bernburg
+HS810A,Priv. FH für Ökon. u. Management Essen in Bonn,Priv. FH für Ökon. u. Management Essen in Bonn,,City,,51.450833333,7.013055555,Nordrhein-Westfalen,,Essen
+HS0180,Charite - Universitätsmedizin Berlin,Charite - Universitätsmedizin Berlin,,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS7221,Fachhochschule Coburg in Coburg (ab 2000 HS7220),Fachhochschule Coburg in Coburg (ab 2000 HS7220),,City,,50.258469444,10.957869444,Bayern,,Coburg
+HS6550,Evangelische FH Ludwigshafen (ab 2008 zu HS6650),Evangelische FH Ludwigshafen (ab 2008 zu HS6650),,Manual,,49.481111111,8.435277777,Rheinland-Pfalz,,Ludwigshafen am Rhein
+HS0580,Bauhaus-Universität Weimar,Bauhaus-Universität Weimar,Q573975,A,Bauhaus-Universität Weimar,50.9745,11.3291,Thüringen,1860,Weimar
+HS8172,Duale HS BW. in Ravensburg Campus Friedrichshafen,Duale HS BW. in Ravensburg Campus Friedrichshafen,,City,,47.783055555,9.611388888,Baden-Württemberg,,Ravensburg
+HS6743,H f.Techn.u.Wirtsch.Furtwangen (FH) in Tuttlingen,H f.Techn.u.Wirtsch.Furtwangen (FH) in Tuttlingen,,City,,47.985,8.823333333,Baden-Württemberg,,Tuttlingen
+HS5170,Ev. Hochschule Moritzburg (FH) (ab 21 zu HS5110),Ev. Hochschule Moritzburg (FH) (ab 21 zu HS5110),,,,,,Sachsen,,Moritzburg
+HS7830,Hochschule Schmalkalden (FH),Hochschule Schmalkalden (FH),Q1391222,A,Hochschule Schmalkalden,,,Thüringen,1991,Schmalkalden
+HS572M,IU Int. H Erfurt in Freiburg (Priv. FH),IU Internationale Hochschule,,City,,50.978055555,11.028888888,Thüringen,,Erfurt
+HS0853,Adam-Ries-FH Erf.in München (Priv.)(ab 14 zu 5720),Adam-Ries-FH Erf.in München (Priv.)(ab 14 zu 5720),,City,,48.1375,11.575,Bayern,,München
+HS1631,TU München in München (2001-2016 HS1630),TU München in München (2001-2016 HS1630),,City,,48.1375,11.575,Bayern,,München
+HS8060,"FH Polizei Sachsen-Anhalt, Aschersleben (VerwFH)","FH Polizei Sachsen-Anhalt, Aschersleben (VerwFH)",,City,,51.75,11.466666666,Sachsen-Anhalt,,Aschersleben
+HS1420,Internationale Hochschule Calw (Priv. FH),Internationale Hochschule Calw (Priv. FH),,City,,48.714444444,8.7375,Baden-Württemberg,,Calw
+HS8011,Hochschule Magdeburg-Stendal in Magdeburg (FH),Hochschule Magdeburg-Stendal in Magdeburg (FH),,City,,52.1315889,11.6399609,Sachsen-Anhalt,,Magdeburg
+HS1752,H d.popul.K.Berlin in München(Pr.FH)(2016 aufgel.),H d.popul.K.Berlin in München(Pr.FH)(2016 aufgel.),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS6413,Europ. FH (EUFH) Rhein/Erft in Rostock (Priv. FH),Europ. FH (EUFH) Rhein/Erft in Rostock (Priv. FH),,City,,54.083333333,12.133333333,Mecklenburg-Vorpommern,,Rostock
+HS0920,FH Kunst Arnstadt (Priv.) (2014 aufgelöst),FH Kunst Arnstadt (Priv.) (2014 aufgelöst),,City,,50.834166666,10.946388888,Thüringen,,Arnstadt
+HS8111,H Bonn-Rhein-Sieg in Sankt Augustin (FH),H Bonn-Rhein-Sieg in Sankt Augustin (FH),,City,,50.77,7.186666666,Nordrhein-Westfalen,,Sankt Augustin
+HS1280,Priv. wissenschaftliche H Bierbronnen,Priv. wissenschaftliche H Bierbronnen,,,,,,Baden-Württemberg,,Grafenhausen
+HS8227,Duale HS Sachsen in Riesa (FH),Duale HS Sachsen in Riesa (FH),,City,,51.308055555,13.293888888,Sachsen,,Riesa
+HS7060,H für öffentliche Verwaltung Kehl (VerwFH),H für öffentliche Verwaltung Kehl (VerwFH),,City,,48.571111111,7.808888888,Baden-Württemberg,,Kehl
+HS5696,Int. School of Managem.Dortmund i.Berlin (Priv.FH),Int. School of Managem.Dortmund i.Berlin (Priv.FH),,City,,51.513888888,7.465277777,Nordrhein-Westfalen,,Dortmund
+HS6401,DIPLOMA-FH Nordhess.i.B.Sooden-Allendorf (Priv.FH),DIPLOMA-FH Nordhess.i.B.Sooden-Allendorf (Priv.FH),,,,,,Hessen,,Bad Sooden-Allendorf
+HS8140,"Hochschule 21, Buxtehude (Priv. FH)","Hochschule 21, Buxtehude (Priv. FH)",,City,,53.476944444,9.701111111,Niedersachsen,,Buxtehude
+HS6077,H für Polizei u. öff. Vw. NW in Münster (VerwFH),H für Polizei u. öff. Vw. NW in Münster (VerwFH),,City,,51.9625,7.625555555,Nordrhein-Westfalen,,Münster
+HS5712,Fachhochschule Aachen in Jülich,Fachhochschule Aachen in Jülich,,City,,50.776207,6.083788,Nordrhein-Westfalen,,Aachen
+HS1400,Stuttgart Inst. of Manag. (Priv.) (2005 aufgelöst),Stuttgart Inst. of Manag. (Priv.) (2005 aufgelöst),,City,,48.7775,9.18,Baden-Württemberg,,Stuttgart
+HS7020,AKAD H Stuttgart (Priv. Fern-FH),AKAD H Stuttgart (Priv. Fern-FH),,City,,48.7775,9.18,Baden-Württemberg,,Stuttgart
+HS5702,Westfälische H in Bocholt (FH),Westfälische H in Bocholt (FH),,City,,51.833333333,6.616666666,Nordrhein-Westfalen,,Bocholt
+HS572C,IU Int. H Erfurt in Augsburg (Priv. FH),IU Internationale Hochschule,,City,,50.978055555,11.028888888,Thüringen,,Erfurt
+HS1311,U Erlangen-Nürnberg in Erlangen (siehe HS1310),U Erlangen-Nürnberg in Erlangen (siehe HS1310),,City,,49.5925,11.005,Bayern,,Erlangen
+HS1960,KLU Kühne Logistics University Hamburg (Priv. U),KLU Kühne Logistics University Hamburg (Priv. U),,City,,53.55,10.0,Hamburg,,Hamburg
+HS7070,H Ludwigsburg für öff. Verw. u. Finanzen (VerwFH),H Ludwigsburg für öff. Verw. u. Finanzen (VerwFH),,City,,48.8975,9.191944444,Baden-Württemberg,,Ludwigsburg
+HS5305,FH Ol./Ostfr./Wilhelmsh. in Leer (ab 2010 HS4992),FH Ol./Ostfr./Wilhelmsh. in Leer (ab 2010 HS4992),,City,,53.230833333,7.452777777,Niedersachsen,,Leer
+HS1541,EBS U für Wirt. u. R. Wiesb. in Oestrich-W.(Priv.),EBS U für Wirt. u. R. Wiesb. in Oestrich-W.(Priv.),,,,,,Hessen,,Oestrich-Winkel
+HS6582,Hochschule Trier in Birkenfeld (FH),Hochschule Trier in Birkenfeld (FH),,City,,49.75565,6.63935,Rheinland-Pfalz,,Trier
+HS6383,FH d.sächs.Verw.Meißen(FB Sozialv.)(ab 17 HS6380),FH d.sächs.Verw.Meißen(FB Sozialv.)(ab 17 HS6380),,City,,51.163611111,13.4775,Sachsen,,Meißen
+HS7191,Ev.FH Reutl.-Ludwigsb.in Ludwigsb.(ab 2005 HS7190),Ev.FH Reutl.-Ludwigsb.in Ludwigsb.(ab 2005 HS7190),,Manual,,48.8975,9.191944444,Baden-Württemberg,,Ludwigsburg
+HS5062,FH für Verw. und Dienstl. in Reinfeld (VerwFH),FH für Verw. und Dienstl. in Reinfeld (VerwFH),,,,,,Schleswig-Holstein,,Reinfeld (Holstein)
+HS5670,H für öffentliche Verwaltung Bremen (VerwFH),H für öffentliche Verwaltung Bremen (VerwFH),,City,,53.075833333,8.807222222,Bremen,,Bremen
+HS4983,H Wilhelmsh./Oldenb./Elsfleth in Elsfleth (FH),H Wilhelmsh./Oldenb./Elsfleth in Elsfleth (FH),,,,,,Niedersachsen,,Elsfleth
+HS5020,Fachhochschule Kiel,Fachhochschule Kiel,,City,,54.323333333,10.139444444,Schleswig-Holstein,,Kiel
+HS6410,Europ. FH Rhein/Erft (Priv. FH)(ab 2010 HS6411/12),Europ. FH Rhein/Erft (Priv. FH)(ab 2010 HS6411/12),,Manual,,50.833333333,6.9,Nordrhein-Westfalen,,Brühl
+HS1920,"H f.W.,T.u.Kul.Berlin (Priv.FH) (ab 2013 HS1921/2)","H f.W.,T.u.Kul.Berlin (Priv.FH) (ab 2013 HS1921/2)",,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS3700,Pädagogische Hochschule Schwäbisch Gmünd,Pädagogische Hochschule Schwäbisch Gmünd,Q2120205,A,Pädagogische Hochschule Schwäbisch Gmünd,48.7917,9.82889,Baden-Württemberg,1825,Schwäbisch Gmünd
+HS0560,Augustana-Hochschule Neuendettelsau (evangelisch),Augustana-Hochschule Neuendettelsau (evangelisch),,,,,,Bayern,,Neuendettelsau
+HS6720,Hochschule Biberach a. d. Riss (FH),Hochschule Biberach a. d. Riss (FH),,Manual,,48.098055555,9.788611111,Baden-Württemberg,,Biberach an der Riß
+HS0011,U Kassel in Kassel (ab 1999 ohne Kunsthochschule),U Kassel in Kassel (ab 1999 ohne Kunsthochschule),,City,,51.315777777,9.497916666,Hessen,,Kassel
+HS7690,Hochschule für Technik und Wirtschaft Berlin (FH),Hochschule für Technik und Wirtschaft Berlin (FH),Q875138,A,Hochschule für Technik und Wirtschaft Berlin,52.49305556,13.52583333,Berlin,1994,Berlin
+HS7760,FH f.Verwaltung u.Rechtspflege Berlin (09 aufgel.),FH f.Verwaltung u.Rechtspflege Berlin (09 aufgel.),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS0680,Hertie School of Governance Berlin (Priv. U),Hertie School of Governance Berlin (Priv. U),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS1682,CBS  IBS Köln in Brühl (Priv. FH) (2025 zu HS1680),CBS  IBS Köln in Brühl (Priv. FH) (2025 zu HS1680),,City,,50.942222222,6.957777777,Nordrhein-Westfalen,,Köln
+HS1180,Universität Marburg,Universität Marburg,,City,,50.816666666,8.766666666,Hessen,,Marburg
+HS5392,Priv.FH der Wirtsch.Hannover in Celle (18 aufgel.),Priv.FH der Wirtsch.Hannover in Celle (18 aufgel.),,City,,52.374444444,9.738611111,Niedersachsen,,Hannover
+HS5140,H Mittweida (University of Applied Sciences) (FH),H Mittweida (University of Applied Sciences) (FH),,,,,,Sachsen,,Mittweida
+HS7140,Staatl.H f. Polizei Villingen-Schwenningen(VerwFH),Staatl.H f. Polizei Villingen-Schwenningen(VerwFH),,City,,48.063152,8.4929618,Baden-Württemberg,,Villingen-Schwenningen
+HS7861,Thür.FH f.ö.V.(FB Komm-Verw.)Gotha(ab 2001 HS7860),Thür.FH f.ö.V.(FB Komm-Verw.)Gotha(ab 2001 HS7860),,City,,50.948888888,10.718333333,Thüringen,,Gotha
+HS5302,FH Ol./Ostfr./Wilhelmsh. in Emden (ab 2010 HS4991),FH Ol./Ostfr./Wilhelmsh. in Emden (ab 2010 HS4991),,City,,53.366944444,7.206111111,Niedersachsen,,Emden
+HS620D,"H des Bundes f.öff.Verw., FB Bundespolizei Lübeck","H des Bundes f.öff.Verw., FB Bundespolizei Lübeck",,City,,53.869722222,10.686388888,Schleswig-Holstein,,Lübeck
+HS0690,"Hafencity Universität, Hamburg","Hafencity Universität, Hamburg",Q1567759,A,HafenCity Universität Hamburg,53.540305555,10.004805555,Hamburg,2006,Hamburg
+HS6288,H Fresenius Idstein in Düsseldorf (Priv. FH),Hochschule Fresenius,,City,,50.220555555,8.269166666,Hessen,,Idstein
+HS5990,Rheinische H Köln in Köln (Priv. FH),Rheinische H Köln in Köln (Priv. FH),,City,,50.942222222,6.957777777,Nordrhein-Westfalen,,Köln
+HS5826,FH des Mittelstandes (FHM) in Bamberg (Priv.),FH des Mittelstandes (FHM) in Bamberg (Priv.),,City,,49.891666666,10.891666666,Bayern,,Bamberg
+HS6241,H RheinMain in Geisenheim (FH) (ab 2013 zu HS2200),H RheinMain in Geisenheim (FH) (ab 2013 zu HS2200),,,,,,Hessen,,Geisenheim
+HS8106,Priv. FH für Ökon. u. Management Essen in Siegen,Priv. FH für Ökon. u. Management Essen in Siegen,,City,,51.450833333,7.013055555,Nordrhein-Westfalen,,Essen
+HS6791,Hochschule Nürtingen in Nürtingen (FH),Hochschule Nürtingen in Nürtingen (FH),,City,,48.626666666,9.335277777,Baden-Württemberg,,Nürtingen
+HS7940,Technische Hochschule Wildau (FH),Technische Hochschule Wildau (FH),Q686171,A,Technische Hochschule Wildau,52.3194,13.6325,Brandenburg,1991,Königs Wusterhausen
+HS7080,FH f.Bibl.u.Inform.wesen Stuttgart(ab 2001 HS6860),FH f.Bibl.u.Inform.wesen Stuttgart(ab 2001 HS6860),,City,,48.7775,9.18,Baden-Württemberg,,Stuttgart
+HS607D,H für P.u.öff.V.NW in Herne(VerwFH)(2023 zu 6071),H für P.u.öff.V.NW in Herne(VerwFH)(2023 zu 6071),,City,,51.54258,7.21897,Nordrhein-Westfalen,,Herne
+HS6071,H f. Polizei u.öff.Vw.NW in Gelsenkirchen (VerwFH),H f. Polizei u.öff.Vw.NW in Gelsenkirchen (VerwFH),,City,,51.510277777,7.094166666,Nordrhein-Westfalen,,Gelsenkirchen
+HS817B,"Duale HS BW. in Stuttg., FB Verw. (2015 aufgelöst)","Duale HS BW. in Stuttg., FB Verw. (2015 aufgelöst)",,Manual,,48.7775,9.18,Baden-Württemberg,,Stuttgart
+HS4950,INU-Innovative U of Appl. Sc. Köln (Priv. FH),INU-Innovative U of Appl. Sc. Köln (Priv. FH),,City,,50.942222222,6.957777777,Nordrhein-Westfalen,,Köln
+HS572K,IU Int. H Erfurt in Hannover (Priv. FH),IU Internationale Hochschule,,City,,50.978055555,11.028888888,Thüringen,,Erfurt
+HS3071,H Hamm-Lippstadt in Hamm (FH),H Hamm-Lippstadt in Hamm (FH),,City,,51.681388888,7.819166666,Nordrhein-Westfalen,,Hamm
+HS6202,"H des Bundes f.öff.Verw., FB Sozialvers. Berlin","H des Bundes f.öff.Verw., FB Sozialvers. Berlin",,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS8071,AMD Akad.Mode Idst. i.Hmb. (P.FH) (2018 zu HS6285),AMD Akad.Mode Idst. i.Hmb. (P.FH) (2018 zu HS6285),,Manual,,53.55,10.0,Hamburg,,Hamburg
+HS6360,"H d.Dt.gesetzl.Unfallvers.,Bad Hersfeld (Priv. FH)","H d.Dt.gesetzl.Unfallvers.,Bad Hersfeld (Priv. FH)",,City,,50.868333333,9.706666666,Hessen,,Bad Hersfeld
+HS8073,AMD Akad. Idstein in Düsseld.(Priv.FH)(21 zu 6288),AMD Akad. Idstein in Düsseld.(Priv.FH)(21 zu 6288),,City,,50.220555555,8.269166666,Hessen,,Idstein
+HS8104,Priv. FH für Ökon. u. Management Essen in Köln,Priv. FH für Ökon. u. Management Essen in Köln,,City,,51.450833333,7.013055555,Nordrhein-Westfalen,,Essen
+HS4790,"Promotionsverband Baden-Württemberg, Stuttgart","Promotionsverband Baden-Württemberg, Stuttgart",,City,,48.7775,9.18,Baden-Württemberg,,Stuttgart
+HS5254,Fachhochschule Südwestfalen in Soest,Fachhochschule Südwestfalen in Soest,,City,,51.571111111,8.109166666,Nordrhein-Westfalen,,Soest
+HS8221,Duale HS Sachsen in Bautzen (FH),Duale HS Sachsen in Bautzen (FH),,City,,51.181388888,14.423888888,Sachsen,,Bautzen
+HS1790,Int. H Erfurt in Bremen (Priv. FH),Int. H Erfurt in Bremen (Priv. FH),,City,,50.978055555,11.028888888,Thüringen,,Erfurt
+HS6287,Hochschule Fresenius Idstein in Berlin (Priv. FH),Hochschule Fresenius,,City,,50.220555555,8.269166666,Hessen,,Idstein
+HS0150,Fernuniversität Hagen,Fernuniversität Hagen,Q687017,A,Fernuniversität in Hagen,51.37722222,7.49527778,Nordrhein-Westfalen,1974,Hagen
+HS4991,Hochschule Emden/Leer in Emden (FH),Hochschule Emden/Leer in Emden (FH),,City,,53.366944444,7.206111111,Niedersachsen,,Emden
+HS5412,Priv. H f. Wirt. u. T. Vechta/Dieph.in Vechta (FH),Priv. H f. Wirt. u. T. Vechta/Dieph.in Vechta (FH),,City,,52.730555555,8.288611111,Niedersachsen,,Vechta
+HS7972,SRH U of App.Sc. Heidelberg in Dresden (Priv. FH),SRH U of App.Sc. Heidelberg in Dresden (Priv. FH),,City,,49.412222222,8.71,Baden-Württemberg,,Heidelberg
+HS3940,Promotionszentrum Mob.und Log. Frankfurt a.M. (FH),Promotionszentrum Mob.und Log. Frankfurt a.M. (FH),,Manual,,50.110555555,8.682222222,Hessen,,Frankfurt am Main
+HS0101,TKH Berlin in Berlin (Priv. FH) (2018 zu HS5802),TKH Berlin in Berlin (Priv. FH) (2018 zu HS5802),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS2211,HDBW H der Bayer. Wirtschaft in München (Priv. FH),HDBW H der Bayer. Wirtschaft in München (Priv. FH),,City,,48.1375,11.575,Bayern,,München
+HS1060,Bucerius Law School Hamburg (Priv. U),Bucerius Law School Hamburg (Priv. U),,City,,53.55,10.0,Hamburg,,Hamburg
+HS2562,H für Musik Detmold in Dortmund (ab 2004 HS2574),H für Musik Detmold in Dortmund (ab 2004 HS2574),,City,,51.937777777,8.883333333,Nordrhein-Westfalen,,Detmold
+HS7370,Evangelische Hochschule Nürnberg (FH),Evangelische Hochschule Nürnberg (FH),Q475312,A,Evangelische Hochschule Nürnberg,49.450809,11.060323,Bayern,1995,Nürnberg
+HS0020,"APOLLON H der Gesundheitswirt., Bremen (Priv. FH)","APOLLON H der Gesundheitswirt., Bremen (Priv. FH)",,City,,53.075833333,8.807222222,Bremen,,Bremen
+HS0124,U-GesamtH Paderborn in Soest (ab 2002 HS5254),U-GesamtH Paderborn in Soest (ab 2002 HS5254),,City,,51.716666666,8.766666666,Nordrhein-Westfalen,,Paderborn
+HS0012,U Kassel in Witzenhausen,U Kassel in Witzenhausen,,City,,51.315777777,9.497916666,Hessen,,Kassel
+HS5303,FH Ol./Ostfr./Wilhelmsh. in Whv. (ab 2010 HS4982),FH Ol./Ostfr./Wilhelmsh. in Whv. (ab 2010 HS4982),,Manual,,53.528611111,8.105555555,Niedersachsen,,Wilhelmshaven
+HS1940,Internationale Hochschule Liebenzell (Evang. FH),Internationale Hochschule Liebenzell (Evang. FH),,,,,,,,
+HS0032,H Macromedia Stuttgart in Berlin (Priv. FH),H Macromedia Stuttgart in Berlin (Priv. FH),,City,,48.7775,9.18,Baden-Württemberg,,Stuttgart
+HS6286,Hochschule Fresenius Idstein i.Frankfurt (Priv.FH),Hochschule Fresenius,,City,,50.220555555,8.269166666,Hessen,,Idstein
+HS6075,H für Polizei u. öff. Vw. NW in Hagen (VerwFH),H für Polizei u. öff. Vw. NW in Hagen (VerwFH),,City,,51.359444444,7.475,Nordrhein-Westfalen,,Hagen
+HS7680,Theologisches Seminar Reutlingen (ev. FH),Theologisches Seminar Reutlingen (ev. FH),,City,,48.483333333,9.216666666,Baden-Württemberg,,Reutlingen
+HS5906,Priv.FH d. Wirt.Paderb.in Marb.(ab 2017 zu HS5901),Priv.FH d. Wirt.Paderb.in Marb.(ab 2017 zu HS5901),,Manual,,50.816666666,8.766666666,Hessen,,Marburg
+HS2990,Akademie der Bildenden Künste Nürnberg,Akademie der Bildenden Künste Nürnberg,Q414041,A,Akademie der Bildenden Künste Nürnberg,49.445693214,11.135396642,Bayern,1662,Nürnberg
+HS1810,Universität Mannheim,Universität Mannheim,Q321369,A,Technische Hochschule Mannheim,49.469555555,8.482208333,Baden-Württemberg,1898,Mannheim
+HS1300,"Int. U Germany, Bruchsal (Priv.) (2009 aufgelöst)","Int. U Germany, Bruchsal (Priv.) (2009 aufgelöst)",,City,,49.133333333,8.6,Baden-Württemberg,,Bruchsal
+HS4992,Hochschule Emden/Leer in Leer (FH),Hochschule Emden/Leer in Leer (FH),,City,,53.366944444,7.206111111,Niedersachsen,,Emden
+HS2350,Theologische Hochschule Friedensau,Theologische Hochschule Friedensau,Q538520,A,Theologische Hochschule Friedensau,52.2117,11.9842,Sachsen-Anhalt,1899,Burg
+HS0070,Universität-GH Duisburg (ab 2002 HS0092),Universität-GH Duisburg (ab 2002 HS0092),,City,,51.432222222,6.761111111,Nordrhein-Westfalen,,Duisburg
+HS8226,Duale HS Sachsen in Plauen (FH),Duale HS Sachsen in Plauen (FH),,City,,50.495,12.138333333,Sachsen,,Plauen
+HS8193,Charlotte Fresenius H Wiesbaden i.Hamburg (Priv.U),Hochschule Fresenius,,City,,50.0825,8.24,Hessen,,Wiesbaden
+HS0840,Best-Sabel H Berlin (Priv. FH) (2016 aufgelöst),Best-Sabel H Berlin (Priv. FH) (2016 aufgelöst),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS5070,AKAD FH Pinneberg (Priv. Fern-FH) (2014 aufgelöst),AKAD FH Pinneberg (Priv. Fern-FH) (2014 aufgelöst),,City,,53.659111111,9.800861111,Schleswig-Holstein,,Pinneberg
+HS5313,H Braunschweig-Wolfenbüttel in Wolfsburg (FH),H Braunschweig-Wolfenbüttel in Wolfsburg (FH),,City,,52.269166666,10.521111111,Niedersachsen,,Braunschweig
+HS5481,FH Oldenburg in Elsfleth (ab 2000 HS5304),FH Oldenburg in Elsfleth (ab 2000 HS5304),,City,,53.143888888,8.213888888,Niedersachsen,,Oldenburg
+HS2510,Weißensee Kunsthochschule Berlin,Weißensee Kunsthochschule Berlin,,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS7353,FH Wb.-Sf.-Aschaffenburg in Asch. (ab 2000 HS7590),FH Wb.-Sf.-Aschaffenburg in Asch. (ab 2000 HS7590),,City,,49.9740542,9.1493636,Bayern,,Aschaffenburg
+HS1590,Universität Stuttgart,Universität Stuttgart,Q122453,A,Universität Stuttgart,48.7817,9.1752,Baden-Württemberg,1829,Stuttgart
+HS0301,Universität Halle in Halle,Universität Halle in Halle,,Manual,,51.482777777,11.969722222,Sachsen-Anhalt,,Halle (Saale)
+HS5573,Nieders.FH f.Verw.u.R.Hildesh.(R-pfl.)(07 HS0740),Nieders.FH f.Verw.u.R.Hildesh.(R-pfl.)(07 HS0740),,Manual,,52.15,9.95,Niedersachsen,,Hildesheim
+HS2573,Folkwang U der Künste Essen in Bochum (KH),Folkwang U der Künste Essen in Bochum (KH),,City,,51.450833333,7.013055555,Nordrhein-Westfalen,,Essen
+HS1080,Universität Bochum,Universität Bochum,,City,,51.483333333,7.216666666,Nordrhein-Westfalen,,Bochum
+HS4860,Promotionszentrum REDIG Amberg-Weiden (FH),Promotionszentrum REDIG Amberg-Weiden (FH),,City,,49.444444444,11.848333333,Bayern,,Amberg
+HS2571,Folkwang U der Künste Essen in Essen (KH),Folkwang U der Künste Essen in Essen (KH),,City,,51.450833333,7.013055555,Nordrhein-Westfalen,,Essen
+HS6243,Hochschule RheinMain in Rüsselsheim (FH),Hochschule RheinMain in Rüsselsheim (FH),,Manual,,49.995,8.411944444,Hessen,,Rüsselsheim am Main
+HS1710,Hochschule für Politik München (U),Hochschule für Politik München (U),Q1622215,A,Hochschule für Politik München,48.14694444,11.56333333,Bayern,1950,München
+HS5752,H Bochum in Velbert/Heiligenhaus (FH),H Bochum in Velbert/Heiligenhaus (FH),,City,,51.483333333,7.216666666,Nordrhein-Westfalen,,Bochum
+HS6342,Hess. H f.ö.Man.u.Sich. Wiesb. in Mühlh. (VerwFH),Hess. H f.ö.Man.u.Sich. Wiesb. in Mühlh. (VerwFH),,Manual,,50.125694444,8.83,Hessen,,Mühlheim am Main
+HS0822,Dt. H für Ges. u. Sp. Berlin in Ismaning (Priv.FH),Dt. H für Ges. u. Sp. Berlin in Ismaning (Priv.FH),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS1730,Medizinische Hochschule Hannover (U),Medizinische Hochschule Hannover (U),Q911561,A,Medizinische Hochschule Hannover,52.3836594,9.8044941,Niedersachsen,1961,Hannover
+HS0900,Stenden University Berlin (Priv.FH) (2010 aufgel.),Stenden University Berlin (Priv.FH) (2010 aufgel.),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS2860,Kunstakademie Düsseldorf,Kunstakademie Düsseldorf,Q662355,A,Kunstakademie Düsseldorf,51.23054,6.77365,Nordrhein-Westfalen,1762,Düsseldorf
+HS2150,H Fresenius Heidelberg (Priv. FH),Hochschule Fresenius,,City,,49.412222222,8.71,Baden-Württemberg,,Heidelberg
+HS6690,Provadis S. Int.Manag.Techno.Frankfurt a.M.(Pr.FH),Provadis S. Int.Manag.Techno.Frankfurt a.M.(Pr.FH),,Manual,,50.110555555,8.682222222,Hessen,,Frankfurt am Main
+HS2920,Hochschule für Gestaltung Offenbach,Hochschule für Gestaltung Offenbach,,,,,,,,
+HS5331,"FH Hannover i.H.(Bibl.,Inf.,Doku.)(ab 2000 HS5333)","FH Hannover i.H.(Bibl.,Inf.,Doku.)(ab 2000 HS5333)",,City,,52.374444444,9.738611111,Niedersachsen,,Hannover
+HS5312,H Braunschweig-Wolfenbüttel in Wolfenbüttel (FH),H Braunschweig-Wolfenbüttel in Wolfenbüttel (FH),,City,,52.269166666,10.521111111,Niedersachsen,,Braunschweig
+HS0880,EBC H Hamburg Campus Hbg. (Priv.FH) (2024 aufgel.),EBC H Hamburg Campus Hbg. (Priv.FH) (2024 aufgel.),,City,,53.55,10.0,Hamburg,,Hamburg
+HS1440,Technische Universität Clausthal,Technische Universität Clausthal,Q447354,A,Technische Universität Clausthal,51.804722222,10.334444444,Niedersachsen,1775,Osterode am Harz
+HS5381,H Hildesh./Holzminden/Göttingen in Göttingen (FH),H Hildesh./Holzminden/Göttingen in Göttingen (FH),,City,,51.829722222,9.448333333,Niedersachsen,,Holzminden
+HS3630,"Erfurt, Pädagogische H (U) (2001 aufgelöst)","Erfurt, Pädagogische H (U) (2001 aufgelöst)",,City,,50.978055555,11.028888888,Thüringen,,Erfurt
+HS607B,H f.P.u.öff.V.NW i.Mülheim (VerwFH)(2023 zu 6074),H f.P.u.öff.V.NW i.Mülheim (VerwFH)(2023 zu 6074),,Manual,,51.4275,6.8825,Nordrhein-Westfalen,,Mülheim an der Ruhr
+HS8022,Hochschule Harz in Halberstadt (FH),Hochschule Harz in Halberstadt (FH),,City,,51.895833333,11.046666666,Sachsen-Anhalt,,Halberstadt
+HS0991,Universität Lüneburg in Lüneburg (ab 2010 HS0990),Universität Lüneburg in Lüneburg (ab 2010 HS0990),,City,,53.2525,10.414444444,Niedersachsen,,Lüneburg
+HS1500,H f. Finanzwirtschaft u. Management Bonn (Priv.FH),H f. Finanzwirtschaft u. Management Bonn (Priv.FH),,City,,50.735277777,7.102222222,Nordrhein-Westfalen,,Bonn
+HS1170,Universität Gießen,Universität Gießen,,City,,50.583333333,8.666666666,Hessen,,Gießen
+HS5732,H Bielefeld in Minden (FH),H Bielefeld in Minden (FH),,City,,52.016666666,8.533333333,Nordrhein-Westfalen,,Bielefeld
+HS1750,H der populären Künste Berlin (Private FH),H der populären Künste Berlin (Private FH),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS8192,Charlotte Fresenius H Wiesbaden i.München (Priv.U),Hochschule Fresenius,,City,,50.0825,8.24,Hessen,,Wiesbaden
+HS2690,Staatl. H f. Musik u. Darstellende Kunst Stuttgart,Staatl. H f. Musik u. Darstellende Kunst Stuttgart,Q568692,A,Staatliche Hochschule für Musik und Darstellende Kunst Stuttgart,48.778611,9.185833,Baden-Württemberg,1857,Stuttgart
+HS5180,AKAD FH Leipzig (Priv. Fern-FH) (2015 aufgelöst),AKAD FH Leipzig (Priv. Fern-FH) (2015 aufgelöst),,City,,51.3406321,12.3747329,Sachsen,,Leipzig
+HS7850,FH f. Fin. Brandenbg. Königs-Wusterhausen (VerwFH),FH f. Fin. Brandenbg. Königs-Wusterhausen (VerwFH),,City,,52.291666666,13.625,Brandenburg,,Königs Wusterhausen
+HS0940,Freie Theologische H (FTH) Gießen (Priv.),Freie Theologische H (FTH) Gießen (Priv.),,City,,50.583333333,8.666666666,Hessen,,Gießen
+HS2213,HDBW in Traunstein (Priv. FH)  (ab 2015 HS2211),HDBW in Traunstein (Priv. FH)  (ab 2015 HS2211),,City,,47.868333333,12.643333333,Bayern,,Traunstein
+HS1130,Technische Universität Dortmund,Technische Universität Dortmund,Q1324675,A,Fachhochschule Dortmund,51.5063,7.45779,Nordrhein-Westfalen,1971,Dortmund
+HS1681,CBS Internat. Business School in Mainz (Priv. FH),CBS Internat. Business School in Mainz (Priv. FH),,City,,49.999444444,8.273611111,Rheinland-Pfalz,,Mainz
+HS6670,Hochschule Mainz (FH),Hochschule Mainz (FH),Q459724,A,Hochschule Mainz,49.9882478,8.2270517,Rheinland-Pfalz,1971,Mainz
+HS0310,Universität Magdeburg,Universität Magdeburg,Q2399299,A,Technische Universität Magdeburg,52.1315889,11.6399609,Sachsen-Anhalt,1953,Magdeburg
+HS5812,Märkische FH in Hagen (ab 2002 HS5251),Märkische FH in Hagen (ab 2002 HS5251),,City,,51.359444444,7.475,Nordrhein-Westfalen,,Hagen
+HS6872,Fachhochschule Ulm in Geislingen (ab 2005 HS6870),Fachhochschule Ulm in Geislingen (ab 2005 HS6870),,City,,48.39841,9.99155,Baden-Württemberg,,Ulm
+HS3980,Promotionszentrum Soziale Arbeit (FH),Promotionszentrum Soziale Arbeit (FH),,Manual,,48.1375,11.575,Bayern,,München
+HS5821,FH des Mittelstandes (FHM) in Köln (Priv.),FH des Mittelstandes (FHM) in Köln (Priv.),,City,,50.942222222,6.957777777,Nordrhein-Westfalen,,Köln
+HS7531,H für angewandte Wissenschaften Hof in Hof (FH),H für angewandte Wissenschaften Hof in Hof (FH),,City,,50.316666666,11.916666666,Bayern,,Hof
+HS1252,Universität Heidelberg in Mannheim,Universität Heidelberg in Mannheim,,City,,49.412222222,8.71,Baden-Württemberg,,Heidelberg
+HS3640,Gisma U of App.Sc. Potsdam (Priv. FH),Gisma U of App.Sc. Potsdam (Priv. FH),,City,,52.4,13.066666666,Brandenburg,,Potsdam
+HS2040,Theologische Fakultät Trier,Theologische Fakultät Trier,Q1714370,A,Theologische Fakultät Trier,49.74689,6.68748,Rheinland-Pfalz,1950,Trier
+HS0060,"H f.angew.Wiss.d.Bundesagentur f.Arbeit,Mannh.(FH)","H f.angew.Wiss.d.Bundesagentur f.Arbeit,Mannh.(FH)",,Manual,,49.487777777,8.466111111,Baden-Württemberg,,Mannheim
+HS2170,H für Philosophie München (rk),H für Philosophie München (rk),,City,,48.1375,11.575,Bayern,,München
+HS5422,Kath. FH Norddeutschl. in Vechta (ab 2006 HS0960),Kath. FH Norddeutschl. in Vechta (ab 2006 HS0960),,City,,52.730555555,8.288611111,Niedersachsen,,Vechta
+HS810F,Priv. FH für Ökon. u. Management Essen in Hagen,Priv. FH für Ökon. u. Management Essen in Hagen,,City,,51.450833333,7.013055555,Nordrhein-Westfalen,,Essen
+HS7790,Hochschule Stralsund (FH),Hochschule Stralsund (FH),Q1391231,A,Hochschule Stralsund,54.3394,13.0742,Mecklenburg-Vorpommern,1991,Stralsund
+HS2000,Theologische Fakultät Fulda (rk),Theologische Fakultät Fulda (rk),Q2418934,A,Theologische Fakultät Fulda,50.554635,9.670922,Hessen,1805,Fulda
+HS5314,H Braunschweig-Wolfenbüttel in Salzgitter (FH),H Braunschweig-Wolfenbüttel in Salzgitter (FH),,City,,52.269166666,10.521111111,Niedersachsen,,Braunschweig
+HS7620,Kath. H f.Soz.Arbeit Saarbr. (FH) (2010 aufgelöst),Kath. H f.Soz.Arbeit Saarbr. (FH) (2010 aufgelöst),,Manual,,49.233333333,7.0,Saarland,,Saarbrücken
+HS6232,Techn. H Mittelhessen (THM) in Friedberg (FH),Techn. H Mittelhessen (THM) in Friedberg (FH),,City,,48.35,10.983333333,Bayern,,Friedberg
+HS5000,H f.angew.Wiss.Bamberg (Priv. FH) (2014 aufgelöst),H f.angew.Wiss.Bamberg (Priv. FH) (2014 aufgelöst),,City,,49.891666666,10.891666666,Bayern,,Bamberg
+HS5800,U of Europe f.Appl.Sc.Potsdam i.Iserlohn (Priv.FH),U of Europe f.Appl.Sc.Potsdam i.Iserlohn (Priv.FH),,City,,52.4,13.066666666,Brandenburg,,Potsdam
+HS0140,Universität Wuppertal,Universität Wuppertal,,City,,51.266666666,7.183333333,Nordrhein-Westfalen,,Wuppertal
+HS6211,h-da-H Darmstadt in Darmstadt (FH),h-da-H Darmstadt in Darmstadt (FH),,City,,49.866666666,8.65,Hessen,,Darmstadt
+HS810V,Priv. FH für Ökon. u. Management Essen in Hamburg,Priv. FH für Ökon. u. Management Essen in Hamburg,,City,,51.450833333,7.013055555,Nordrhein-Westfalen,,Essen
+HS8108,Priv. FH für Ökon. u. Managem. Essen in Düsseldorf,Priv. FH für Ökon. u. Managem. Essen in Düsseldorf,,City,,51.450833333,7.013055555,Nordrhein-Westfalen,,Essen
+HS2790,Universität der Künste Berlin,Universität der Künste Berlin,Q55038,A,Universität der Künste Berlin,52.509166666,13.326944444,Berlin,1696,Berlin
+HS3900,IFAA Hochschule Ketsch (Priv. FH),IFAA Hochschule Ketsch (Priv. FH),,,,,,Baden-Württemberg,,Ketsch
+HS0123,U-GesamtH Paderborn in Meschede (ab 2002 HS5253),U-GesamtH Paderborn in Meschede (ab 2002 HS5253),,City,,51.716666666,8.766666666,Nordrhein-Westfalen,,Paderborn
+HS5731,H Bielefeld in Bielefeld (FH),H Bielefeld in Bielefeld (FH),,City,,52.016666666,8.533333333,Nordrhein-Westfalen,,Bielefeld
+HS8033,Hochschule Anhalt in Köthen (FH),Hochschule Anhalt in Köthen (FH),,City,,51.751111111,11.973611111,Sachsen-Anhalt,,Köthen
+HS1890,"Bard College Berlin, A Liberal Arts Univ. (Priv.U)","Bard College Berlin, A Liberal Arts Univ. (Priv.U)",,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS1292,U Koblenz-Landau in Landau (2023 zu 1211),U Koblenz-Landau in Landau (2023 zu 1211),,City,,50.359722222,7.597777777,Rheinland-Pfalz,,Koblenz
+HS2561,Hochschule für Musik Detmold in Detmold,Hochschule für Musik Detmold in Detmold,,City,,51.937777777,8.883333333,Nordrhein-Westfalen,,Detmold
+HS5520,FH Wilhelmshaven (ab 2000 HS5303),FH Wilhelmshaven (ab 2000 HS5303),,City,,53.528611111,8.105555555,Niedersachsen,,Wilhelmshaven
+HS5862,TH Ostwestfalen-Lippe in Detmold (FH),TH Ostwestfalen-Lippe in Detmold (FH),,City,,51.937777777,8.883333333,Nordrhein-Westfalen,,Detmold
+HS2830,Hochschule für Bildende Künste Braunschweig,Hochschule für Bildende Künste Braunschweig,Q879216,A,Hochschule für Bildende Künste Braunschweig,52.2575,10.50166667,Niedersachsen,1963,Braunschweig
+HS3971,"Brandenb. TU, Cottbus-Senftenberg in Cottbus","Brandenb. TU, Cottbus-Senftenberg in Cottbus",,City,,51.760805555,14.331861111,Brandenburg,,Cottbus
+HS1310,Universität Erlangen-Nürnberg,Universität Erlangen-Nürnberg,,City,,49.5925,11.005,Bayern,,Erlangen
+HS0260,Universität Rostock,Universität Rostock,Q159895,A,Universität Rostock,54.088133333,12.133372222,Mecklenburg-Vorpommern,1419,Rostock
+HS6420,"H f.digitale Medienprod.,Elstal (Germ.Film School)","H f.digitale Medienprod.,Elstal (Germ.Film School)",,,,,,Brandenburg,,Wustermark
+HS8174,Duale HS BW. in Stuttgart Campus Horb,Duale HS BW. in Stuttgart Campus Horb,,City,,48.7775,9.18,Baden-Württemberg,,Stuttgart
+HS607A,H für Polizei u. öff. Vw. NW in Bielefeld (VerwFH),H für Polizei u. öff. Vw. NW in Bielefeld (VerwFH),,City,,52.016666666,8.533333333,Nordrhein-Westfalen,,Bielefeld
+HS5751,Hochschule Bochum in Bochum (FH),Hochschule Bochum in Bochum (FH),,City,,51.483333333,7.216666666,Nordrhein-Westfalen,,Bochum
+HS5430,FH Ottersberg (Priv. FH),FH Ottersberg (Priv. FH),,,,,,Niedersachsen,,Ottersberg
+HS0890,"Int. Business Sch.,Hbg. (Priv.FH) (2015 aufgelöst)","Int. Business Sch.,Hbg. (Priv.FH) (2015 aufgelöst)",,Manual,,53.55,10.0,Hamburg,,Hamburg
+HS2740,Hochschule für Musik und Theater Leipzig,Hochschule für Musik und Theater Leipzig,,City,,51.3406321,12.3747329,Sachsen,,Leipzig
+HS5690,Int. Sch. of Managem. Dortmund in Dortm.(Priv. FH),Int. Sch. of Managem. Dortmund in Dortm.(Priv. FH),,City,,51.513888888,7.465277777,Nordrhein-Westfalen,,Dortmund
+HS0993,Universität Lüneburg in Suderburg (ab 2010 HS5315),Universität Lüneburg in Suderburg (ab 2010 HS5315),,City,,53.2525,10.414444444,Niedersachsen,,Lüneburg
+HS6272,Ev. H. Darmstadt (EHD) in Schwalmstadt (FH),Ev. H. Darmstadt (EHD) in Schwalmstadt (FH),,City,,49.866666666,8.65,Hessen,,Darmstadt
+HS8021,Hochschule Harz in Wernigerode (FH),Hochschule Harz in Wernigerode (FH),,City,,51.835,10.785277777,Sachsen-Anhalt,,Wernigerode
+HS0040,"Fachhochschule der Diakonie, Bielefeld-Bethel","Fachhochschule der Diakonie, Bielefeld-Bethel",,City,,52.016666666,8.533333333,Nordrhein-Westfalen,,Bielefeld
+HS1563,Media U of Appl.Sc. Berlin Campus Ff./M. (Priv.FH),Media U of Appl.Sc. Berlin Campus Ff./M. (Priv.FH),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS1635,TU München in Heilbronn,TU München in Heilbronn,,City,,48.1375,11.575,Bayern,,München
+HS1650,Mathias H Rheine (Priv. FH) (ab 2016 HS2441),Mathias H Rheine (Priv. FH) (ab 2016 HS2441),,City,,52.283333333,7.433333333,Nordrhein-Westfalen,,Rheine
+HS0270,Universität Greifswald,Universität Greifswald,Q165528,A,Universität Greifswald,54.094638888,13.374625,Mecklenburg-Vorpommern,1456,Greifswald
+HS6190,H für Finanzen NW in Nordkirchen (VerwFH),H für Finanzen NW in Nordkirchen (VerwFH),,,,,,Nordrhein-Westfalen,,Nordkirchen
+HS6742,H f.Techn.u.Wirtsch.Furtwangen (FH) in Vill.-Schw.,H f.Techn.u.Wirtsch.Furtwangen (FH) in Vill.-Schw.,,Manual,,48.063152,8.4929618,Baden-Württemberg,,Villingen-Schwenningen
+HS810X,Priv. FH f.Ökon. und Managem. Essen in Saarbrücken,Priv. FH f.Ökon. und Managem. Essen in Saarbrücken,,City,,51.450833333,7.013055555,Nordrhein-Westfalen,,Essen
+HS3430,Berufliche Hochschule Hamburg (FH),Berufliche Hochschule Hamburg (FH),Q106525433,A,Berufliche Hochschule Hamburg,53.55347,10.03226,Hamburg,,Hamburg
+HS5802,U of Europe for Appl.Sc.Potsdam i.Berlin (Priv.FH),U of Europe for Appl.Sc.Potsdam i.Berlin (Priv.FH),,City,,52.4,13.066666666,Brandenburg,,Potsdam
+HS1150,Deutsche Sporthochschule Köln (U),Deutsche Sporthochschule Köln (U),Q315229,A,Deutsche Sporthochschule Köln,50.935130555,6.8701,Nordrhein-Westfalen,1965,Köln
+HS6870,Technische Hochschule Ulm (FH),Technische Hochschule Ulm (FH),Q835662,A,Universität Ulm,48.422111111,9.953805555,Baden-Württemberg,1967,Ulm
+HS1680,CBS Internat. Business School in Köln (Priv. FH),CBS Internat. Business School in Köln (Priv. FH),,City,,50.942222222,6.957777777,Nordrhein-Westfalen,,Köln
+HS0110,H f. Gesundh. Weißenfels (Priv.FH)(2012 aufgelöst),H f. Gesundh. Weißenfels (Priv.FH)(2012 aufgelöst),,City,,51.2,11.966666666,Sachsen-Anhalt,,Weißenfels
+HS5442,FH Ostfriesland in Leer (ab 2000 HS5302),FH Ostfriesland in Leer (ab 2000 HS5302),,City,,53.230833333,7.452777777,Niedersachsen,,Leer
+HS7462,H f.d. öff. D. in Bayern Herrsching (Finanzwesen),H f.d. öff. D. in Bayern Herrsching (Finanzwesen),,,,,,Bayern,,Herrsching am Ammersee
+HS6830,H für Technik und Wirtschaft Reutlingen (FH),H für Technik und Wirtschaft Reutlingen (FH),,City,,48.483333333,9.216666666,Baden-Württemberg,,Reutlingen
+HS1530,Technische Universität Darmstadt,Technische Universität Darmstadt,Q310695,A,Technische Universität Darmstadt,49.875,8.656388888,Hessen,1877,Darmstadt
+HS8230,German U of App. Sc. Potsdam (Priv. U),German U of App. Sc. Potsdam (Priv. U),,City,,52.4,13.066666666,Brandenburg,,Potsdam
+HS7465,H f.d. öff. D. in Bayern Starnberg (Rechtspflege),H f.d. öff. D. in Bayern Starnberg (Rechtspflege),,City,,47.997222222,11.340555555,Bayern,,Starnberg
+HS6631,H für öff. Verw. Rheinland-Pfalz in Mayen (VerwFH),H für öff. Verw. Rheinland-Pfalz in Mayen (VerwFH),,,,,,Rheinland-Pfalz,,Mayen
+HS0720,Int.H SDI München - H f.angewandte Wiss. (Priv.FH),Int.H SDI München - H f.angewandte Wiss. (Priv.FH),,City,,48.1375,11.575,Bayern,,München
+HS6583,Hochschule Trier in Idar-Oberstein (FH),Hochschule Trier in Idar-Oberstein (FH),,City,,49.701944444,7.325277777,Rheinland-Pfalz,,Idar-Oberstein
+HS1211,Rhl.-Pfälz. TU Kaiserslautern-Landau in Landau,Rhl.-Pfälz. TU Kaiserslautern-Landau in Landau,,City,,49.444722222,7.768888888,Rheinland-Pfalz,,Kaiserslautern
+HS1910,Leibniz-Fachhochschule Hannover (Priv. FH),Leibniz-Fachhochschule Hannover (Priv. FH),,City,,52.374444444,9.738611111,Niedersachsen,,Hannover
+HS7130,FH für Finanzen Ludwigsburg (ab 1999 HS7070),FH für Finanzen Ludwigsburg (ab 1999 HS7070),,City,,48.8975,9.191944444,Baden-Württemberg,,Ludwigsburg
+HS5390,Priv. FH f.d. Wirtschaft Hannover (ab 2004 HS5391),Priv. FH f.d. Wirtschaft Hannover (ab 2004 HS5391),,City,,52.374444444,9.738611111,Niedersachsen,,Hannover
+HS7900,"FH öff.Vw., Poliz.u. Rechtspfl. in Güstrow(VerwFH)","FH öff.Vw., Poliz.u. Rechtspfl. in Güstrow(VerwFH)",,City,,53.793888888,12.176388888,Mecklenburg-Vorpommern,,Güstrow
+HS5722,IU Int. H Erfurt in Berlin (Priv. FH),IU Internationale Hochschule,,City,,50.978055555,11.028888888,Thüringen,,Erfurt
+HS7466,H f.d. öff. D. in Bayern Wasserburg (Sozialverw.),H f.d. öff. D. in Bayern Wasserburg (Sozialverw.),,,,,,Bayern,,Wasserburg am Inn
+HS7973,SRH U of App.Sc. Heidelberg in Hamburg (Priv. FH),SRH U of App.Sc. Heidelberg in Hamburg (Priv. FH),,City,,49.412222222,8.71,Baden-Württemberg,,Heidelberg
+HS2710,Hochschule für Musik Würzburg,Hochschule für Musik Würzburg,Q260107,A,Hochschule für Musik Würzburg,49.792466,9.933947,Bayern,1797,Würzburg
+HS7303,TH Rosenheim in Burghausen (FH),TH Rosenheim in Burghausen (FH),,City,,47.856111111,12.128888888,Bayern,,Rosenheim
+HS6751,H f.Techn.u.Wirtsch. Heilbronn (FH) in Heilbronn,H f.Techn.u.Wirtsch. Heilbronn (FH) in Heilbronn,,City,,49.140428,9.217953,Baden-Württemberg,,Heilbronn
+HS6180,"FH für Rechtspflege NW, Bad Münstereifel (VerwFH)","FH für Rechtspflege NW, Bad Münstereifel (VerwFH)",,,,,,Nordrhein-Westfalen,,Bad Münstereifel
+HS0100,Techn.KunstH Berlin (Priv.FH) (ab 2013 HS0101/2/3),Techn.KunstH Berlin (Priv.FH) (ab 2013 HS0101/2/3),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS0820,H für Gesundheit und Sport Berlin (Priv. FH),H für Gesundheit und Sport Berlin (Priv. FH),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS6842,H f. Techn.u.W. Albstadt-Sigmaringen in Sigm.(FH),H f. Techn.u.W. Albstadt-Sigmaringen in Sigm.(FH),,City,,48.211944444,9.023888888,Baden-Württemberg,,Albstadt
+HS2430,"Alanus H, Alfter (Priv. KH)","Alanus H, Alfter (Priv. KH)",,,,,,Nordrhein-Westfalen,,Alfter
+HS6752,H f.Techn.u.Wirtsch. Heilbronn (FH) in Künzelsau,H f.Techn.u.Wirtsch. Heilbronn (FH) in Künzelsau,,City,,49.140428,9.217953,Baden-Württemberg,,Heilbronn
+HS0013,U Kassel in Kassel (Kunsthochschule),U Kassel in Kassel (Kunsthochschule),,City,,51.315777777,9.497916666,Hessen,,Kassel
+HS2383,VWA-H f.berufsb.Stud.Stuttgart in Karlsr.(Priv.FH),VWA-H f.berufsb.Stud.Stuttgart in Karlsr.(Priv.FH),,City,,48.7775,9.18,Baden-Württemberg,,Stuttgart
+HS5892,Fachhochschule Münster in Steinfurt,Fachhochschule Münster in Steinfurt,,City,,51.9625,7.625555555,Nordrhein-Westfalen,,Münster
+HS2950,Staatliche Akademie der Bildenden Künste Karlsruhe,Staatliche Akademie der Bildenden Künste Karlsruhe,Q322938,A,Staatliche Akademie der Bildenden Künste Karlsruhe,49.0144,8.38726,Baden-Württemberg,1854,Karlsruhe
+HS8150,"Karlshochschule Intern. U, Karlsruhe (Priv. FH)","Karlshochschule Intern. U, Karlsruhe (Priv. FH)",,City,,49.016666666,8.4,Baden-Württemberg,,Karlsruhe
+HS5332,FH Hannover in Hannover (ab 2010 HS5330),FH Hannover in Hannover (ab 2010 HS5330),,City,,52.374444444,9.738611111,Niedersachsen,,Hannover
+HS5050,Private Fachhochschule Wedel,Private Fachhochschule Wedel,,City,,53.583333,9.7,Schleswig-Holstein,,Wedel
+HS8176,Duale HS Baden-Württemberg in Lörrach,Duale HS Baden-Württemberg in Lörrach,Q1001338,A,Duale Hochschule Baden-Württemberg Lörrach,47.61733,7.67724,Baden-Württemberg,1981,Lörrach
+HS5820,FH des Mittelstandes (FHM) in Bielefeld (Priv.),FH des Mittelstandes (FHM) in Bielefeld (Priv.),,City,,52.016666666,8.533333333,Nordrhein-Westfalen,,Bielefeld
+HS7381,Kath. Stiftungs H München in München (FH),Kath. Stiftungs H München in München (FH),,City,,48.1375,11.575,Bayern,,München
+HS6890,Naturw.-Techn. Akad. Isny (Priv. FH)(2022 aufgel.),Naturw.-Techn. Akad. Isny (Priv. FH)(2022 aufgel.),,,,,,Baden-Württemberg,,Isny im Allgäu
+HS5304,FH Ol./Ostfr./Wilhelmsh.i.Elsfleth(ab 2010 HS4983),FH Ol./Ostfr./Wilhelmsh.i.Elsfleth(ab 2010 HS4983),,,,,,Niedersachsen,,Elsfleth
+HS817A,Duale HS Baden-Württemberg in Stuttgart,Duale HS Baden-Württemberg in Stuttgart,Q1262612,A,Duale Hochschule Baden-Württemberg Stuttgart,48.7736,9.17083,Baden-Württemberg,1974,Stuttgart
+HS3051,H Ruhr-West in Bottrop (FH),H Ruhr-West in Bottrop (FH),,City,,51.52325,6.925269444,Nordrhein-Westfalen,,Bottrop
+HS810T,H für Ökon. und Managem. Essen in Mannh. (Priv.FH),H für Ökon. und Managem. Essen in Mannh. (Priv.FH),,City,,51.450833333,7.013055555,Nordrhein-Westfalen,,Essen
+HS2460,"Kath. H. St.Gregorius, Aachen (Priv.)(08 aufgel.)","Kath. H. St.Gregorius, Aachen (Priv.)(08 aufgel.)",,City,,50.776207,6.083788,Nordrhein-Westfalen,,Aachen
+HS0992,U Lüneburg in Lüneburg (FH) (ab 2006 HS0991),U Lüneburg in Lüneburg (FH) (ab 2006 HS0991),,City,,53.2525,10.414444444,Niedersachsen,,Lüneburg
+HS6860,Fachhochschule Stuttgart- Hochschule der Medien,Fachhochschule Stuttgart- Hochschule der Medien,,City,,48.7775,9.18,Baden-Württemberg,,Stuttgart
+HS8112,H Bonn-Rhein-Sieg in Rheinbach (FH),H Bonn-Rhein-Sieg in Rheinbach (FH),,City,,50.735277777,7.102222222,Nordrhein-Westfalen,,Bonn
+HS0740,Norddeutsche H für Rechtspfl. Hildesheim (VerwFH),Norddeutsche H für Rechtspfl. Hildesheim (VerwFH),,City,,52.15,9.95,Niedersachsen,,Hildesheim
+HS7840,Hochschule Wismar (FH),Hochschule Wismar (FH),Q883036,A,Hochschule Wismar,53.89,11.44583333,Mecklenburg-Vorpommern,1908,Wismar
+HS5680,Hochschule Bremen (FH),Hochschule Bremen (FH),Q1622092,A,Hochschule Bremen,53.07236,8.79359,Bremen,1982,Bremen
+HS0630,HHL Leipzig Graduate School of Management (Priv.U),HHL Leipzig Graduate School of Management (Priv.U),,City,,51.3406321,12.3747329,Sachsen,,Leipzig
+HS4982,H Wilhelmsh./Oldenb./Elsfleth in Oldenburg (FH),H Wilhelmsh./Oldenb./Elsfleth in Oldenburg (FH),,City,,53.143888888,8.213888888,Niedersachsen,,Oldenburg
+HS5252,Fachhochschule Südwestfalen in Iserlohn,Fachhochschule Südwestfalen in Iserlohn,,City,,51.383333333,7.666666666,Nordrhein-Westfalen,,Iserlohn
+HS0610,Intern. Hochschulinstitut Zittau (ab 2013 HS0370),Intern. Hochschulinstitut Zittau (ab 2013 HS0370),,City,,50.896111111,14.807222222,Sachsen,,Zittau
+HS2582,H für Musik und Tanz Köln in Aachen,H für Musik und Tanz Köln in Aachen,,City,,50.942222222,6.957777777,Nordrhein-Westfalen,,Köln
+HS8224,Duale HS Sachsen in Glauchau (FH),Duale HS Sachsen in Glauchau (FH),,City,,50.823333333,12.544444444,Sachsen,,Glauchau
+HS0122,U-GesamtH Paderborn in Höxter (ab 2002 HS5863),U-GesamtH Paderborn in Höxter (ab 2002 HS5863),,City,,51.716666666,8.766666666,Nordrhein-Westfalen,,Paderborn
+HS4870,Promotionszentrum KI/Informatik Ingolstadt (FH),Promotionszentrum KI/Informatik Ingolstadt (FH),,City,,48.763055555,11.425,Bayern,,Ingolstadt
+HS7730,Alice-Salomon-Hochschule Berlin (FH),Alice-Salomon-Hochschule Berlin (FH),Q2646956,A,Alice Salomon Hochschule Berlin,52.5369,13.6053,Berlin,1971,Berlin
+HS6033,Kath. H Nordrhein-Westfalen in Münster (FH),Kath. H Nordrhein-Westfalen in Münster (FH),,City,,51.9625,7.625555555,Nordrhein-Westfalen,,Münster
+HS1860,Euro-Busin.-Coll.Dresd. (Priv.FH)(ab 13 zu HS0880),Euro-Busin.-Coll.Dresd. (Priv.FH)(ab 13 zu HS0880),,Manual,,51.0493286,13.7381437,Sachsen,,Dresden
+HS1410,Allensbach Hochschule Konstanz (Priv. FH),Allensbach Hochschule Konstanz (Priv. FH),,City,,47.663333333,9.175277777,Baden-Württemberg,,Konstanz
+HS1634,Technische Universität München in Straubing,Technische Universität München in Straubing,,City,,48.1375,11.575,Bayern,,München
+HS2410,NBS Northern Business School Hamburg (Priv. FH),NBS Northern Business School Hamburg (Priv. FH),,City,,53.55,10.0,Hamburg,,Hamburg
+HS5904,Priv. FH der Wirtschaft Paderborn in Bielefeld,Priv. FH der Wirtschaft Paderborn in Bielefeld,,City,,51.716666666,8.766666666,Nordrhein-Westfalen,,Paderborn
+HS5571,Nieders.FH f.Verw.u.R.Hildesh.(A.Verw.)(07 HS0750),Nieders.FH f.Verw.u.R.Hildesh.(A.Verw.)(07 HS0750),,Manual,,52.15,9.95,Niedersachsen,,Hildesheim
+HS3990,Promotionszentrum Angewandte Informatik (FH),Promotionszentrum Angewandte Informatik (FH),,Manual,,48.835277777,12.964444444,Bayern,,Deggendorf
+HS5693,Int. Sch. of Managem. Dortmund in Köln (Priv. FH),Int. Sch. of Managem. Dortmund in Köln (Priv. FH),,City,,51.513888888,7.465277777,Nordrhein-Westfalen,,Dortmund
+HS2060,Kölner H für Katholische Theologie (K.-Theol. H),Kölner H für Katholische Theologie (K.-Theol. H),,Manual,,50.942222222,6.957777777,Nordrhein-Westfalen,,Köln
+HS0660,Constructor University Bremen gGmbH (Priv. U),Constructor University Bremen gGmbH (Priv. U),,City,,53.075833333,8.807222222,Bremen,,Bremen
+HS7560,H f. angewandte Wissensch. Ansbach in Ansbach (FH),H f. angewandte Wissensch. Ansbach in Ansbach (FH),,City,,49.3,10.583333333,Bayern,,Ansbach
+HS0092,U Duisburg-Essen in Duisburg (ab 2006 HS0080),U Duisburg-Essen in Duisburg (ab 2006 HS0080),,City,,51.432222222,6.761111111,Nordrhein-Westfalen,,Duisburg
+HS0851,Adam-Ries-FH Erfurt i.Erfurt (Priv.)(ab 14 z.5720),Adam-Ries-FH Erfurt i.Erfurt (Priv.)(ab 14 z.5720),,City,,50.978055555,11.028888888,Thüringen,,Erfurt
+HS620C,"H des Bundes f.öff.Verw., FB Kriminalpol.Wiesbaden","H des Bundes f.öff.Verw., FB Kriminalpol.Wiesbaden",,City,,50.0825,8.24,Hessen,,Wiesbaden
+HS1510,CVJM-Hochschule Kassel (Priv. FH),CVJM-Hochschule Kassel (Priv. FH),,City,,51.315777777,9.497916666,Hessen,,Kassel
+HS0520,Universität Oldenburg,Universität Oldenburg,,City,,53.143888888,8.213888888,Niedersachsen,,Oldenburg
+HS1970,H der Wirtsch. für Man. (HdWM) Mannheim(Priv. FH),H der Wirtsch. für Man. (HdWM) Mannheim(Priv. FH),,City,,49.487777777,8.466111111,Baden-Württemberg,,Mannheim
+HS1921,VICTORIA - Int. H Berlin in Berlin (Priv. FH),VICTORIA - Int. H Berlin in Berlin (Priv. FH),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS1820,Universität Ulm,Universität Ulm,Q835662,A,Universität Ulm,48.422111111,9.953805555,Baden-Württemberg,1967,Ulm
+HS1020,Universität Hamburg,Universität Hamburg,Q1060,A,Technische Universität Hamburg,53.460958333,9.969505555,Hamburg,1978,Hamburg
+HS5152,Hochschule Zittau/Görlitz in Görlitz (FH),Hochschule Zittau/Görlitz in Görlitz (FH),,City,,50.896111111,14.807222222,Sachsen,,Zittau
+HS2960,Staatliche Akademie der Bildenden Künste Stuttgart,Staatliche Akademie der Bildenden Künste Stuttgart,Q2324294,A,Staatliche Akademie der Bildenden Künste Stuttgart,48.7775,9.18,Baden-Württemberg,1761,Stuttgart
+HS0830,"Design Akad. Berlin, SRH H (Priv.FH) (21 zu 7971)","Design Akad. Berlin, SRH H (Priv.FH) (21 zu 7971)",,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS0553,Kath.U Eichstätt-Ingolstadt i.München (09 aufgel.),Kath.U Eichstätt-Ingolstadt i.München (09 aufgel.),,City,,48.763055555,11.425,Bayern,,Ingolstadt
+HS5220,HFH Hamburger Fern-Hochschule (Priv. FH),HFH Hamburger Fern-Hochschule (Priv. FH),,,,,,,,
+HS0960,Universität Vechta,Universität Vechta,Q2496174,A,Universität Vechta,52.7216,8.29382,Niedersachsen,1830,Vechta
+HS0038,H Macromedia Stuttgart in Frankfurt a.M. (Priv.FH),H Macromedia Stuttgart in Frankfurt a.M. (Priv.FH),,City,,48.7775,9.18,Baden-Württemberg,,Stuttgart
+HS8105,Priv. FH für Ökon. u. Managem. Essen in Gütersloh,Priv. FH für Ökon. u. Managem. Essen in Gütersloh,,City,,51.450833333,7.013055555,Nordrhein-Westfalen,,Essen
+HS8090,"HSBA School of Business Admin., Hamburg (Priv. FH)","HSBA School of Business Admin., Hamburg (Priv. FH)",,City,,53.55,10.0,Hamburg,,Hamburg
+HS3930,Promotionskolleg Schleswig-Holstein an der FH Kiel,Promotionskolleg Schleswig-Holstein an der FH Kiel,,City,,54.515277777,9.569722222,Schleswig-Holstein,,Schleswig
+HS6032,Kath. H Nordrhein-Westfalen in Aachen (FH),Kath. H Nordrhein-Westfalen in Aachen (FH),,City,,50.776207,6.083788,Nordrhein-Westfalen,,Aachen
+HS3030,"Hochschule für Musik und Theater, Rostock","Hochschule für Musik und Theater, Rostock",Q881130,A,Hochschule für Musik und Theater Rostock,54.0915,12.1444,Mecklenburg-Vorpommern,1994,Rostock
+HS1270,Universität Tübingen,Universität Tübingen,,City,,48.52,9.055555555,Baden-Württemberg,,Tübingen
+HS5413,P.H f.W./T.Vech./Dph./Old.i.Oldb.(FH)(2018 HS5411),P.H f.W./T.Vech./Dph./Old.i.Oldb.(FH)(2018 HS5411),,,,,,Niedersachsen,,Oldenburg (Oldb)
+HS7870,"FH f.Forstwirt.,Schwarzburg (VerwFH) (09 aufgel.)","FH f.Forstwirt.,Schwarzburg (VerwFH) (09 aufgel.)",,,,,,Thüringen,,Schwarzburg
+HS2050,Vinzenz Pallotti University Vallendar (K.-Theol.H),Vinzenz Pallotti University Vallendar (K.-Theol.H),,,,,,Rheinland-Pfalz,,Vallendar
+HS0103,TKH Berlin in Hamburg (Priv. FH) (2018 zu HS5803),TKH Berlin in Hamburg (Priv. FH) (2018 zu HS5803),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS7091,SRH U of App.Sc. Heidelberg in Karlsruhe (Priv.FH),SRH U of App.Sc. Heidelberg in Karlsruhe (Priv.FH),,City,,49.412222222,8.71,Baden-Württemberg,,Heidelberg
+HS5130,"H für Technik, Wirtschaft und Kultur Leipzig (FH)","H für Technik, Wirtschaft und Kultur Leipzig (FH)",Q1622216,A,"Hochschule für Technik, Wirtschaft und Kultur Leipzig",51.3406321,12.3747329,Sachsen,1992,Leipzig
+HS6283,H Fresenius Idstein Zwickau (Pr.FH) (2015 aufgel.),Hochschule Fresenius,,City,,50.220555555,8.269166666,Hessen,,Idstein
+HS6680,"H für angewandtes Management, Ismaning (Priv. FH)","H für angewandtes Management, Ismaning (Priv. FH)",,,,,,Bayern,,Ismaning
+HS0552,Kath. U Eichstätt-Ingolstadt in Ingolstadt,Kath. U Eichstätt-Ingolstadt in Ingolstadt,,City,,48.763055555,11.425,Bayern,,Ingolstadt
+HS3910,"Medizinische U Lausitz - Carl Thiem (MUL),Cottbus","Medizinische U Lausitz - Carl Thiem (MUL),Cottbus",,City,,51.760805555,14.331861111,Brandenburg,,Cottbus
+HS6209,FH Bund (FB Eisenbahnwesen) Mainz (1999 aufgelöst),FH Bund (FB Eisenbahnwesen) Mainz (1999 aufgelöst),,City,,49.999444444,8.273611111,Rheinland-Pfalz,,Mainz
+HS7960,Steinbeis-Hochschule Berlin (Priv. U),Steinbeis-Hochschule Berlin (Priv. U),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS8070,"AMD Akad. Mode u.Design,Hamburg (ab 2006 HS8071/2)","AMD Akad. Mode u.Design,Hamburg (ab 2006 HS8071/2)",,City,,53.55,10.0,Hamburg,,Hamburg
+HS1700,ESCP-Europe Wirtschaftshochschule Berlin (Priv.U),ESCP-Europe Wirtschaftshochschule Berlin (Priv.U),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS6753,H f.Techn.u.Wirtsch. Heilbronn (FH) i.Schwäb.-Hall,H f.Techn.u.Wirtsch. Heilbronn (FH) i.Schwäb.-Hall,,City,,49.140428,9.217953,Baden-Württemberg,,Heilbronn
+HS1070,KIMS-Int. Managem. Kassel (Priv.) (ab 2005 HS0014),KIMS-Int. Managem. Kassel (Priv.) (ab 2005 HS0014),,City,,51.315777777,9.497916666,Hessen,,Kassel
+HS2250,Kirchliche H Bethel (ev) (ab 2007 HS2271),Kirchliche H Bethel (ev) (ab 2007 HS2271),,Manual,,52.016666666,8.533333333,Nordrhein-Westfalen,,Bielefeld
+HS2550,Filmuniversität Babelsberg,Filmuniversität Babelsberg,,Manual,,52.4,13.066666666,Brandenburg,,Potsdam
+HS1570,"FH für Sport und Management, Potsdam (Priv. FH)","FH für Sport und Management, Potsdam (Priv. FH)",Q17123097,A,Fachhochschule für Sport und Management Potsdam,52.374748,13.012962,Brandenburg,2009,Potsdam
+HS5280,Private Fachhochschule Elmshorn (Nordakademie),Private Fachhochschule Elmshorn (Nordakademie),,City,,53.754722222,9.653611111,Schleswig-Holstein,,Elmshorn
+HS7522,TH Deggendorf im Landkreis Rottal-Inn (FH),TH Deggendorf im Landkreis Rottal-Inn (FH),,City,,48.835277777,12.964444444,Bayern,,Deggendorf
+HS0080,U Duisburg-Essen in Essen,U Duisburg-Essen in Essen,,City,,51.432222222,6.761111111,Nordrhein-Westfalen,,Duisburg
+HS1740,Tierärztliche Hochschule Hannover (U),Tierärztliche Hochschule Hannover (U),Q1607255,A,Tierärztliche Hochschule Hannover,52.374444444,9.738611111,Niedersachsen,1778,Hannover
+HS7210,TH Augsburg (FH),TH Augsburg (FH),,City,,48.368888888,10.897777777,Bayern,,Augsburg
+HS572J,IU Int. H Erfurt in Lübeck (Priv. FH),IU Internationale Hochschule,,City,,50.978055555,11.028888888,Thüringen,,Erfurt
+HS6911,"Kath. Hochschule Freiburg, Campus Stuttgart (FH)","Kath. Hochschule Freiburg, Campus Stuttgart (FH)",,City,,48.7775,9.18,Baden-Württemberg,,Stuttgart
+HS1760,BSP Busin.and Law School Berlin i.Berlin (Priv.FH),BSP Busin.and Law School Berlin i.Berlin (Priv.FH),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS6581,Hochschule Trier in Trier (FH),Hochschule Trier in Trier (FH),,City,,49.75565,6.63935,Rheinland-Pfalz,,Trier
+HS5100,"H für Telekomm., Leipzig (Priv. FH) (2023 aufgel.)","H für Telekomm., Leipzig (Priv. FH) (2023 aufgel.)",,City,,51.3406321,12.3747329,Sachsen,,Leipzig
+HS7351,TH Würzburg-Schweinfurt in Würzburg (FH),TH Würzburg-Schweinfurt in Würzburg (FH),,City,,49.794444444,9.929444444,Bayern,,Würzburg
+HS1632,TU München in Weihenstephan (2001-2016 HS1630),TU München in Weihenstephan (2001-2016 HS1630),,City,,48.1375,11.575,Bayern,,München
+HS746C,H f.d. öff. D. in Bayern Dorfen (Sozialverwaltung),H f.d. öff. D. in Bayern Dorfen (Sozialverwaltung),,,,,,Bayern,,Dorfen
+HS4750,Promotionszentrum ABT TH Rosenheim (FH),Promotionszentrum ABT TH Rosenheim (FH),,City,,47.856111111,12.128888888,Bayern,,Rosenheim
+HS7312,H f.a.W. Weihenstephan-Triesdorf in Triesdorf (FH),H f.a.W. Weihenstephan-Triesdorf in Triesdorf (FH),,,,,,Bayern,,Triesdorf
+HS572H,IU Int. H Erfurt in Münster (Priv. FH),IU Internationale Hochschule,,City,,50.978055555,11.028888888,Thüringen,,Erfurt
+HS3100,EUF Europa-Universität Flensburg,EUF Europa-Universität Flensburg,,City,,54.781944444,9.436666666,Schleswig-Holstein,,Flensburg
+HS0800,Helmut-Schmidt-Universität Hamburg,Helmut-Schmidt-Universität Hamburg,,City,,53.55,10.0,Hamburg,,Hamburg
+HS5383,FH Hildesh./H/G in Hildesh.(Gest.)(ab 2006 HS5382),FH Hildesh./H/G in Hildesh.(Gest.)(ab 2006 HS5382),,Manual,,52.15,9.95,Niedersachsen,,Hildesheim
+HS6532,Hochschule Koblenz in Höhr-Grenzhausen (FH),Hochschule Koblenz in Höhr-Grenzhausen (FH),,City,,50.359722222,7.597777777,Rheinland-Pfalz,,Koblenz
+HS0850,Adam-Ries-FH Erfurt (Priv.) (ab 2012 HS0851/2/3),Adam-Ries-FH Erfurt (Priv.) (ab 2012 HS0851/2/3),,City,,50.978055555,11.028888888,Thüringen,,Erfurt
+HS3072,H Hamm-Lippstadt in Lippstadt (FH),H Hamm-Lippstadt in Lippstadt (FH),,City,,51.681388888,7.819166666,Nordrhein-Westfalen,,Hamm
+HS1640,H Neuss f.Int.Wirtsch. (Priv. FH) (ab 2016 HS5991),H Neuss f.Int.Wirtsch. (Priv. FH) (ab 2016 HS5991),,City,,51.200277777,6.693888888,Nordrhein-Westfalen,,Neuss
+HS0860,Dt. H f.Präv.u.Gesundh.managem. Saarbr. (Priv. FH),Dt. H f.Präv.u.Gesundh.managem. Saarbr. (Priv. FH),,Manual,,49.233333333,7.0,Saarland,,Saarbrücken
+HS7630,H für Verwaltung Saarbrücken (VerwFH),H für Verwaltung Saarbrücken (VerwFH),,City,,49.233333333,7.0,Saarland,,Saarbrücken
+HS6285,Hochschule Fresenius Idstein in Hamburg (Priv. FH),Hochschule Fresenius,,City,,50.220555555,8.269166666,Hessen,,Idstein
+HS6280,Private FH Fresenius Idstein (ab 2003 HS6281),Hochschule Fresenius,,City,,50.220555555,8.269166666,Hessen,,Idstein
+HS6531,Hochschule Koblenz in Koblenz (FH),Hochschule Koblenz in Koblenz (FH),,City,,50.359722222,7.597777777,Rheinland-Pfalz,,Koblenz
+HS2930,"H für Kirchenmusik Landeskirche Sachsen, Dresden","H für Kirchenmusik Landeskirche Sachsen, Dresden",,City,,51.0493286,13.7381437,Sachsen,,Dresden
+HS4760,Promotionszentrum NITRO TH Augsburg (FH),Promotionszentrum NITRO TH Augsburg (FH),,City,,48.368888888,10.897777777,Bayern,,Augsburg
+HS2720,Hochschule für Musik und Theater München,Hochschule für Musik und Theater München,Q657167,A,Hochschule für Musik und Theater München,48.146111111,11.567805555,Bayern,1846,München
+HS6310,FH f.Bibliothekswesen Frankf.a.M. (2003 aufgelöst),FH f.Bibliothekswesen Frankf.a.M. (2003 aufgelöst),,Manual,,50.110555555,8.682222222,Hessen,,Frankfurt am Main
+HS2020,Philosophisch-Theolog. H Frankfurt a.M. (rk),Philosophisch-Theolog. H Frankfurt a.M. (rk),,Manual,,50.110555555,8.682222222,Hessen,,Frankfurt am Main
+HS1120,Universität Münster,Universität Münster,Q554425,A,FH Münster,51.961,7.60809,Nordrhein-Westfalen,1971,Münster
+HS0373,Technische Universität Dresden in Zittau (IHI),Technische Universität Dresden in Zittau (IHI),,City,,51.0493286,13.7381437,Sachsen,,Dresden
+HS810E,Priv. FH für Ökon. u. Management Essen in Bönen,Priv. FH für Ökon. u. Management Essen in Bönen,,City,,51.450833333,7.013055555,Nordrhein-Westfalen,,Essen
+HS7971,SRH U of App.Sc. Heidelberg in Berlin (Priv. FH),SRH U of App.Sc. Heidelberg in Berlin (Priv. FH),,City,,49.412222222,8.71,Baden-Württemberg,,Heidelberg
+HS7810,Fachhochschule Erfurt,Fachhochschule Erfurt,Q1391189,A,Fachhochschule Erfurt,50.9841,11.0424,Thüringen,1991,Erfurt
+HS2563,H für Musik Detmold in Münster (ab 2004 HS1120),H für Musik Detmold in Münster (ab 2004 HS1120),,City,,51.937777777,8.883333333,Nordrhein-Westfalen,,Detmold
+HS5253,Fachhochschule Südwestfalen in Meschede,Fachhochschule Südwestfalen in Meschede,,City,,51.350277777,8.283611111,Nordrhein-Westfalen,,Meschede
+HS572E,IU Int. H Erfurt in Dresden (Priv. FH),IU Internationale Hochschule,,City,,50.978055555,11.028888888,Thüringen,,Erfurt
+HS2190,DPFA H Sachsen in Zwickau (Priv.FH) (2019 aufgel.),DPFA H Sachsen in Zwickau (Priv.FH) (2019 aufgel.),,City,,50.718888888,12.496111111,Sachsen,,Zwickau
+HS2700,Staatliche Hochschule für Musik Trossingen,Staatliche Hochschule für Musik Trossingen,,,,,,Baden-Württemberg,,Trossingen
+HS6390,Wilhelm Büchner H Darmstadt (Priv. Fern-FH),Wilhelm Büchner H Darmstadt (Priv. Fern-FH),,City,,49.866666666,8.65,Hessen,,Darmstadt
+HS5411,Priv. H f. Wirt. u. T. Vechta/Dieph.in Dieph. (FH),Priv. H f. Wirt. u. T. Vechta/Dieph.in Dieph. (FH),,City,,52.730555555,8.288611111,Niedersachsen,,Vechta
+HS0036,H Macromedia Stuttgart in Freiburg (Priv. FH),H Macromedia Stuttgart in Freiburg (Priv. FH),,City,,48.7775,9.18,Baden-Württemberg,,Stuttgart
+HS7880,Hochschule Nordhausen (FH),Hochschule Nordhausen (FH),Q1391209,A,Hochschule Nordhausen,51.4971,10.8098,Thüringen,1997,Nordhausen
+HS7910,Technische Hochschule Brandenburg (FH),Technische Hochschule Brandenburg (FH),Q1391182,A,Technische Hochschule Brandenburg,52.4119,12.5369,Brandenburg,1992,Brandenburg an der Havel
+HS6600,Katholische Hochschule Mainz (FH),Katholische Hochschule Mainz (FH),Q872180,A,Katholische Hochschule Mainz,49.99717,8.25329,Rheinland-Pfalz,1972,Mainz
+HS6841,H f. Techn.u.W. Albstadt-Sigmaringen in Albst.(FH),H f. Techn.u.W. Albstadt-Sigmaringen in Albst.(FH),,City,,48.211944444,9.023888888,Baden-Württemberg,,Albstadt
+HS5503,H Osnabrück in Lingen (FH),H Osnabrück in Lingen (FH),,City,,52.278888888,8.043055555,Niedersachsen,,Osnabrück
+HS5502,FH Osnabrück in Westerberg (ab 2007 HS5501),FH Osnabrück in Westerberg (ab 2007 HS5501),,City,,52.278888888,8.043055555,Niedersachsen,,Osnabrück
+HS6522,Hochschule Kaiserslautern in Pirmasens (FH),Hochschule Kaiserslautern in Pirmasens (FH),,City,,49.444722222,7.768888888,Rheinland-Pfalz,,Kaiserslautern
+HS817F,"Duale H Baden-Württemberg, CAS in Heilbronn","Duale H Baden-Württemberg, CAS in Heilbronn",,City,,49.140428,9.217953,Baden-Württemberg,,Heilbronn
+HS2574,Folkwang U der Künste Essen in Dortmund (KH),Folkwang U der Künste Essen in Dortmund (KH),,City,,51.450833333,7.013055555,Nordrhein-Westfalen,,Essen
+HS7974,SRH U of App.Sc. Heidelberg in Heide (Priv. FH),SRH U of App.Sc. Heidelberg in Heide (Priv. FH),,City,,49.412222222,8.71,Baden-Württemberg,,Heidelberg
+HS7352,TH Würzburg-Schweinfurt in Schweinfurt (FH),TH Würzburg-Schweinfurt in Schweinfurt (FH),,City,,49.794444444,9.929444444,Bayern,,Würzburg
+HS1980,H f. Kunst Freib. i.Fr. (Priv.FH) (2018 zu HS0036),H f. Kunst Freib. i.Fr. (Priv.FH) (2018 zu HS0036),,Manual,,47.995,7.85,Baden-Württemberg,,Freiburg im Breisgau
+HS5290,FH im DRK Göttingen (ab 2009 aufgelöst),FH im DRK Göttingen (ab 2009 aufgelöst),,City,,51.533888888,9.935555555,Niedersachsen,,Göttingen
+HS7820,Ernst-Abbe-Hochschule Jena (FH),Ernst-Abbe-Hochschule Jena (FH),Q1356982,A,Ernst-Abbe-Hochschule Jena,50.9189,11.5692,Thüringen,1991,Jena
+HS2272,Kirchliche H Wuppertal (Kirchl.-Theol. H),Kirchliche H Wuppertal (Kirchl.-Theol. H),,City,,51.266666666,7.183333333,Nordrhein-Westfalen,,Wuppertal
+HS8012,Hochschule Magdeburg-Stendal in Stendal (FH),Hochschule Magdeburg-Stendal in Stendal (FH),,City,,52.1315889,11.6399609,Sachsen-Anhalt,,Magdeburg
+HS4920,Promotionszentrum Mat.u. Prod.-technik Nürnb. (FH),Promotionszentrum Mat.u. Prod.-technik Nürnb. (FH),,Manual,,49.453888888,11.0775,Bayern,,Nürnberg
+HS1670,"A.K. Akad., Bad Saarow (Priv. FH) (2010 aufgelöst)","A.K. Akad., Bad Saarow (Priv. FH) (2010 aufgelöst)",,,,,,Brandenburg,,Bad Saarow
+HS6632,"FH f.öff.Verw., FB Polizei,Lautzenh.(2016 aufgel.)","FH f.öff.Verw., FB Polizei,Lautzenh.(2016 aufgel.)",,,,,,Rheinland-Pfalz,,Lautzenhausen
+HS6402,DIPLOMA-FH Nordhessen in Kassel (Priv. FH),DIPLOMA-FH Nordhessen in Kassel (Priv. FH),,City,,51.315777777,9.497916666,Hessen,,Kassel
+HS6074,H für Polizei u. öff. Vw. NW in Duisburg (VerwFH),H für Polizei u. öff. Vw. NW in Duisburg (VerwFH),,City,,51.432222222,6.761111111,Nordrhein-Westfalen,,Duisburg
+HS6800,Hochschule Offenburg (FH),Hochschule Offenburg (FH),Q1622133,A,Hochschule Offenburg,48.4589,7.94278,Baden-Württemberg,1964,Offenburg
+HS3052,H Ruhr-West in Mülheim (FH),H Ruhr-West in Mülheim (FH),,Manual,,51.4275,6.8825,Nordrhein-Westfalen,,Mülheim an der Ruhr
+HS810B,Priv. FH für Ökon. u. Management Essen in Aachen,Priv. FH für Ökon. u. Management Essen in Aachen,,City,,51.450833333,7.013055555,Nordrhein-Westfalen,,Essen
+HS8043,"FH f.öff.Vw.,S.-Anh.,Wernigerode (2000 aufgel.)","FH f.öff.Vw.,S.-Anh.,Wernigerode (2000 aufgel.)",,City,,51.835,10.785277777,Sachsen-Anhalt,,Wernigerode
+HS7750,Evangelische Hochschule Berlin (FH),Evangelische Hochschule Berlin (FH),Q1380205,A,Evangelische Hochschule Berlin,52.4234,13.2628,Berlin,1972,Berlin
+HS1460,Zeppelin Universität Friedrichshafen (Priv. U),Zeppelin Universität Friedrichshafen (Priv. U),,City,,47.654166666,9.479166666,Baden-Württemberg,,Friedrichshafen
+HS7862,Thür. FH f.ö.V.(FB Steuern) Gotha (ab 2000 HS7861),Thür. FH f.ö.V.(FB Steuern) Gotha (ab 2000 HS7861),,City,,50.948888888,10.718333333,Thüringen,,Gotha
+HS7120,H für Rechtspflege Schwetzingen (VerwFH),H für Rechtspflege Schwetzingen (VerwFH),,City,,49.383333333,8.566666666,Baden-Württemberg,,Schwetzingen
+HS5572,Nieders.FH f.Verw.u.R.Hildesh.(Pol.)(07 aufgelöst),Nieders.FH f.Verw.u.R.Hildesh.(Pol.)(07 aufgelöst),,Manual,,52.15,9.95,Niedersachsen,,Hildesheim
+HS5111,Ev. Hochschule Dresden in Moritzburg (Kirchl. FH),Ev. Hochschule Dresden in Moritzburg (Kirchl. FH),,City,,51.0493286,13.7381437,Sachsen,,Dresden
+HS1210,Rhl.-Pfälz. TU Kaiserslautern-Landau in Kaisersl.,Rhl.-Pfälz. TU Kaiserslautern-Landau in Kaisersl.,,City,,49.444722222,7.768888888,Rheinland-Pfalz,,Kaiserslautern
+HS572F,IU Int. H Erfurt in Essen (Priv. FH),IU Internationale Hochschule,,City,,50.978055555,11.028888888,Thüringen,,Erfurt
+HS7440,H für angewandte Wissenschaften Kempten (FH),H für angewandte Wissenschaften Kempten (FH),Q1622115,A,Hochschule für angewandte Wissenschaften Kempten,47.7158,10.3136,Bayern,1977,Kempten (Allgäu)
+HS4910,Promotionszentrum Angew.Informatik Regensburg (FH),Promotionszentrum Angew.Informatik Regensburg (FH),,City,,49.016666666,12.083333333,Bayern,,Regensburg
+HS3712,PH Ludwigsburg in Reutlingen (ab 2018 zu HS3711),PH Ludwigsburg in Reutlingen (ab 2018 zu HS3711),,City,,48.8975,9.191944444,Baden-Württemberg,,Ludwigsburg
+HS0810,U der Bundeswehr München (ab 2008 HS0811/12),U der Bundeswehr München (ab 2008 HS0811/12),,City,,48.1375,11.575,Bayern,,München
+HS1950,Fliedner Fachhochschule Düsseldorf (Priv.),Fliedner Fachhochschule Düsseldorf (Priv.),,City,,51.225555555,6.776666666,Nordrhein-Westfalen,,Düsseldorf
+HS7180,SRH Fernhochschule Riedlingen (Priv. FH),SRH Fernhochschule Riedlingen (Priv. FH),,,,,,Baden-Württemberg,,Riedlingen
+HS3040,H für kath. Kirchenmusik und Musikpäd. Regensburg,H für kath. Kirchenmusik und Musikpäd. Regensburg,,City,,49.016666666,12.083333333,Bayern,,Regensburg
+HS2630,Hochschule für Bildende Künste Dresden,Hochschule für Bildende Künste Dresden,Q464752,A,Hochschule für Bildende Künste Dresden,51.05284167,13.74244444,Sachsen,1764,Dresden
+HS1450,Universität Hannover,Universität Hannover,Q224514,A,Hochschule Hannover,52.35317,9.72249,Niedersachsen,1971,Hannover
+HS0014,U Kassel in Kassel (International Managem.School),U Kassel in Kassel (International Managem.School),,City,,51.315777777,9.497916666,Hessen,,Kassel
+HS0540,Universität Passau,Universität Passau,Q704468,A,Universität Passau,48.568333333,13.453333333,Bayern,1973,Passau
+HS5695,Int. Sch. of Manag. Dortmund i.Frankfurt (Priv.FH),Int. Sch. of Manag. Dortmund i.Frankfurt (Priv.FH),,City,,51.513888888,7.465277777,Nordrhein-Westfalen,,Dortmund
+HS5251,Fachhochschule Südwestfalen in Hagen,Fachhochschule Südwestfalen in Hagen,,City,,51.359444444,7.475,Nordrhein-Westfalen,,Hagen
+HS1520,International Psychoanalytic Uni. Berlin (Priv.U),International Psychoanalytic Uni. Berlin (Priv.U),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS7240,H für angewandte Wissenschaften München (FH),H für angewandte Wissenschaften München (FH),Q314089,A,Hochschule für angewandte Wissenschaften München,48.153432,11.552752,Bayern,1971,München
+HS1323,Universität München im Landkreis München,Universität München im Landkreis München,,City,,48.1375,11.575,Bayern,,München
+HS0730,SRH U of App.Sc. Heidelberg in Gera (Priv. FH),SRH U of App.Sc. Heidelberg in Gera (Priv. FH),,City,,49.412222222,8.71,Baden-Württemberg,,Heidelberg
+HS1230,Deutsche U für Verwaltungswissenschaften Speyer,Deutsche U für Verwaltungswissenschaften Speyer,Q22963,A,Deutsche Universität für Verwaltungswissenschaften Speyer,49.31641389,8.41630833,Rheinland-Pfalz,1947,Speyer
+HS810Y,Priv. FH f.Ökon. und Managem. Essen in Arnsberg,Priv. FH f.Ökon. und Managem. Essen in Arnsberg,,City,,51.450833333,7.013055555,Nordrhein-Westfalen,,Essen
+HS6381,FH d.sächs.Verw.Meißen(FB Allg.Verw)(ab 17 HS6380),FH d.sächs.Verw.Meißen(FB Allg.Verw)(ab 17 HS6380),,City,,51.163611111,13.4775,Sachsen,,Meißen
+HS0302,Universität Halle in Merseburg,Universität Halle in Merseburg,,City,,51.354444444,11.992777777,Sachsen-Anhalt,,Merseburg
+HS5501,H Osnabrück in Osnabrück (FH),H Osnabrück in Osnabrück (FH),,City,,52.278888888,8.043055555,Niedersachsen,,Osnabrück
+HS3242,Duale Hochschule Gera-Eisenach in Gera (FH),Duale Hochschule Gera-Eisenach in Gera (FH),,City,,50.87818,12.08242,Thüringen,,Gera
+HS0762,IB H f. Ges. u. Soz. Berlin in München (Priv.FH),IB H f. Ges. u. Soz. Berlin in München (Priv.FH),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS0170,Touro College Berlin (Priv. FH),Touro College Berlin (Priv. FH),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS0821,Dt. H für Ges. u. Sp. Berlin in Berlin (Priv. FH),Dt. H für Ges. u. Sp. Berlin in Berlin (Priv. FH),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS6871,Fachhochschule Ulm in Ulm (ab 2005 HS6870),Fachhochschule Ulm in Ulm (ab 2005 HS6870),,City,,48.39841,9.99155,Baden-Württemberg,,Ulm
+HS6380,FH für öffentl. Verwaltung und Rechtspflege Meißen,FH für öffentl. Verwaltung und Rechtspflege Meißen,,City,,51.163611111,13.4775,Sachsen,,Meißen
+HS7863,Th.FH f.ö.V.(FB Polizei) Meiningen(ab 2000 HS7861),Th.FH f.ö.V.(FB Polizei) Meiningen(ab 2000 HS7861),,City,,50.55,10.416666666,Thüringen,,Meiningen
+HS5230,Ev. Hochschule für Soziale Arbeit Hamburg (FH),Ev. Hochschule für Soziale Arbeit Hamburg (FH),,City,,53.55,10.0,Hamburg,,Hamburg
+HS2770,Hochschule der Bildenden Künste Saarbrücken,Hochschule der Bildenden Künste Saarbrücken,,City,,49.233333333,7.0,Saarland,,Saarbrücken
+HS0082,U Duisburg-Essen in Duisburg,U Duisburg-Essen in Duisburg,,City,,51.432222222,6.761111111,Nordrhein-Westfalen,,Duisburg
+HS0034,H Macromedia Stuttgart in Köln (Priv. FH),H Macromedia Stuttgart in Köln (Priv. FH),,City,,48.7775,9.18,Baden-Württemberg,,Stuttgart
+HS2260,Kirchliche H Wuppertal (ev) (ab 2007 HS2272),Kirchliche H Wuppertal (ev) (ab 2007 HS2272),,City,,51.266666666,7.183333333,Nordrhein-Westfalen,,Wuppertal
+HS7532,H für angew. Wissenschaften Hof in Münchberg (FH),H für angew. Wissenschaften Hof in Münchberg (FH),,City,,50.316666666,11.916666666,Bayern,,Hof
+HS5462,FH Nordostnieders. in Lüneburg (ab 2005 HS0992),FH Nordostnieders. in Lüneburg (ab 2005 HS0992),,City,,53.2525,10.414444444,Niedersachsen,,Lüneburg
+HS7975,SRH U of App.Sc. Heidelberg in Bremen (Priv. FH),SRH U of App.Sc. Heidelberg in Bremen (Priv. FH),,City,,49.412222222,8.71,Baden-Württemberg,,Heidelberg
+HS5260,Europäische Fernhochschule Hamburg (Priv. FH),Europäische Fernhochschule Hamburg (Priv. FH),Q1377302,A,Europäische Fernhochschule Hamburg,53.60434,10.15306,Hamburg,2003,Hamburg
+HS5733,H Bielefeld in Gütersloh (FH),H Bielefeld in Gütersloh (FH),,City,,52.016666666,8.533333333,Nordrhein-Westfalen,,Bielefeld
+HS3370,TU Nürnberg,TU Nürnberg,,City,,49.453888888,11.0775,Bayern,,Nürnberg
+HS7461,H f.d. öff. D. in Bayern Fürstenfeldbr. (Polizei),H f.d. öff. D. in Bayern Fürstenfeldbr. (Polizei),,Manual,,48.177777777,11.255555555,Bayern,,Fürstenfeldbruck
+HS1900,Germ.open Busin.Sch.Berlin (Priv. FH) (21 aufgel.),Germ.open Busin.Sch.Berlin (Priv. FH) (21 aufgel.),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS0370,Technische Universität Dresden in Dresden,Technische Universität Dresden in Dresden,,City,,51.0493286,13.7381437,Sachsen,,Dresden
+HS6770,Hochschule Konstanz (FH),Hochschule Konstanz (FH),Q835440,A,Universität Konstanz,47.690215,9.1881,Baden-Württemberg,1966,Konstanz
+HS0500,Universität Bamberg,Universität Bamberg,,City,,49.891666666,10.891666666,Bayern,,Bamberg
+HS817E,"Duale HS Baden-Württ. in Stuttgart, Präsidium","Duale HS Baden-Württ. in Stuttgart, Präsidium",,City,,48.7775,9.18,Baden-Württemberg,,Stuttgart
+HS5334,FH Hannover i.H.(Milch-u.Molkerei)(ab 2007 HS5332),FH Hannover i.H.(Milch-u.Molkerei)(ab 2007 HS5332),,City,,52.374444444,9.738611111,Niedersachsen,,Hannover
+HS2980,Akademie der Bildenden Künste München,Akademie der Bildenden Künste München,Q414052,A,Akademie der Bildenden Künste München,48.15319592,11.580312391,Bayern,1808,München
+HS3670,Pädagogische Hochschule Heidelberg,Pädagogische Hochschule Heidelberg,Q1429906,A,Pädagogische Hochschule Heidelberg,49.420462,8.684739,Baden-Württemberg,1962,Heidelberg
+HS5272,Mediadesign H Berlin in Düsseldorf (Priv. FH),Mediadesign H Berlin in Düsseldorf (Priv. FH),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS7010,Priv. FH f.Kunsttherapie Nürtingen(2017 zu HS6791),Priv. FH f.Kunsttherapie Nürtingen(2017 zu HS6791),,City,,48.626666666,9.335277777,Baden-Württemberg,,Nürtingen
+HS5151,Hochschule Zittau/Görlitz in Zittau (FH),Hochschule Zittau/Görlitz in Zittau (FH),,City,,50.896111111,14.807222222,Sachsen,,Zittau
+HS1490,Universität Witten-Herdecke (Priv. U),Universität Witten-Herdecke (Priv. U),,City,,51.433333333,7.333333333,Nordrhein-Westfalen,,Witten
+HS8081,SRH U of App.Sc. Heidelberg i.Leverkusen (Priv.FH),SRH U of App.Sc. Heidelberg i.Leverkusen (Priv.FH),,City,,49.412222222,8.71,Baden-Württemberg,,Heidelberg
+HS2572,Folkwang U der Künste Essen in Duisburg (KH),Folkwang U der Künste Essen in Duisburg (KH),,City,,51.450833333,7.013055555,Nordrhein-Westfalen,,Essen
+HS2090,Theol. Fakultät Erfurt (rk) (ab 2003 HS0620),Theol. Fakultät Erfurt (rk) (ab 2003 HS0620),,City,,50.978055555,11.028888888,Thüringen,,Erfurt
+HS6620,H d.Deutschen Bundesbank Hachenburg (Priv. VerwFH),H d.Deutschen Bundesbank Hachenburg (Priv. VerwFH),,,,,,Rheinland-Pfalz,,Hachenburg
+HS7780,Hochschule Neubrandenburg (FH),Hochschule Neubrandenburg (FH),Q1622130,A,Hochschule Neubrandenburg,53.5567,13.2461,Mecklenburg-Vorpommern,1991,Neubrandenburg
+HS5080,"Muthesius Kunsthochschule, Kiel","Muthesius Kunsthochschule, Kiel",,City,,54.323333333,10.139444444,Schleswig-Holstein,,Kiel
+HS7980,Baltic College Schwerin (Priv.FH) (2015 aufgelöst),Baltic College Schwerin (Priv.FH) (2015 aufgelöst),,City,,53.628888888,11.415,Mecklenburg-Vorpommern,,Schwerin
+HS1010,Universität zu Lübeck,Universität zu Lübeck,Q317087,A,Universität zu Lübeck,53.8369,10.7058,Schleswig-Holstein,1964,Lübeck
+HS8072,AMD Akad. Idstein in Berlin (Priv.FH) (21 zu 6287),AMD Akad. Idstein in Berlin (Priv.FH) (21 zu 6287),,City,,50.220555555,8.269166666,Hessen,,Idstein
+HS3490,XU Expon. U of Applied Sciences Potsdam (Priv. FH),XU Expon. U of Applied Sciences Potsdam (Priv. FH),,City,,52.4,13.066666666,Brandenburg,,Potsdam
+HS6850,Hochschule für Technik Stuttgart (FH),Hochschule für Technik Stuttgart (FH),Q1540704,A,Hochschule für Technik Stuttgart,48.7803,9.17278,Baden-Württemberg,1832,Stuttgart
+HS5333,FH Hannover i.H.(Mbau/E-tec/Bibl/Inf)(ab07 HS5332),FH Hannover i.H.(Mbau/E-tec/Bibl/Inf)(ab07 HS5332),,City,,52.374444444,9.738611111,Niedersachsen,,Hannover
+HS6810,Hochschule Pforzheim (FH),Hochschule Pforzheim (FH),Q884358,A,Hochschule Pforzheim,48.8785,8.71722,Baden-Württemberg,1877,Pforzheim
+HS6031,Kath. H Nordrhein-Westfalen in Köln (FH),Kath. H Nordrhein-Westfalen in Köln (FH),,City,,50.942222222,6.957777777,Nordrhein-Westfalen,,Köln
+HS7090,SRH U of App.Sc. Heidelberg i.Heidelberg (Priv.FH),SRH U of App.Sc. Heidelberg i.Heidelberg (Priv.FH),,City,,49.412222222,8.71,Baden-Württemberg,,Heidelberg
+HS2540,Hochschule für Schauspielkunst Berlin,Hochschule für Schauspielkunst Berlin,,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS1030,Universität Göttingen,Universität Göttingen,,City,,51.533888888,9.935555555,Niedersachsen,,Göttingen
+HS0910,Deutsche H der Polizei Münster (U),Deutsche H der Polizei Münster (U),,City,,51.9625,7.625555555,Nordrhein-Westfalen,,Münster
+HS5382,H Hildesh./Holzminden/Göttingen in Hildesheim (FH),H Hildesh./Holzminden/Göttingen in Hildesheim (FH),,City,,51.829722222,9.448333333,Niedersachsen,,Holzminden
+HS1330,Universität Würzburg,Universität Würzburg,,City,,49.794444444,9.929444444,Bayern,,Würzburg
+HS7540,Technische H Ingolstadt in Ingolstadt (FH),Technische H Ingolstadt in Ingolstadt (FH),,City,,48.763055555,11.425,Bayern,,Ingolstadt
+HS5724,IU Int. H Erfurt in München (Priv. FH),IU Internationale Hochschule,,City,,50.978055555,11.028888888,Thüringen,,Erfurt
+HS7562,H für angew. Wissensch. Ansbach in Rothenburg (FH),H für angew. Wissensch. Ansbach in Rothenburg (FH),,City,,49.3,10.583333333,Bayern,,Ansbach
+HS6034,Kath. H Nordrhein-Westfalen in Paderborn (FH),Kath. H Nordrhein-Westfalen in Paderborn (FH),,City,,51.716666666,8.766666666,Nordrhein-Westfalen,,Paderborn
+HS0980,Universität Hildesheim,Universität Hildesheim,,City,,52.15,9.95,Niedersachsen,,Hildesheim
+HS2200,Hochschule Geisenheim University (FH),Hochschule Geisenheim University (FH),Q2718928,A,Hochschule Geisenheim,49.9842,7.96139,Rheinland-Pfalz,2013,Bingen am Rhein
+HS8107,Priv. FH für Ökon. u. Management Essen in Marl,Priv. FH für Ökon. u. Management Essen in Marl,,City,,51.450833333,7.013055555,Nordrhein-Westfalen,,Essen
+HS6289,Hochschule Fresenius Idstein in Wiesb. (Priv. FH),Hochschule Fresenius,,City,,50.220555555,8.269166666,Hessen,,Idstein
+HS6450,Priv.FH f.d.öff.Bibliotheksw. Bonn(2003 aufgelöst),Priv.FH f.d.öff.Bibliotheksw. Bonn(2003 aufgelöst),,City,,50.735277777,7.102222222,Nordrhein-Westfalen,,Bonn
+HS6271,Ev. H. Darmstadt (EHD) in Darmstadt (FH),Ev. H. Darmstadt (EHD) in Darmstadt (FH),,City,,49.866666666,8.65,Hessen,,Darmstadt
+HS0510,U Bayreuth in Bayreuth,U Bayreuth in Bayreuth,,City,,49.948055555,11.578333333,Bayern,,Bayreuth
+HS2650,Staatliche Hochschule für Musik Freiburg i.Br.,Staatliche Hochschule für Musik Freiburg i.Br.,,Manual,,47.995,7.85,Baden-Württemberg,,Freiburg im Breisgau
+HS6220,Frankfurt University of Applied Sciences (FH),Frankfurt University of Applied Sciences (FH),Q812648,A,Frankfurt University of Applied Sciences,50.130333,8.692486,Hessen,1971,Frankfurt am Main
+HS8175,Duale HS Baden-Württemberg in Karlsruhe,Duale HS Baden-Württemberg in Karlsruhe,Q1262599,A,Duale Hochschule Baden-Württemberg Karlsruhe,49.0261,8.38552,Baden-Württemberg,1979,Karlsruhe
+HS1550,Evangelische Hochschule Tabor in Marburg (Priv.),Evangelische Hochschule Tabor in Marburg (Priv.),,City,,50.816666666,8.766666666,Hessen,,Marburg
+HS1720,Hamburger U für Wirtsch. und Pol. (ab 2005 HS1020),Hamburger U für Wirtsch. und Pol. (ab 2005 HS1020),,Manual,,53.55,10.0,Hamburg,,Hamburg
+HS6076,H für Polizei u. öff. Vw. NW in Köln (VerwFH),H für Polizei u. öff. Vw. NW in Köln (VerwFH),,City,,50.942222222,6.957777777,Nordrhein-Westfalen,,Köln
+HS5271,Mediadesign Hochschule Berlin in München(Priv. FH),Mediadesign Hochschule Berlin in München(Priv. FH),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS3012,H für Musik Nürnberg-Augsb. in Augsb. (09 aufgel.),H für Musik Nürnberg-Augsb. in Augsb. (09 aufgel.),,City,,49.453888888,11.0775,Bayern,,Nürnberg
+HS5061,FH für Verw. und Dienstl. in Altenholz (VerwFH),FH für Verw. und Dienstl. in Altenholz (VerwFH),,,,,,Schleswig-Holstein,,Altenholz
+HS5461,FH Nordostnieders. in Buxtehude (ab 2005 HS5386),FH Nordostnieders. in Buxtehude (ab 2005 HS5386),,City,,53.476944444,9.701111111,Niedersachsen,,Buxtehude
+HS3890,Humanistische H Berlin (Priv. FH),Humanistische H Berlin (Priv. FH),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS7970,SRH Hochsch.Berlin (Priv.FH) (ab 2013 HS7971/7972),SRH Hochsch.Berlin (Priv.FH) (ab 2013 HS7971/7972),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS2890,Kunstakademie Münster,Kunstakademie Münster,Q1792343,A,Kunstakademie Münster,51.974412,7.601456,Nordrhein-Westfalen,1971,Münster
+HS5780,H Düsseldorf (FH),H Düsseldorf (FH),,City,,51.225555555,6.776666666,Nordrhein-Westfalen,,Düsseldorf
+HS5190,"H der sächsischen Polizei, Rothenburg (VerwFH)","H der sächsischen Polizei, Rothenburg (VerwFH)",,,,,,Sachsen,,Rothenburg/Oberlausitz
+HS5729,IU Int. H Erfurt in Hamburg (Priv. FH),IU Internationale Hochschule,,City,,50.978055555,11.028888888,Thüringen,,Erfurt
+HS1981,H f. Kunst Freib.i.Bln. (Priv.FH) (2018 zu HS0032),H f. Kunst Freib.i.Bln. (Priv.FH) (2018 zu HS0032),,Manual,,52.516666666,13.383333333,Berlin,,Berlin
+HS6290,Hochschule Fulda (FH),Hochschule Fulda (FH),Q895948,A,Universität Fulda,50.5517,9.67917,Hessen,,Fulda
+HS8222,Duale HS Sachsen in Breitenbrunn (FH),Duale HS Sachsen in Breitenbrunn (FH),,,,,,Sachsen,,Breitenbrunn/Erzgebirge
+HS8130,"U o.Man.a.Commun.,Potsdam (Priv.FH) (2010 aufgel.)","U o.Man.a.Commun.,Potsdam (Priv.FH) (2010 aufgel.)",,City,,52.4,13.066666666,Brandenburg,,Potsdam
+HS572D,IU Int. H Erfurt in Mainz (Priv. FH),IU Internationale Hochschule,,City,,50.978055555,11.028888888,Thüringen,,Erfurt
+HS1600,Quadriga Hochschule Berlin (Priv. FH),Quadriga Hochschule Berlin (Priv. FH),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS5691,Int. Sch. of Managem. Dortmund in München(Priv.FH),Int. Sch. of Managem. Dortmund in München(Priv.FH),,City,,51.513888888,7.465277777,Nordrhein-Westfalen,,Dortmund
+HS7670,accadis Hochschule Bad Homburg (Priv. FH),accadis Hochschule Bad Homburg (Priv. FH),,City,,49.316666666,7.333333333,Saarland,,Homburg
+HS1880,MSH Medical School Hamburg (Priv. FH),MSH Medical School Hamburg (Priv. FH),,City,,53.55,10.0,Hamburg,,Hamburg
+HS0852,Adam-Ries-FH Erf.in Düsseld.(Priv.)(ab 14 zu 5720),Adam-Ries-FH Erf.in Düsseld.(Priv.)(ab 14 zu 5720),,Manual,,51.225555555,6.776666666,Nordrhein-Westfalen,,Düsseldorf
+HS5660,Hochschule Bremerhaven (FH),Hochschule Bremerhaven (FH),Q1622093,A,Hochschule Bremerhaven,53.53977,8.58204972,Bremen,1975,Bremerhaven
+HS0190,Europa-Universität Viadrina Frankfurt (Oder),Europa-Universität Viadrina Frankfurt (Oder),,City,,52.342083333,14.551666666,Brandenburg,,Frankfurt (Oder)
+HS5727,IU Int. H Erfurt in Düsseldorf (Priv. FH),IU Internationale Hochschule,,City,,50.978055555,11.028888888,Thüringen,,Erfurt
+HS5030,TH Lübeck (FH),TH Lübeck (FH),,City,,53.869722222,10.686388888,Schleswig-Holstein,,Lübeck
+HS5827,FH des Mittelstandes (FHM) in Berlin (Priv.),FH des Mittelstandes (FHM) in Berlin (Priv.),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS1250,Universität Heidelberg in Heidelberg,Universität Heidelberg in Heidelberg,,City,,49.412222222,8.71,Baden-Württemberg,,Heidelberg
+HS1050,Universität Bremen,Universität Bremen,Q1622092,A,Hochschule Bremen,53.07236,8.79359,Bremen,1982,Bremen
+HS810D,Priv. FH für Ökon. u. Management Essen in Bochum,Priv. FH für Ökon. u. Management Essen in Bochum,,City,,51.450833333,7.013055555,Nordrhein-Westfalen,,Essen
+HS620E,"H des Bundes f.öff.Verw., FB Landw.Sozialv. Kassel","H des Bundes f.öff.Verw., FB Landw.Sozialv. Kassel",,City,,51.315777777,9.497916666,Hessen,,Kassel
+HS2220,Theol. H Ewersbach in Dietzhölztal (ev) (Priv.),Theol. H Ewersbach in Dietzhölztal (ev) (Priv.),,,,,,Hessen,,Dietzhölztal
+HS2583,H für Musik und Tanz Köln in Wuppertal,H für Musik und Tanz Köln in Wuppertal,,City,,50.942222222,6.957777777,Nordrhein-Westfalen,,Köln
+HS746B,H f.d. öff. D. in Bayern Kaufbeuren (Finanzwesen),H f.d. öff. D. in Bayern Kaufbeuren (Finanzwesen),,City,,47.88,10.6225,Bayern,,Kaufbeuren
+HS8179,Duale HS Baden-Württemberg in Ravensburg,Duale HS Baden-Württemberg in Ravensburg,Q1262617,A,Duale Hochschule Baden-Württemberg Ravensburg,47.779846,9.613434,Baden-Württemberg,1978,Ravensburg
+HS3122,H für Kommunik. u. Gestaltung in Ulm (Priv. FH),H für Kommunik. u. Gestaltung in Ulm (Priv. FH),,City,,48.39841,9.99155,Baden-Württemberg,,Ulm
+HS2230,"GA H d.digit.Ges., Berlin (Priv.FH) (2016 aufgel.)","GA H d.digit.Ges., Berlin (Priv.FH) (2016 aufgel.)",,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS7563,H f.angew. Wissensch. Ansbach in Feuchtwangen (FH),H f.angew. Wissensch. Ansbach in Feuchtwangen (FH),,City,,49.3,10.583333333,Bayern,,Ansbach
+HS6430,Theologische Hochschule Elstal (FH),Theologische Hochschule Elstal (FH),,,,,,Brandenburg,,Wustermark
+HS6210,Fachhochschule Darmstadt (ab 2000 HS6211),Fachhochschule Darmstadt (ab 2000 HS6211),,City,,49.866666666,8.65,Hessen,,Darmstadt
+HS572G,IU Int. H Erfurt in Köln (Priv. FH),IU Internationale Hochschule,,City,,50.978055555,11.028888888,Thüringen,,Erfurt
+HS5701,Westfälische H in Gelsenkirchen (FH),Westfälische H in Gelsenkirchen (FH),,City,,51.510277777,7.094166666,Nordrhein-Westfalen,,Gelsenkirchen
+HS2360,FH f. Interkultur. Theologie Hermannsburg (Priv.),FH f. Interkultur. Theologie Hermannsburg (Priv.),,,,,,Niedersachsen,,Hermannsburg
+HS6760,Hochschule Technik und Wirtschaft Karlsruhe (FH),Hochschule Technik und Wirtschaft Karlsruhe (FH),,City,,49.016666666,8.4,Baden-Württemberg,,Karlsruhe
+HS3092,HSD Hochschule Döpfer Potsdam in Potsdam (Priv.FH),HSD Hochschule Döpfer Potsdam in Potsdam (Priv.FH),,City,,52.4,13.066666666,Brandenburg,,Potsdam
+HS5163,Westsächsische H Zwickau in Reichenbach (FH),Westsächsische H Zwickau in Reichenbach (FH),,City,,50.718888888,12.496111111,Sachsen,,Zwickau
+HS0620,Universität Erfurt,Universität Erfurt,Q1391189,A,Fachhochschule Erfurt,50.9841,11.0424,Thüringen,1991,Erfurt
+HS1660,EBC H Hamb. Campus Düsseld. (Pr.FH)(2022 aufgel.),EBC H Hamb. Campus Düsseld. (Pr.FH)(2022 aufgel.),,Manual,,51.225555555,6.776666666,Nordrhein-Westfalen,,Düsseldorf
+HS7464,H f.d. öff. D. in Bayern München (Archivw./Bibl.),H f.d. öff. D. in Bayern München (Archivw./Bibl.),,City,,48.1375,11.575,Bayern,,München
+HS5863,TH Ostwestfalen-Lippe in Höxter (FH),TH Ostwestfalen-Lippe in Höxter (FH),,City,,51.766666666,9.366666666,Nordrhein-Westfalen,,Höxter
+HS7551,Ostbayerische TH Amberg-Weiden in Amberg (FH),Ostbayerische TH Amberg-Weiden in Amberg (FH),,City,,49.444444444,11.848333333,Bayern,,Amberg
+HS6212,h-da-H Darmstadt in Dieburg (FH),h-da-H Darmstadt in Dieburg (FH),,City,,49.866666666,8.65,Hessen,,Darmstadt
+HS1690,Technische Universität Berlin,Technische Universität Berlin,Q17403358,A,Technische Hochschule Berlin,52.512,13.32725,Berlin,1879,Berlin
+HS1430,Technische Universität Braunschweig,Technische Universität Braunschweig,Q734324,A,Technische Universität Braunschweig,52.2736,10.5297,Niedersachsen,1745,Braunschweig
+HS0790,Akkon HS Berlin (Priv. FH),Akkon HS Berlin (Priv. FH),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS7110,Hochschule für Forstwirtschaft Rottenburg (FH),Hochschule für Forstwirtschaft Rottenburg (FH),Q1622175,A,Hochschule für Forstwirtschaft Rottenburg,48.4581,8.94417,Baden-Württemberg,1954,Rottenburg am Neckar
+HS2280,IST-Hochschule für Management Düsseldorf (Priv.FH),IST-Hochschule für Management Düsseldorf (Priv.FH),,City,,51.225555555,6.776666666,Nordrhein-Westfalen,,Düsseldorf
+HS0360,Universität Leipzig,Universität Leipzig,Q15850244,A,Technische Hochschule Leipzig,51.3406321,12.3747329,Sachsen,1977,Leipzig
+HS5902,Priv. FH d.Wirtschaft Paderborn in Bergisch-Gladb.,Priv. FH d.Wirtschaft Paderborn in Bergisch-Gladb.,,City,,51.716666666,8.766666666,Nordrhein-Westfalen,,Paderborn
+HS7220,H für angewandte Wissenschaften Coburg (FH),H für angewandte Wissenschaften Coburg (FH),Q1622234,A,Hochschule für angewandte Wissenschaften Coburg,50.2647,10.95,Bayern,1814,Coburg
+HS7580,Munich Business School München (Priv. FH),Munich Business School München (Priv. FH),,City,,48.1375,11.575,Bayern,,München
+HS817D,Duale HS Baden-Württemberg in Heilbronn,Duale HS Baden-Württemberg in Heilbronn,Q18287426,A,Duale Hochschule Baden-Württemberg Heilbronn,49.140428,9.217953,Baden-Württemberg,2014,Heilbronn
+HS7800,FH f.öffentl.Verw. Brandenb.i.Bernau(2000 aufgel.),FH f.öffentl.Verw. Brandenb.i.Bernau(2000 aufgel.),,Manual,,52.666666666,13.583055555,Brandenburg,,Bernau bei Berlin
+HS4810,Promotionszentrum CPaB HaW München (FH),Promotionszentrum CPaB HaW München (FH),,City,,48.1375,11.575,Bayern,,München
+HS6270,Ev. H. Darmstadt (EHD) (FH) (ab 2017 HS6271/6272),Ev. H. Darmstadt (EHD) (FH) (ab 2017 HS6271/6272),,City,,49.866666666,8.65,Hessen,,Darmstadt
+HS5831,TH Köln in Köln (FH),TH Köln in Köln (FH),,City,,50.942222222,6.957777777,Nordrhein-Westfalen,,Köln
+HS7920,H für nachhaltige Entwicklung Eberswalde (FH),H für nachhaltige Entwicklung Eberswalde (FH),Q1622244,A,Hochschule für nachhaltige Entwicklung Eberswalde,52.8329,13.8176,Brandenburg,1830,Eberswalde
+HS5010,Hochschule Flensburg (FH),Hochschule Flensburg (FH),Q328274,A,Hochschule Flensburg,54.774861111,9.450555555,Schleswig-Holstein,1886,Flensburg
+HS1110,Universität Köln,Universität Köln,Q54166,A,Technische Hochschule Köln,50.9407,6.95991,Nordrhein-Westfalen,1971,Köln
+HS8194,Charlotte Fresenius H Wiesbaden in Köln (Priv. U),Hochschule Fresenius,,City,,50.0825,8.24,Hessen,,Wiesbaden
+HS0780,Dt.U f.Weiterb. Berlin (Priv.wiss.H)(2017 aufgel.),Dt.U f.Weiterb. Berlin (Priv.wiss.H)(2017 aufgel.),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS1930,ESMOD Berlin Int.KH für Mode (Priv.)(2018 aufgel.),ESMOD Berlin Int.KH für Mode (Priv.)(2018 aufgel.),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS7301,TH Rosenheim in Mühldorf am Inn (FH),TH Rosenheim in Mühldorf am Inn (FH),,City,,48.245555555,12.522777777,Bayern,,Mühldorf am Inn
+HS5110,Evang. Hochschule Dresden in Dresden (Kirchl. FH),Evang. Hochschule Dresden in Dresden (Kirchl. FH),,City,,51.0493286,13.7381437,Sachsen,,Dresden
+HS3080,H der bildenden Künste (HBK) Essen (Priv. KH),H der bildenden Künste (HBK) Essen (Priv. KH),,City,,51.450833333,7.013055555,Nordrhein-Westfalen,,Essen
+HS810P,Priv. FH für Ökon. u. Management Essen in München,Priv. FH für Ökon. u. Management Essen in München,,City,,51.450833333,7.013055555,Nordrhein-Westfalen,,Essen
+HS5801,U of Europe f.Appl.Sc. Potsdam i.Potsdam (Priv.FH),U of Europe f.Appl.Sc. Potsdam i.Potsdam (Priv.FH),,City,,52.4,13.066666666,Brandenburg,,Potsdam
+HS6320,Fachhochschule für Archivwesen Marburg (VerwFH),Fachhochschule für Archivwesen Marburg (VerwFH),,City,,50.816666666,8.766666666,Hessen,,Marburg
+HS4820,Promotionszentrum PZSGT OTH Regensburg (FH),Promotionszentrum PZSGT OTH Regensburg (FH),,City,,49.016666666,12.083333333,Bayern,,Regensburg
+HS4970,Ukrainische Freie U München (Priv.) (2015 aufgel.),Ukrainische Freie U München (Priv.) (2015 aufgel.),,City,,48.1375,11.575,Bayern,,München
+HS0030,H Macromedia Stuttgart in München (Priv. FH),H Macromedia Stuttgart in München (Priv. FH),,City,,48.7775,9.18,Baden-Württemberg,,Stuttgart
+HS0102,TKH Berlin in Iserlohn (Priv. FH) (2018 zu HS5800),TKH Berlin in Iserlohn (Priv. FH) (2018 zu HS5800),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS5824,FH des Mittelstandes (FHM) in Schwerin (Priv.),FH des Mittelstandes (FHM) in Schwerin (Priv.),,City,,53.628888888,11.415,Mecklenburg-Vorpommern,,Schwerin
+HS5825,FH des Mittelstandes (FHM) in Hannover (Priv.),FH des Mittelstandes (FHM) in Hannover (Priv.),,City,,52.374444444,9.738611111,Niedersachsen,,Hannover
+HS0710,H für Kirchenmusik Herford-Witten (K.-Theol. H),H für Kirchenmusik Herford-Witten (K.-Theol. H),,City,,52.114569444,8.673430555,Nordrhein-Westfalen,,Herford
+HS5694,Int. Sch. of Managem. Dortmund in Hamburg(Priv.FH),Int. Sch. of Managem. Dortmund in Hamburg(Priv.FH),,City,,51.513888888,7.465277777,Nordrhein-Westfalen,,Dortmund
+HS572A,IU Int. H Erfurt in Frankfurt (Priv. FH),IU Internationale Hochschule,,City,,50.978055555,11.028888888,Thüringen,,Erfurt
+HS810G,Priv. FH für Ökon. u. Management Essen in Münster,Priv. FH für Ökon. u. Management Essen in Münster,,City,,51.450833333,7.013055555,Nordrhein-Westfalen,,Essen
+HS2670,Staatliche Hochschule für Musik Karlsruhe,Staatliche Hochschule für Musik Karlsruhe,,City,,49.016666666,8.4,Baden-Württemberg,,Karlsruhe
+HS8178,Duale HS Baden-Württemberg in Mosbach,Duale HS Baden-Württemberg in Mosbach,Q1262616,A,Duale Hochschule Baden-Württemberg Mosbach,49.354158,9.15130546,Baden-Württemberg,1980,Mosbach
+HS2030,Theologische Fakultät Paderborn (rk),Theologische Fakultät Paderborn (rk),Q883284,A,Theologische Fakultät Paderborn,51.7161,8.75494,Nordrhein-Westfalen,1614,Paderborn
+HS3241,Duale Hochschule Gera-Eisenach in Eisenach (FH),Duale Hochschule Gera-Eisenach in Eisenach (FH),,City,,50.87818,12.08242,Thüringen,,Gera
+HS0130,Universität Siegen,Universität Siegen,Q504723,A,Universität Siegen,50.9064,8.02833,Nordrhein-Westfalen,1972,Siegen
+HS2100,SRH U of App.Sc. Heidelberg in Fürth (Priv. FH),SRH U of App.Sc. Heidelberg in Fürth (Priv. FH),,City,,49.412222222,8.71,Baden-Württemberg,,Heidelberg
+HS5811,Märkische FH in Iserlohn (ab 2002 HS5252),Märkische FH in Iserlohn (ab 2002 HS5252),,City,,51.383333333,7.666666666,Nordrhein-Westfalen,,Iserlohn
+HS1870,Brand University Hamburg (Priv. FH),Brand University Hamburg (Priv. FH),,City,,53.55,10.0,Hamburg,,Hamburg
+HS4850,Promotionszentrum Analytics4Health Coburg (FH),Promotionszentrum Analytics4Health Coburg (FH),,City,,50.258469444,10.957869444,Bayern,,Coburg
+HS9990,Hochschulen im Ausland,Hochschulen im Ausland,,,,,,,,Ausland
+HS6416,Europ. FH (EUFH) Rhein/Erft in Berlin (Priv. FH),Europ. FH (EUFH) Rhein/Erft in Berlin (Priv. FH),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS2940,Staatliche Hochschule für Gestaltung Karlsruhe,Staatliche Hochschule für Gestaltung Karlsruhe,Q896116,A,Staatliche Hochschule für Gestaltung Karlsruhe,49.001666666,8.383888888,Baden-Württemberg,1992,Karlsruhe
+HS7541,Technische H Ingolstadt in Neuburg a.d. Donau (FH),Technische H Ingolstadt in Neuburg a.d. Donau (FH),,City,,48.763055555,11.425,Bayern,,Ingolstadt
+HS5463,FH Nordostnieders. in Suderburg (ab 2005 HS0993),FH Nordostnieders. in Suderburg (ab 2005 HS0993),,,,,,Niedersachsen,,Suderburg
+HS0930,"EBZ Business School, Bochum (Priv. FH)","EBZ Business School, Bochum (Priv. FH)",,City,,51.483333333,7.216666666,Nordrhein-Westfalen,,Bochum
+HS2450,EU of Appl.Sc.in Mannheim (Priv.FH) (2022 aufgel.),EU of Appl.Sc.in Mannheim (Priv.FH) (2022 aufgel.),,City,,49.487777777,8.466111111,Baden-Württemberg,,Mannheim
+HS5240,Akademie der Polizei Hamburg (VerwFH),Akademie der Polizei Hamburg (VerwFH),,City,,53.55,10.0,Hamburg,,Hamburg
+HS6260,"FH der Dt. Telekom AG, Dieburg (ab 2000 HS6212)","FH der Dt. Telekom AG, Dieburg (ab 2000 HS6212)",,,,,,Hessen,,Dieburg
+HS0037,H Macromedia Stuttgart in Leipzig (Priv. FH),H Macromedia Stuttgart in Leipzig (Priv. FH),,City,,48.7775,9.18,Baden-Württemberg,,Stuttgart
+HS4981,H Wilhelmsh./Oldenb./Elsfleth in Wilhelmsh. (FH),H Wilhelmsh./Oldenb./Elsfleth in Wilhelmsh. (FH),,Manual,,53.528611111,8.105555555,Niedersachsen,,Wilhelmshaven
+HS1100,Universität Düsseldorf,Universität Düsseldorf,Q322886,A,Hochschule Düsseldorf,51.247388888,6.791361111,Nordrhein-Westfalen,1971,Düsseldorf
+HS4900,Promotionszentrum DIWAG Neu-Ulm (FH),Promotionszentrum DIWAG Neu-Ulm (FH),,City,,48.383333333,10.0,Bayern,,Neu-Ulm
+HS1322,Universität München in München,Universität München in München,,City,,48.1375,11.575,Bayern,,München
+HS5270,Mediadesign Hochschule Berlin (Priv. FH),Mediadesign Hochschule Berlin (Priv. FH),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS6000,Evangelische FH Rheinland-Westfalen-Lippe Bochum,Evangelische FH Rheinland-Westfalen-Lippe Bochum,,City,,51.483333333,7.216666666,Nordrhein-Westfalen,,Bochum
+HS5120,H für Technik und Wirtschaft Dresden (FH),H für Technik und Wirtschaft Dresden (FH),Q1622222,A,Hochschule für Technik und Wirtschaft Dresden,51.00992,13.87443,Sachsen,1992,Dresden
+HS810S,Priv. FH für Ökon. u. Management Essen in Berlin,Priv. FH für Ökon. u. Management Essen in Berlin,,City,,51.450833333,7.013055555,Nordrhein-Westfalen,,Essen
+HS5482,FH Oldenburg in Oldenburg (ab 2000 HS5301),FH Oldenburg in Oldenburg (ab 2000 HS5301),,City,,53.143888888,8.213888888,Niedersachsen,,Oldenburg
+HS6533,Hochschule Koblenz in Remagen (FH),Hochschule Koblenz in Remagen (FH),,City,,50.359722222,7.597777777,Rheinland-Pfalz,,Koblenz
+HS2662,"H f.M.u.D.K.Heidelb.-M.,Mannheim (ab 2002 HS2660)","H f.M.u.D.K.Heidelb.-M.,Mannheim (ab 2002 HS2660)",,City,,49.487777777,8.466111111,Baden-Württemberg,,Mannheim
+HS6930,FH für Sozialwesen Mannheim (ab 2006 HS6780),FH für Sozialwesen Mannheim (ab 2006 HS6780),,City,,49.487777777,8.466111111,Baden-Württemberg,,Mannheim
+HS0033,H Macromedia Stuttgart in Hamburg (Priv. FH),H Macromedia Stuttgart in Hamburg (Priv. FH),,City,,48.7775,9.18,Baden-Württemberg,,Stuttgart
+HS810Q,Priv. FH für Ökon. u. Management Essen in Nürnberg,Priv. FH für Ökon. u. Management Essen in Nürnberg,,City,,51.450833333,7.013055555,Nordrhein-Westfalen,,Essen
+HS5161,Westsächsische H Zwickau in Zwickau (FH),Westsächsische H Zwickau in Zwickau (FH),,City,,50.718888888,12.496111111,Sachsen,,Zwickau
+HS0750,Komm.H f.Verw.Nieders.in Hannover (Priv. Verw. FH),Komm.H f.Verw.Nieders.in Hannover (Priv. Verw. FH),,City,,52.374444444,9.738611111,Niedersachsen,,Hannover
+HS7931,H Lausitz in Cottbus (FH) (ab 2014 zu HS3971),H Lausitz in Cottbus (FH) (ab 2014 zu HS3971),,City,,51.760805555,14.331861111,Brandenburg,,Cottbus
+HS6415,Europ. FH (EUFH) Rhein/Erft in Rheine (Priv. FH),Europ. FH (EUFH) Rhein/Erft in Rheine (Priv. FH),,City,,52.283333333,7.433333333,Nordrhein-Westfalen,,Rheine
+HS5905,Priv. FH der Wirtschaft Paderborn in Mettmann,Priv. FH der Wirtschaft Paderborn in Mettmann,,City,,51.716666666,8.766666666,Nordrhein-Westfalen,,Paderborn
+HS6792,Hochschule Nürtingen in Geislingen (FH),Hochschule Nürtingen in Geislingen (FH),,City,,48.626666666,9.335277777,Baden-Württemberg,,Nürtingen
+HS8080,SRH U of App.Sc. Heidelberg in Hamm (Priv. FH),SRH U of App.Sc. Heidelberg in Hamm (Priv. FH),,City,,49.412222222,8.71,Baden-Württemberg,,Heidelberg
+HS3500,Universität Potsdam,Universität Potsdam,Q896706,A,Fachhochschule Potsdam,52.412611111,13.050888888,Brandenburg,1991,Potsdam
+HS7313,H f.a.W. Weihenstephan-Triesdorf in Straubing (FH),H f.a.W. Weihenstephan-Triesdorf in Straubing (FH),,City,,48.877222222,12.575833333,Bayern,,Straubing
+HS2581,H für Musik und Tanz Köln in Köln,H für Musik und Tanz Köln in Köln,,City,,50.942222222,6.957777777,Nordrhein-Westfalen,,Köln
+HS2660,Staatl. H f.Musik und Darstellende Kunst Mannheim,Staatl. H f.Musik und Darstellende Kunst Mannheim,,City,,49.487777777,8.466111111,Baden-Württemberg,,Mannheim
+HS5842,H Niederrhein in Mönchengladbach (FH),H Niederrhein in Mönchengladbach (FH),,City,,51.2,6.433333333,Nordrhein-Westfalen,,Mönchengladbach
+HS0764,IB H f. Ges. u. Soz. Berlin in Köln (Priv.FH),IB H f. Ges. u. Soz. Berlin in Köln (Priv.FH),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS2271,Kirchl. H Wupp./Bethel in Beth.(ev)(2023 zu 1140),Kirchl. H Wupp./Bethel in Beth.(ev)(2023 zu 1140),,Manual,,52.016666666,8.533333333,Nordrhein-Westfalen,,Bielefeld
+HS6521,Hochschule Kaiserslautern in Kaiserslautern (FH),Hochschule Kaiserslautern in Kaiserslautern (FH),,City,,49.444722222,7.768888888,Rheinland-Pfalz,,Kaiserslautern
+HS5726,IU Int. H Erfurt in Dortmund (Priv. FH),IU Internationale Hochschule,,City,,50.978055555,11.028888888,Thüringen,,Erfurt
+HS810U,H für Ökon. und Managem. Essen in Stuttg.(Priv.FH),H für Ökon. und Managem. Essen in Stuttg.(Priv.FH),,City,,51.450833333,7.013055555,Nordrhein-Westfalen,,Essen
+HS1770,Hochschule für Gesundheit Bochum (FH),Hochschule für Gesundheit Bochum (FH),,City,,51.483333333,7.216666666,Nordrhein-Westfalen,,Bochum
+HS2300,Hochschule für jüdische Studien Heidelberg,Hochschule für jüdische Studien Heidelberg,,City,,49.412222222,8.71,Baden-Württemberg,,Heidelberg
+HS8109,Priv. FH für Ökon. u. Management Essen in Dortmund,Priv. FH für Ökon. u. Management Essen in Dortmund,,City,,51.450833333,7.013055555,Nordrhein-Westfalen,,Essen
+HS2382,VWA-H f.berufsb.Stud.Stuttgart in Freib.(Priv.FH),VWA-H f.berufsb.Stud.Stuttgart in Freib.(Priv.FH),,City,,48.7775,9.18,Baden-Württemberg,,Stuttgart
+HS7520,TH Deggendorf (FH) (ab 2017 HS7521/7522),TH Deggendorf (FH) (ab 2017 HS7521/7522),,City,,48.835277777,12.964444444,Bayern,,Deggendorf
+HS1380,Freie Universität Berlin,Freie Universität Berlin,Q153006,A,Freie Universität Berlin,52.4543245,13.2934768,Berlin,1948,Berlin
+HS8210,Europ. H f.Innov.u.Perspektive Backnang (Priv. FH),Europ. H f.Innov.u.Perspektive Backnang (Priv. FH),,City,,48.946388888,9.430555555,Baden-Württemberg,,Backnang
+HS3790,Kolping Hochschule Köln (Priv. FH),Kolping Hochschule Köln (Priv. FH),,City,,50.942222222,6.957777777,Nordrhein-Westfalen,,Köln
+HS2370,Vitruvius-H Leipzig i.Leipzig (P.FH)(2018 aufgel.),Vitruvius-H Leipzig i.Leipzig (P.FH)(2018 aufgel.),,City,,51.3406321,12.3747329,Sachsen,,Leipzig
+HS8102,Priv. FH für Ökon. u. Management Essen in Duisburg,Priv. FH für Ökon. u. Management Essen in Duisburg,,City,,51.450833333,7.013055555,Nordrhein-Westfalen,,Essen
+HS4880,Promotionszentr.Ingenieurwissensch.Ingolstadt (FH),Promotionszentr.Ingenieurwissensch.Ingolstadt (FH),,City,,48.763055555,11.425,Bayern,,Ingolstadt
+HS8191,Charlotte Fresenius H Wiesb. in Wiesbaden (Priv.U),Hochschule Fresenius,,City,,50.0825,8.24,Hessen,,Wiesbaden
+HS3011,Hochschule für Musik Nürnberg,Hochschule für Musik Nürnberg,Q1622205,A,Hochschule für Musik Nürnberg,49.45861111,11.10868056,Bayern,1998,Nürnberg
+HS1800,Universität Hohenheim,Universität Hohenheim,Q690912,A,Universität Hohenheim,48.7125,9.214,Baden-Württemberg,1818,Ostfildern
+HS0091,U Duisburg-Essen in Essen (ab 2006 HS0080),U Duisburg-Essen in Essen (ab 2006 HS0080),,City,,51.432222222,6.761111111,Nordrhein-Westfalen,,Duisburg
+HS5400,Private Hochschule Göttingen (Priv. FH),Private Hochschule Göttingen (Priv. FH),,City,,51.533888888,9.935555555,Niedersachsen,,Göttingen
+HS6072,H f. P.u.öff.V.NW in Dortm.(VerwFH)(01-16 aufgel.),H f. P.u.öff.V.NW in Dortm.(VerwFH)(01-16 aufgel.),,Manual,,51.513888888,7.465277777,Nordrhein-Westfalen,,Dortmund
+HS2661,"H f.M.u.D.K.Heidelb.-M.,Heidelb. (2002 aufgelöst)","H f.M.u.D.K.Heidelb.-M.,Heidelb. (2002 aufgelöst)",,Manual,,49.412222222,8.71,Baden-Württemberg,,Heidelberg
+HS5903,Priv. FH der Wirt.Paderb.in Gütersl.(2010 aufgel.),Priv. FH der Wirt.Paderb.in Gütersl.(2010 aufgel.),,Manual,,51.9,8.383333333,Nordrhein-Westfalen,,Gütersloh
+HS1850,FH Dresden (Priv. FH),FH Dresden (Priv. FH),,City,,51.0493286,13.7381437,Sachsen,,Dresden
+HS1140,Universität Bielefeld,Universität Bielefeld,Q1391181,A,Hochschule Bielefeld,52.0355,8.50315,Nordrhein-Westfalen,1971,Bielefeld
+HS2850,Hochschule für Musik Weimar,Hochschule für Musik Weimar,,City,,50.981111111,11.329444444,Thüringen,,Weimar
+HS6282,Hochschule Fresenius Idstein in Köln (Priv. FH),Hochschule Fresenius,,City,,50.220555555,8.269166666,Hessen,,Idstein
+HS2900,H f. Bildende Künste - Städelschule Frankfurt a.M.,H f. Bildende Künste - Städelschule Frankfurt a.M.,,Manual,,50.110555555,8.682222222,Hessen,,Frankfurt am Main
+HS4960,media Akademie - H Stuttgart (Priv. FH),media Akademie - H Stuttgart (Priv. FH),,City,,48.7775,9.18,Baden-Württemberg,,Stuttgart
+HS0551,Kath. U Eichstätt-Ingolstadt in Eichstätt,Kath. U Eichstätt-Ingolstadt in Eichstätt,,City,,48.763055555,11.425,Bayern,,Ingolstadt
+HS1630,TU München (ab 2017 HS1631/2/3/4),TU München (ab 2017 HS1631/2/3/4),,City,,48.1375,11.575,Bayern,,München
+HS1830,"Freie H Stuttgart, Seminar für Waldorfpäd.(Priv.U)","Freie H Stuttgart, Seminar für Waldorfpäd.(Priv.U)",,City,,48.7775,9.18,Baden-Württemberg,,Stuttgart
+HS2390,Munich Inst.of M. München (Priv.KH) (18 aufgelöst),Munich Inst.of M. München (Priv.KH) (18 aufgelöst),,City,,48.1375,11.575,Bayern,,München
+HS7530,Fachhochschule Hof (ab 2000 HS7531),Fachhochschule Hof (ab 2000 HS7531),,City,,50.316666666,11.916666666,Bayern,,Hof
+HS1620,"EDU.CON HS, Berlin (Priv. FH) (2010 aufgelöst)","EDU.CON HS, Berlin (Priv. FH) (2010 aufgelöst)",,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS7590,TH Aschaffenburg (FH),TH Aschaffenburg (FH),,City,,49.9740542,9.1493636,Bayern,,Aschaffenburg
+HS0090,Universität-GH Essen (ab 2002 HS0091),Universität-GH Essen (ab 2002 HS0091),,City,,51.450833333,7.013055555,Nordrhein-Westfalen,,Essen
+HS7710,Berliner Hochschule für Technik (FH),Berliner Hochschule für Technik (FH),Q851413,A,Berliner Hochschule für Technik,52.5445,13.3528,Berlin,1823,Berlin
+HS6382,FH d.sächs.Verw.Meißen(FB Rechtspf.)(ab 17 HS6380),FH d.sächs.Verw.Meißen(FB Rechtspf.)(ab 17 HS6380),,City,,51.163611111,13.4775,Sachsen,,Meißen
+HS0700,bbw Hochschule Berlin (Priv. FH),bbw Hochschule Berlin (Priv. FH),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS0380,Technische Universität Chemnitz,Technische Universität Chemnitz,Q159630,A,Technische Universität Chemnitz,50.83917,12.9275,Sachsen,1836,Chemnitz
+HS6206,"H des Bundes f.öff.Verw., FB All.Innere Verw.Brühl","H des Bundes f.öff.Verw., FB All.Innere Verw.Brühl",,City,,50.833333333,6.9,Nordrhein-Westfalen,,Brühl
+HS7720,FH für Wirtschaft Berlin (ab 2003 HS7721),FH für Wirtschaft Berlin (ab 2003 HS7721),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS1683,CBS Int. Business School Köln in Neuss (Priv. FH),CBS Int. Business School Köln in Neuss (Priv. FH),,City,,50.942222222,6.957777777,Nordrhein-Westfalen,,Köln
+HS0770,Priv. Hanse-U Rostock (Priv.wiss.H.)(2010 aufgel.),Priv. Hanse-U Rostock (Priv.wiss.H.)(2010 aufgel.),,City,,54.083333333,12.133333333,Mecklenburg-Vorpommern,,Rostock
+HS1240,Universität Freiburg im Breisgau,Universität Freiburg im Breisgau,,City,,47.995,7.85,Baden-Württemberg,,Freiburg im Breisgau
+HS6732,Hochschule Esslingen in Göppingen (FH),Hochschule Esslingen in Göppingen (FH),,City,,48.7025,9.652777777,Baden-Württemberg,,Göppingen
+HS7890,H der Polizei Brandenburg in Oranienburg (VerwFH),H der Polizei Brandenburg in Oranienburg (VerwFH),,City,,52.754444444,13.236944444,Brandenburg,,Oranienburg
+HS6970,"Merz Akad.H f.Gestalt.,Kunst,Medien,Stuttg.(Pr.FH)","Merz Akad.H f.Gestalt.,Kunst,Medien,Stuttg.(Pr.FH)",,Manual,,48.7775,9.18,Baden-Württemberg,,Stuttgart
+HS7463,H f.d. öff. D. in Bayern Hof (Allg. innere Verw.),H f.d. öff. D. in Bayern Hof (Allg. innere Verw.),,City,,50.316666666,11.916666666,Bayern,,Hof
+HS6950,Evangelische FH Reutlingen (ab 1999 HS7192),Evangelische FH Reutlingen (ab 1999 HS7192),,City,,48.483333333,9.216666666,Baden-Württemberg,,Reutlingen
+HS2490,Palucca Hochschule für Tanz Dresden,Palucca Hochschule für Tanz Dresden,Q2048456,A,Palucca Hochschule für Tanz Dresden,51.029,13.771,Sachsen,1925,Dresden
+HS6910,"Kath. Hochschule Freiburg, Campus Freiburg (FH)","Kath. Hochschule Freiburg, Campus Freiburg (FH)",,Manual,,47.995,7.85,Baden-Württemberg,,Freiburg im Breisgau
+HS7382,Kath. Stiftungs H München in Benediktbeuern (FH),Kath. Stiftungs H München in Benediktbeuern (FH),,City,,48.1375,11.575,Bayern,,München
+HS7721,"HWR Berlin, FB Wirtschaft (FH)","HWR Berlin, FB Wirtschaft (FH)",,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS4770,Promotionszentrum Transformation Kempten (FH),Promotionszentrum Transformation Kempten (FH),,Manual,,47.733333333,10.316666666,Bayern,,Kempten (Allgäu)
+HS8171,Duale HS BW. in Mosbach Campus Bad Mergentheim,Duale HS BW. in Mosbach Campus Bad Mergentheim,,City,,49.490833333,9.773055555,Baden-Württemberg,,Bad Mergentheim
+HS8173,Duale HS Baden-Württemberg in Heidenheim,Duale HS Baden-Württemberg in Heidenheim,Q1262602,A,Duale Hochschule Baden-Württemberg Heidenheim,48.676111111,10.154444444,Baden-Württemberg,1976,Heidenheim an der Brenz
+HS0390,Technische Universität Bergakademie Freiberg,Technische Universität Bergakademie Freiberg,Q689854,A,Technische Universität Bergakademie Freiberg,50.918361111,13.3407,Sachsen,1765,Freiberg
+HS5991,Rhein. H Köln in Neuss (Priv. FH) (2025 aufgelöst),Rhein. H Köln in Neuss (Priv. FH) (2025 aufgelöst),,City,,50.942222222,6.957777777,Nordrhein-Westfalen,,Köln
+HS1560,"H für Medien, Kommunik.u.Wirtsch. Berlin (Priv.FH)","H für Medien, Kommunik.u.Wirtsch. Berlin (Priv.FH)",,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS6344,Hess. H f.ö.Man.u.Sich. Wiesb. in Kassel (VerwFH),Hess. H f.ö.Man.u.Sich. Wiesb. in Kassel (VerwFH),,City,,51.315777777,9.497916666,Hessen,,Kassel
+HS2590,Musikhochschule Lübeck,Musikhochschule Lübeck,Q513622,A,Musikhochschule Lübeck,53.8647,10.6814,Schleswig-Holstein,1973,Lübeck
+HS810N,Priv. FH für Ökon. u. Management Essen in Augsburg,Priv. FH für Ökon. u. Management Essen in Augsburg,,City,,51.450833333,7.013055555,Nordrhein-Westfalen,,Essen
+HS2384,VWA-H f.berufsb.Stud.Stuttgart in Ulm (Priv.FH),VWA-H f.berufsb.Stud.Stuttgart in Ulm (Priv.FH),,City,,48.7775,9.18,Baden-Württemberg,,Stuttgart
+HS5833,TH Köln in Leverkusen (FH),TH Köln in Leverkusen (FH),,City,,50.942222222,6.957777777,Nordrhein-Westfalen,,Köln
+HS8223,Duale HS Sachsen in Dresden (FH),Duale HS Sachsen in Dresden (FH),,City,,51.0493286,13.7381437,Sachsen,,Dresden
+HS1780,"Hochschule Weserbergland (HSW), Hameln (Priv.FH)","Hochschule Weserbergland (HSW), Hameln (Priv.FH)",,City,,52.103055555,9.36,Niedersachsen,,Hameln
+HS5441,FH Ostfriesland in Emden (ab 2000 HS5305),FH Ostfriesland in Emden (ab 2000 HS5305),,City,,53.366944444,7.206111111,Niedersachsen,,Emden
+HS6741,H f.Techn.u.Wirtsch.Furtwangen (FH) in Furtwangen,H f.Techn.u.Wirtsch.Furtwangen (FH) in Furtwangen,,,,,,Baden-Württemberg,,Furtwangen im Schwarzwald
+HS1480,Technische Hochschule Aachen (U),Technische Hochschule Aachen (U),,City,,50.776207,6.083788,Nordrhein-Westfalen,,Aachen
+HS572B,IU Int. H Erfurt in Leipzig (Priv. FH),IU Internationale Hochschule,,City,,50.978055555,11.028888888,Thüringen,,Erfurt
+HS7200,"Priv. FH Schwäb. Hall,H f.Gestalt.(2014 aufgelöst)","Priv. FH Schwäb. Hall,H f.Gestalt.(2014 aufgelöst)",,Manual,,49.112222222,9.7375,Baden-Württemberg,,Schwäbisch Hall
+HS5711,Fachhochschule Aachen in Aachen,Fachhochschule Aachen in Aachen,,City,,50.776207,6.083788,Nordrhein-Westfalen,,Aachen
+HS5210,H für Angewandte Wissenschaften Hamburg (FH),H für Angewandte Wissenschaften Hamburg (FH),Q913987,A,Hochschule für Angewandte Wissenschaften Hamburg,53.55627,10.02196,Hamburg,1970,Hamburg
+HS1340,Universität Regensburg,Universität Regensburg,Q574571,A,Universität Regensburg,48.9992339,12.0931658,Bayern,1962,Regensburg
+HS7700,Kath. Hochschule für Sozialwesen Berlin (FH),Kath. Hochschule für Sozialwesen Berlin (FH),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS7222,FH Coburg in Münchberg (ab 2000 HS7532),FH Coburg in Münchberg (ab 2000 HS7532),,City,,50.258469444,10.957869444,Bayern,,Coburg
+HS5770,Fachhochschule Dortmund,Fachhochschule Dortmund,Q1324675,A,Fachhochschule Dortmund,51.5063,7.45779,Nordrhein-Westfalen,1971,Dortmund
+HS1312,U Erlangen-Nürnberg in Nürnberg (siehe HS1310),U Erlangen-Nürnberg in Nürnberg (siehe HS1310),,City,,49.5925,11.005,Bayern,,Erlangen
+HS7552,Ostbayerische TH Amberg-Weiden in Weiden (FH),Ostbayerische TH Amberg-Weiden in Weiden (FH),,City,,49.444444444,11.848333333,Bayern,,Amberg
+HS2530,"Hochschule für Musik, Theater und Medien Hannover","Hochschule für Musik, Theater und Medien Hannover",Q455331,A,"Hochschule für Musik, Theater und Medien Hannover",52.377525489,9.753811633,Niedersachsen,1897,Hannover
+HS817C,Duale HS Baden-Württ. in Villingen-Schwenningen,Duale HS Baden-Württ. in Villingen-Schwenningen,,City,,48.063152,8.4929618,Baden-Württemberg,,Villingen-Schwenningen
+HS6078,FH für öffentl. Verw. NW in Soest (2001 aufgelöst),FH für öffentl. Verw. NW in Soest (2001 aufgelöst),,City,,51.571111111,8.109166666,Nordrhein-Westfalen,,Soest
+HS8160,Int. H Managem. Berlin (Priv. FH) (2010 aufgelöst),Int. H Managem. Berlin (Priv. FH) (2010 aufgelöst),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS2420,Medizinische H Brandenburg in Neuruppin (Priv. U),Medizinische H Brandenburg in Neuruppin (Priv. U),,City,,52.922222222,12.8,Brandenburg,,Neuruppin
+HS0511,Universität Bayreuth in Kulmbach,Universität Bayreuth in Kulmbach,,City,,49.948055555,11.578333333,Bayern,,Bayreuth
+HS6660,Hochschule Worms (FH),Hochschule Worms (FH),Q1391239,A,Hochschule Worms,49.6334,8.34433,Rheinland-Pfalz,1978,Worms
+HS5750,Fachhochschule Bochum (ab 2009 HS5751/5752),Fachhochschule Bochum (ab 2009 HS5751/5752),,City,,51.483333333,7.216666666,Nordrhein-Westfalen,,Bochum
+HS1291,U Koblenz,U Koblenz,,City,,50.359722222,7.597777777,Rheinland-Pfalz,,Koblenz
+HS3061,H Rhein-Waal in Kleve (FH),H Rhein-Waal in Kleve (FH),,City,,51.79,6.14,Nordrhein-Westfalen,,Kleve
+HS5723,IU Int.H Erfurt i.Bad Reichenh.(Pr.FH)(22 aufgel.),IU Internationale Hochschule,,City,,50.978055555,11.028888888,Thüringen,,Erfurt
+HS3121,H für Kommunik. u. Gestaltung in Stuttg.(Priv. FH),H für Kommunik. u. Gestaltung in Stuttg.(Priv. FH),,Manual,,48.7775,9.18,Baden-Württemberg,,Stuttgart
+HS7450,H für angewandte Wissenschaften Landshut (FH),H für angewandte Wissenschaften Landshut (FH),Q1622121,A,Hochschule für angewandte Wissenschaften Landshut,48.5552,12.199,Bayern,1978,Landshut
+HS8101,Priv. FH für Ökon. u. Management Essen in Essen,Priv. FH für Ökon. u. Management Essen in Essen,,City,,51.450833333,7.013055555,Nordrhein-Westfalen,,Essen
+HS810M,Priv. FH für Ökon. u. Management Essen in Kassel,Priv. FH für Ökon. u. Management Essen in Kassel,,City,,51.450833333,7.013055555,Nordrhein-Westfalen,,Essen
+HS2080,Philosophisch-Theolog. H Münster (rk),Philosophisch-Theolog. H Münster (rk),,City,,51.9625,7.625555555,Nordrhein-Westfalen,,Münster
+HS1090,Universität Bonn,Universität Bonn,,City,,50.735277777,7.102222222,Nordrhein-Westfalen,,Bonn
+HS0763,IB H f. Ges. u. Soz. Berlin in Hamburg (Priv.FH),IB H f. Ges. u. Soz. Berlin in Hamburg (Priv.FH),,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS5330,Hochschule Hannover (FH),Hochschule Hannover (FH),Q224514,A,Hochschule Hannover,52.35317,9.72249,Niedersachsen,1971,Hannover
+HS5832,TH Köln in Gummersbach (FH),TH Köln in Gummersbach (FH),,City,,50.942222222,6.957777777,Nordrhein-Westfalen,,Köln
+HS8042,"FH f.öff.Vw.,S.-Anh.,Benneckenstein (1999 aufgel.)","FH f.öff.Vw.,S.-Anh.,Benneckenstein (1999 aufgel.)",,,,,,Sachsen-Anhalt,,Benneckenstein (Harz)
+HS9000,Sonstige deutsche Hochschulen,Sonstige deutsche Hochschulen,,,,,,,,
+HS2240,"H für Soz. Arb. und Päd. (HSAP), Berlin (Priv. FH)","H für Soz. Arb. und Päd. (HSAP), Berlin (Priv. FH)",,City,,52.516666666,13.383333333,Berlin,,Berlin
+HS5980,TH Georg Agricola Bochum (Priv. FH),TH Georg Agricola Bochum (Priv. FH),,City,,51.483333333,7.216666666,Nordrhein-Westfalen,,Bochum
+HS0372,Technische Universität Dresden in Tharandt,Technische Universität Dresden in Tharandt,,City,,51.0493286,13.7381437,Sachsen,,Dresden
+HS0121,Universität Paderborn,Universität Paderborn,Q679134,A,Universität Paderborn,51.708055555,8.772222222,Nordrhein-Westfalen,1972,Paderborn
+HS0050,GGS of Man.&Law Heilbronn (Priv. FH)(2022 aufgel.),GGS of Man.&Law Heilbronn (Priv. FH)(2022 aufgel.),,City,,49.140428,9.217953,Baden-Württemberg,,Heilbronn
+HS6710,H Aalen - Technik und Wirtschaft in Aalen (FH),H Aalen - Technik und Wirtschaft in Aalen (FH),,,,,,Baden-Württemberg,,Aalen
+HS5384,FH Hildesh./H/G in Hildesh. (Soz.)(ab 2006 HS5382),FH Hildesh./H/G in Hildesh. (Soz.)(ab 2006 HS5382),,Manual,,52.15,9.95,Niedersachsen,,Hildesheim
+HS7250,TH Nürnberg Georg Simon Ohm (FH),TH Nürnberg Georg Simon Ohm (FH),,City,,49.453888888,11.0775,Bayern,,Nürnberg
+HS810H,Priv. FH für Ökon. u. Management Essen in Wesel,Priv. FH für Ökon. u. Management Essen in Wesel,,City,,51.450833333,7.013055555,Nordrhein-Westfalen,,Essen
+HS0490,Universität Jena,Universität Jena,,City,,50.927222222,11.586388888,Thüringen,,Jena
+HS1922,VICTORIA - Int. H Berlin in Baden-Baden (Priv. FH),VICTORIA - Int. H Berlin in Baden-Baden (Priv. FH),,City,,48.761944444,8.240833333,Baden-Württemberg,,Baden-Baden
+HS5385,H Hildesh./Holzminden/Göttingen in Holzminden (FH),H Hildesh./Holzminden/Göttingen in Holzminden (FH),,City,,51.829722222,9.448333333,Niedersachsen,,Holzminden
+HS5721,IU Int. H Erfurt in Erfurt (Priv. FH),IU Internationale Hochschule,,City,,50.978055555,11.028888888,Thüringen,,Erfurt
+HS6284,Hochschule Fresenius Idstein in München (Priv. FH),Hochschule Fresenius,,City,,50.220555555,8.269166666,Hessen,,Idstein
+HS2441,praxisH Köln in Rheine (Priv. FH) (2018 zu HS6415),praxisH Köln in Rheine (Priv. FH) (2018 zu HS6415),,City,,50.942222222,6.957777777,Nordrhein-Westfalen,,Köln
+HS810R,Priv. FH für Ökon. u. Management Essen in Hannover,Priv. FH für Ökon. u. Management Essen in Hannover,,City,,51.450833333,7.013055555,Nordrhein-Westfalen,,Essen
+HS5301,FH Ol./Ostfr./Wilhelmsh. i.Oldenb.(ab 2010 HS4981),FH Ol./Ostfr./Wilhelmsh. i.Oldenb.(ab 2010 HS4981),,Manual,,53.143888888,8.213888888,Niedersachsen,,Oldenburg
+HS5725,IU Int. H Erfurt in Nürnberg (Priv. FH),IU Internationale Hochschule,,City,,50.978055555,11.028888888,Thüringen,,Erfurt

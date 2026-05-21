@@ -228,9 +228,11 @@ def install(workspace_id: str | None = None, genesis_token: str | None = None,
     if not workspace_id:
         raise SystemExit("ERROR: workspace_id required (arg, env FABRIC_WORKSPACE_ID, "
                          "or run inside a Fabric notebook).")
-    if not genesis_token:
-        raise SystemExit("ERROR: genesis_token required (arg or env GENESIS_TOKEN). "
-                         "Register at https://www-genesis.destatis.de/ to get one (free).")
+
+    snapshot_mode = not genesis_token
+    if snapshot_mode:
+        print("No GENESIS token provided -> SNAPSHOT mode: loading bundled CSVs from GitHub.")
+        print("(Register at https://www-genesis.destatis.de/ for a free token to enable LIVE mode.)")
 
     print("Authenticating ...")
     token = get_token()
@@ -249,16 +251,27 @@ def install(workspace_id: str | None = None, genesis_token: str | None = None,
     print(f"      lakehouse_id = {lh_id}")
     print(f"      sql_endpoint = {sql_ep_id or '(still provisioning)'}")
 
-    print(f"\n[3/8] Creating loader notebook ...")
-    loader_def = substitute(load_template("loader_notebook.json"), {
-        "WORKSPACE_ID":  workspace_id,
-        "LAKEHOUSE_ID":  lh_id,
-        "STALE_LH_ID":   lh_id,
-        "STALE_WS_ID":   workspace_id,
-        "GENESIS_TOKEN": genesis_token,
-    })
-    loader_nb_id = fab.create_item("Hochschul-Insights GENESIS Loader", "Notebook", loader_def, folder_id)
-    print(f"      loader_nb_id = {loader_nb_id}")
+    loader_nb_id = None
+    snapshot_nb_id = None
+    if not snapshot_mode:
+        print(f"\n[3/8] Creating loader notebook ...")
+        loader_def = substitute(load_template("loader_notebook.json"), {
+            "WORKSPACE_ID":  workspace_id,
+            "LAKEHOUSE_ID":  lh_id,
+            "STALE_LH_ID":   lh_id,
+            "STALE_WS_ID":   workspace_id,
+            "GENESIS_TOKEN": genesis_token,
+        })
+        loader_nb_id = fab.create_item("Hochschul-Insights GENESIS Loader", "Notebook", loader_def, folder_id)
+        print(f"      loader_nb_id = {loader_nb_id}")
+    else:
+        print(f"\n[3/8] Creating snapshot loader notebook ...")
+        snap_def = substitute(load_template("snapshot_loader.json"), {
+            "STALE_LH_ID": lh_id,
+            "STALE_WS_ID": workspace_id,
+        })
+        snapshot_nb_id = fab.create_item("Hochschul-Insights Snapshot Loader", "Notebook", snap_def, folder_id)
+        print(f"      snapshot_nb_id = {snapshot_nb_id}")
 
     print(f"\n[4/8] Creating dimensions notebook ...")
     dims_def = substitute(load_template("dims_notebook.json"), {
@@ -286,14 +299,18 @@ def install(workspace_id: str | None = None, genesis_token: str | None = None,
     rpt_id = fab.create_item("Webinar Hochschule", "Report", rpt_def, folder_id)
     print(f"      report_id = {rpt_id}")
 
-    print(f"\n[7/8] Creating pipeline ...")
-    pl_def = substitute(load_template("pipeline.json"), {
-        "WORKSPACE_ID": workspace_id,
-        "LOADER_NB_ID": loader_nb_id,
-        "DIMS_NB_ID":   dims_nb_id,
-    })
-    pl_id = fab.create_item("Hochschul-Insights GENESIS Pipeline", "DataPipeline", pl_def, folder_id)
-    print(f"      pipeline_id = {pl_id}")
+    pl_id = None
+    if not snapshot_mode:
+        print(f"\n[7/8] Creating pipeline ...")
+        pl_def = substitute(load_template("pipeline.json"), {
+            "WORKSPACE_ID": workspace_id,
+            "LOADER_NB_ID": loader_nb_id,
+            "DIMS_NB_ID":   dims_nb_id,
+        })
+        pl_id = fab.create_item("Hochschul-Insights GENESIS Pipeline", "DataPipeline", pl_def, folder_id)
+        print(f"      pipeline_id = {pl_id}")
+    else:
+        print(f"\n[7/8] Skipping pipeline (snapshot mode).")
 
     print(f"\n[8/8] Creating DataAgent 'Hochschul-Stats-Agent' ...")
     da_id = None
@@ -312,17 +329,27 @@ def install(workspace_id: str | None = None, genesis_token: str | None = None,
     pl_run_id = None
     sm_refresh_id = None
     if run_pipeline:
-        print(f"\n[9/9] Triggering pipeline ...")
+        if snapshot_mode:
+            job_label = "snapshot loader notebook"
+            job_item_id = snapshot_nb_id
+            job_type = "RunNotebook"
+        else:
+            job_label = "pipeline"
+            job_item_id = pl_id
+            job_type = "Pipeline"
+        print(f"\n[9/9] Triggering {job_label} ...")
         try:
             r = fab.s.post(
-                f"{FABRIC}/workspaces/{workspace_id}/items/{pl_id}/jobs/instances?jobType=Pipeline",
+                f"{FABRIC}/workspaces/{workspace_id}/items/{job_item_id}/jobs/instances?jobType={job_type}",
                 json={},
             )
             r.raise_for_status()
             loc = r.headers.get("Location", "")
             pl_run_id = loc.rsplit("/", 1)[-1] if loc else None
-            print(f"      pipeline_run_id = {pl_run_id}")
-            print(f"      Monitor: https://app.powerbi.com/groups/{workspace_id}/pipelines/{pl_id}")
+            print(f"      run_id = {pl_run_id}")
+            mon_url = (f"https://app.powerbi.com/groups/{workspace_id}/pipelines/{pl_id}" if not snapshot_mode
+                       else f"https://app.powerbi.com/groups/{workspace_id}/synapsenotebooks/{snapshot_nb_id}")
+            print(f"      Monitor: {mon_url}")
 
             if wait_for_pipeline and pl_run_id and loc:
                 print(f"      Waiting for pipeline to finish (poll every 30s, max {pipeline_timeout_min} min) ...")
@@ -408,25 +435,31 @@ def install(workspace_id: str | None = None, genesis_token: str | None = None,
     print("\n" + "=" * 60)
     print(f"Done. Open: https://app.powerbi.com/groups/{workspace_id}/list")
     print("\nNext steps:")
-    if run_pipeline and pl_run_id:
+    if snapshot_mode:
+        print("  1. Snapshot data loaded from bundled CSVs (no DESTATIS token required).")
+        print("     To switch to LIVE mode, rerun the installer with a GENESIS_TOKEN.")
+    elif run_pipeline and pl_run_id:
         print("  1. Wait ~5-10 min for the pipeline to finish populating the lakehouse.")
         print("     The Direct Lake model will auto-light up once the first load completes.")
     else:
         print("  1. Run the pipeline once to populate the lakehouse (~5-10 min).")
         print("     The Direct Lake model will auto-light up after the first load.")
     print("  2. Open 'Webinar Hochschule' report.")
-    print("  3. Schedule the pipeline weekly (DESTATIS updates monthly at most).")
+    if not snapshot_mode:
+        print("  3. Schedule the pipeline weekly (DESTATIS updates monthly at most).")
 
     return {
         "folder_id":        folder_id,
         "lakehouse_id":     lh_id,
         "sql_endpoint_id":  sql_ep_id,
         "loader_nb_id":     loader_nb_id,
+        "snapshot_nb_id":   snapshot_nb_id,
         "dims_nb_id":       dims_nb_id,
         "semanticmodel_id": sm_id,
         "report_id":        rpt_id,
         "pipeline_id":      pl_id,
         "dataagent_id":     da_id,
+        "mode":             "snapshot" if snapshot_mode else "live",
         "pipeline_run_id":  pl_run_id,
         "sm_refresh_id":    sm_refresh_id,
     }

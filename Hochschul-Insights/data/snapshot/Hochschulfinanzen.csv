@@ -1,0 +1,257 @@
+Jahr,Bundesland,Kennzahl,Wert_EUR
+2019-01-01T00:00:00.000Z,Bremen,Ausgaben der Hochschulen,5.07142E8
+2019-01-01T00:00:00.000Z,Bremen,Trägermittel der Hochschulen,2.52778E8
+2019-01-01T00:00:00.000Z,Bremen,Drittmitteleinnahmen der Hochschulen,1.42815E8
+2019-01-01T00:00:00.000Z,Bremen,Einnahmen der Hochschulen (ohne Trägermittel),2.81507E8
+2021-01-01T00:00:00.000Z,Nordrhein-Westfalen,Ausgaben der Hochschulen,1.4965882E10
+2021-01-01T00:00:00.000Z,Nordrhein-Westfalen,Trägermittel der Hochschulen,7.722334E9
+2021-01-01T00:00:00.000Z,Nordrhein-Westfalen,Drittmitteleinnahmen der Hochschulen,1.914207E9
+2021-01-01T00:00:00.000Z,Nordrhein-Westfalen,Einnahmen der Hochschulen (ohne Trägermittel),7.579647E9
+2022-01-01T00:00:00.000Z,Berlin,Ausgaben der Hochschulen,4.651271E9
+2022-01-01T00:00:00.000Z,Berlin,Trägermittel der Hochschulen,1.852581E9
+2022-01-01T00:00:00.000Z,Berlin,Drittmitteleinnahmen der Hochschulen,7.81733E8
+2022-01-01T00:00:00.000Z,Berlin,Einnahmen der Hochschulen (ohne Trägermittel),2.85528E9
+2021-01-01T00:00:00.000Z,Baden-Württemberg,Ausgaben der Hochschulen,9.694291E9
+2021-01-01T00:00:00.000Z,Baden-Württemberg,Trägermittel der Hochschulen,4.335773E9
+2021-01-01T00:00:00.000Z,Baden-Württemberg,Drittmitteleinnahmen der Hochschulen,1.554966E9
+2021-01-01T00:00:00.000Z,Baden-Württemberg,Einnahmen der Hochschulen (ohne Trägermittel),5.583588E9
+2020-01-01T00:00:00.000Z,Sachsen,Ausgaben der Hochschulen,3.350001E9
+2020-01-01T00:00:00.000Z,Sachsen,Trägermittel der Hochschulen,1.142117E9
+2020-01-01T00:00:00.000Z,Sachsen,Drittmitteleinnahmen der Hochschulen,6.27267E8
+2020-01-01T00:00:00.000Z,Sachsen,Einnahmen der Hochschulen (ohne Trägermittel),1.86643E9
+2020-01-01T00:00:00.000Z,Berlin,Ausgaben der Hochschulen,4.231918E9
+2020-01-01T00:00:00.000Z,Berlin,Trägermittel der Hochschulen,1.772809E9
+2020-01-01T00:00:00.000Z,Berlin,Drittmitteleinnahmen der Hochschulen,6.30166E8
+2020-01-01T00:00:00.000Z,Berlin,Einnahmen der Hochschulen (ohne Trägermittel),2.495821E9
+2019-01-01T00:00:00.000Z,Mecklenburg-Vorpommern,Ausgaben der Hochschulen,1.255191E9
+2019-01-01T00:00:00.000Z,Mecklenburg-Vorpommern,Trägermittel der Hochschulen,5.17347E8
+2019-01-01T00:00:00.000Z,Mecklenburg-Vorpommern,Drittmitteleinnahmen der Hochschulen,1.21088E8
+2019-01-01T00:00:00.000Z,Mecklenburg-Vorpommern,Einnahmen der Hochschulen (ohne Trägermittel),7.46794E8
+2019-01-01T00:00:00.000Z,Schleswig-Holstein,Ausgaben der Hochschulen,2.228965E9
+2019-01-01T00:00:00.000Z,Schleswig-Holstein,Trägermittel der Hochschulen,6.02749E8
+2019-01-01T00:00:00.000Z,Schleswig-Holstein,Drittmitteleinnahmen der Hochschulen,1.93995E8
+2019-01-01T00:00:00.000Z,Schleswig-Holstein,Einnahmen der Hochschulen (ohne Trägermittel),1.287375E9
+2019-01-01T00:00:00.000Z,Nordrhein-Westfalen,Ausgaben der Hochschulen,1.3612368E10
+2019-01-01T00:00:00.000Z,Nordrhein-Westfalen,Trägermittel der Hochschulen,6.660823E9
+2019-01-01T00:00:00.000Z,Nordrhein-Westfalen,Drittmitteleinnahmen der Hochschulen,1.712853E9
+2019-01-01T00:00:00.000Z,Nordrhein-Westfalen,Einnahmen der Hochschulen (ohne Trägermittel),6.96282E9
+2021-01-01T00:00:00.000Z,Bremen,Ausgaben der Hochschulen,5.43798E8
+2021-01-01T00:00:00.000Z,Bremen,Trägermittel der Hochschulen,2.81721E8
+2021-01-01T00:00:00.000Z,Bremen,Drittmitteleinnahmen der Hochschulen,1.46511E8
+2021-01-01T00:00:00.000Z,Bremen,Einnahmen der Hochschulen (ohne Trägermittel),2.89712E8
+2019-01-01T00:00:00.000Z,Baden-Württemberg,Ausgaben der Hochschulen,8.582881E9
+2019-01-01T00:00:00.000Z,Baden-Württemberg,Trägermittel der Hochschulen,3.987383E9
+2019-01-01T00:00:00.000Z,Baden-Württemberg,Drittmitteleinnahmen der Hochschulen,1.44193E9
+2019-01-01T00:00:00.000Z,Baden-Württemberg,Einnahmen der Hochschulen (ohne Trägermittel),4.803604E9
+2022-01-01T00:00:00.000Z,Thüringen,Ausgaben der Hochschulen,1.942486E9
+2022-01-01T00:00:00.000Z,Thüringen,Trägermittel der Hochschulen,7.93635E8
+2022-01-01T00:00:00.000Z,Thüringen,Drittmitteleinnahmen der Hochschulen,2.62893E8
+2022-01-01T00:00:00.000Z,Thüringen,Einnahmen der Hochschulen (ohne Trägermittel),1.264973E9
+2020-01-01T00:00:00.000Z,Thüringen,Ausgaben der Hochschulen,1.592305E9
+2020-01-01T00:00:00.000Z,Thüringen,Trägermittel der Hochschulen,6.33498E8
+2020-01-01T00:00:00.000Z,Thüringen,Drittmitteleinnahmen der Hochschulen,2.22495E8
+2020-01-01T00:00:00.000Z,Thüringen,Einnahmen der Hochschulen (ohne Trägermittel),9.19106E8
+2021-01-01T00:00:00.000Z,Schleswig-Holstein,Ausgaben der Hochschulen,2.416468E9
+2021-01-01T00:00:00.000Z,Schleswig-Holstein,Trägermittel der Hochschulen,7.23117E8
+2021-01-01T00:00:00.000Z,Schleswig-Holstein,Drittmitteleinnahmen der Hochschulen,2.13116E8
+2021-01-01T00:00:00.000Z,Schleswig-Holstein,Einnahmen der Hochschulen (ohne Trägermittel),1.423602E9
+2019-01-01T00:00:00.000Z,Brandenburg,Ausgaben der Hochschulen,6.43745E8
+2019-01-01T00:00:00.000Z,Brandenburg,Trägermittel der Hochschulen,4.86942E8
+2019-01-01T00:00:00.000Z,Brandenburg,Drittmitteleinnahmen der Hochschulen,1.32883E8
+2019-01-01T00:00:00.000Z,Brandenburg,Einnahmen der Hochschulen (ohne Trägermittel),1.61109E8
+2021-01-01T00:00:00.000Z,Rheinland-Pfalz,Ausgaben der Hochschulen,2.192341E9
+2021-01-01T00:00:00.000Z,Rheinland-Pfalz,Trägermittel der Hochschulen,7.82838E8
+2021-01-01T00:00:00.000Z,Rheinland-Pfalz,Drittmitteleinnahmen der Hochschulen,3.21062E8
+2021-01-01T00:00:00.000Z,Rheinland-Pfalz,Einnahmen der Hochschulen (ohne Trägermittel),1.114189E9
+2019-01-01T00:00:00.000Z,Niedersachsen,Ausgaben der Hochschulen,4.696866E9
+2019-01-01T00:00:00.000Z,Niedersachsen,Trägermittel der Hochschulen,2.59937E9
+2019-01-01T00:00:00.000Z,Niedersachsen,Drittmitteleinnahmen der Hochschulen,7.29777E8
+2019-01-01T00:00:00.000Z,Niedersachsen,Einnahmen der Hochschulen (ohne Trägermittel),2.170811E9
+2021-01-01T00:00:00.000Z,Mecklenburg-Vorpommern,Ausgaben der Hochschulen,1.361917E9
+2021-01-01T00:00:00.000Z,Mecklenburg-Vorpommern,Trägermittel der Hochschulen,5.30573E8
+2021-01-01T00:00:00.000Z,Mecklenburg-Vorpommern,Drittmitteleinnahmen der Hochschulen,1.49092E8
+2021-01-01T00:00:00.000Z,Mecklenburg-Vorpommern,Einnahmen der Hochschulen (ohne Trägermittel),8.85649E8
+2019-01-01T00:00:00.000Z,Sachsen-Anhalt,Ausgaben der Hochschulen,1.549383E9
+2019-01-01T00:00:00.000Z,Sachsen-Anhalt,Trägermittel der Hochschulen,6.60249E8
+2019-01-01T00:00:00.000Z,Sachsen-Anhalt,Drittmitteleinnahmen der Hochschulen,1.55411E8
+2019-01-01T00:00:00.000Z,Sachsen-Anhalt,Einnahmen der Hochschulen (ohne Trägermittel),8.82958E8
+2020-01-01T00:00:00.000Z,Hessen,Ausgaben der Hochschulen,4.638864E9
+2020-01-01T00:00:00.000Z,Hessen,Trägermittel der Hochschulen,2.260737E9
+2020-01-01T00:00:00.000Z,Hessen,Drittmitteleinnahmen der Hochschulen,5.96751E8
+2020-01-01T00:00:00.000Z,Hessen,Einnahmen der Hochschulen (ohne Trägermittel),2.446094E9
+2022-01-01T00:00:00.000Z,Bayern,Ausgaben der Hochschulen,1.1182447E10
+2022-01-01T00:00:00.000Z,Bayern,Trägermittel der Hochschulen,5.053606E9
+2022-01-01T00:00:00.000Z,Bayern,Drittmitteleinnahmen der Hochschulen,1.564729E9
+2022-01-01T00:00:00.000Z,Bayern,Einnahmen der Hochschulen (ohne Trägermittel),6.108773E9
+2022-01-01T00:00:00.000Z,Hessen,Ausgaben der Hochschulen,5.101692E9
+2022-01-01T00:00:00.000Z,Hessen,Trägermittel der Hochschulen,2.588461E9
+2022-01-01T00:00:00.000Z,Hessen,Drittmitteleinnahmen der Hochschulen,7.03128E8
+2022-01-01T00:00:00.000Z,Hessen,Einnahmen der Hochschulen (ohne Trägermittel),2.73226E9
+2020-01-01T00:00:00.000Z,Bayern,Ausgaben der Hochschulen,1.0162253E10
+2020-01-01T00:00:00.000Z,Bayern,Trägermittel der Hochschulen,4.561848E9
+2020-01-01T00:00:00.000Z,Bayern,Drittmitteleinnahmen der Hochschulen,1.378181E9
+2020-01-01T00:00:00.000Z,Bayern,Einnahmen der Hochschulen (ohne Trägermittel),5.456375E9
+2021-01-01T00:00:00.000Z,Saarland,Ausgaben der Hochschulen,1.043441E9
+2021-01-01T00:00:00.000Z,Saarland,Trägermittel der Hochschulen,3.19983E8
+2021-01-01T00:00:00.000Z,Saarland,Drittmitteleinnahmen der Hochschulen,8.6408E7
+2021-01-01T00:00:00.000Z,Saarland,Einnahmen der Hochschulen (ohne Trägermittel),6.77986E8
+2022-01-01T00:00:00.000Z,Hamburg,Ausgaben der Hochschulen,2.735076E9
+2022-01-01T00:00:00.000Z,Hamburg,Trägermittel der Hochschulen,1.274005E9
+2022-01-01T00:00:00.000Z,Hamburg,Drittmitteleinnahmen der Hochschulen,3.76421E8
+2022-01-01T00:00:00.000Z,Hamburg,Einnahmen der Hochschulen (ohne Trägermittel),1.586195E9
+2020-01-01T00:00:00.000Z,Hamburg,Ausgaben der Hochschulen,2.479471E9
+2020-01-01T00:00:00.000Z,Hamburg,Trägermittel der Hochschulen,1.146653E9
+2020-01-01T00:00:00.000Z,Hamburg,Drittmitteleinnahmen der Hochschulen,3.16667E8
+2020-01-01T00:00:00.000Z,Hamburg,Einnahmen der Hochschulen (ohne Trägermittel),1.350894E9
+2022-01-01T00:00:00.000Z,Nordrhein-Westfalen,Ausgaben der Hochschulen,1.5853635E10
+2022-01-01T00:00:00.000Z,Nordrhein-Westfalen,Trägermittel der Hochschulen,7.806641E9
+2022-01-01T00:00:00.000Z,Nordrhein-Westfalen,Drittmitteleinnahmen der Hochschulen,2.010528E9
+2022-01-01T00:00:00.000Z,Nordrhein-Westfalen,Einnahmen der Hochschulen (ohne Trägermittel),7.970542E9
+2020-01-01T00:00:00.000Z,Baden-Württemberg,Ausgaben der Hochschulen,9.132959E9
+2020-01-01T00:00:00.000Z,Baden-Württemberg,Trägermittel der Hochschulen,4.149927E9
+2020-01-01T00:00:00.000Z,Baden-Württemberg,Drittmitteleinnahmen der Hochschulen,1.464779E9
+2020-01-01T00:00:00.000Z,Baden-Württemberg,Einnahmen der Hochschulen (ohne Trägermittel),5.121619E9
+2021-01-01T00:00:00.000Z,Berlin,Ausgaben der Hochschulen,4.432892E9
+2021-01-01T00:00:00.000Z,Berlin,Trägermittel der Hochschulen,1.867838E9
+2021-01-01T00:00:00.000Z,Berlin,Drittmitteleinnahmen der Hochschulen,7.01026E8
+2021-01-01T00:00:00.000Z,Berlin,Einnahmen der Hochschulen (ohne Trägermittel),2.68741E9
+2020-01-01T00:00:00.000Z,Nordrhein-Westfalen,Ausgaben der Hochschulen,1.4491051E10
+2020-01-01T00:00:00.000Z,Nordrhein-Westfalen,Trägermittel der Hochschulen,6.486583E9
+2020-01-01T00:00:00.000Z,Nordrhein-Westfalen,Drittmitteleinnahmen der Hochschulen,1.766956E9
+2020-01-01T00:00:00.000Z,Nordrhein-Westfalen,Einnahmen der Hochschulen (ohne Trägermittel),7.293379E9
+2022-01-01T00:00:00.000Z,Baden-Württemberg,Ausgaben der Hochschulen,1.0028821E10
+2022-01-01T00:00:00.000Z,Baden-Württemberg,Trägermittel der Hochschulen,4.562787E9
+2022-01-01T00:00:00.000Z,Baden-Württemberg,Drittmitteleinnahmen der Hochschulen,1.690713E9
+2022-01-01T00:00:00.000Z,Baden-Württemberg,Einnahmen der Hochschulen (ohne Trägermittel),5.953698E9
+2021-01-01T00:00:00.000Z,Sachsen,Ausgaben der Hochschulen,3.394922E9
+2021-01-01T00:00:00.000Z,Sachsen,Trägermittel der Hochschulen,1.221489E9
+2021-01-01T00:00:00.000Z,Sachsen,Drittmitteleinnahmen der Hochschulen,6.29772E8
+2021-01-01T00:00:00.000Z,Sachsen,Einnahmen der Hochschulen (ohne Trägermittel),1.911641E9
+2019-01-01T00:00:00.000Z,Thüringen,Ausgaben der Hochschulen,1.345731E9
+2019-01-01T00:00:00.000Z,Thüringen,Trägermittel der Hochschulen,6.1169E8
+2019-01-01T00:00:00.000Z,Thüringen,Drittmitteleinnahmen der Hochschulen,2.00445E8
+2019-01-01T00:00:00.000Z,Thüringen,Einnahmen der Hochschulen (ohne Trägermittel),7.21836E8
+2021-01-01T00:00:00.000Z,Niedersachsen,Ausgaben der Hochschulen,4.895812E9
+2021-01-01T00:00:00.000Z,Niedersachsen,Trägermittel der Hochschulen,2.68259E9
+2021-01-01T00:00:00.000Z,Niedersachsen,Drittmitteleinnahmen der Hochschulen,8.06288E8
+2021-01-01T00:00:00.000Z,Niedersachsen,Einnahmen der Hochschulen (ohne Trägermittel),2.34542E9
+2021-01-01T00:00:00.000Z,Brandenburg,Ausgaben der Hochschulen,7.53123E8
+2021-01-01T00:00:00.000Z,Brandenburg,Trägermittel der Hochschulen,5.39705E8
+2021-01-01T00:00:00.000Z,Brandenburg,Drittmitteleinnahmen der Hochschulen,1.60789E8
+2021-01-01T00:00:00.000Z,Brandenburg,Einnahmen der Hochschulen (ohne Trägermittel),2.23976E8
+2021-01-01T00:00:00.000Z,Sachsen-Anhalt,Ausgaben der Hochschulen,1.802037E9
+2021-01-01T00:00:00.000Z,Sachsen-Anhalt,Trägermittel der Hochschulen,7.33713E8
+2021-01-01T00:00:00.000Z,Sachsen-Anhalt,Drittmitteleinnahmen der Hochschulen,1.62949E8
+2021-01-01T00:00:00.000Z,Sachsen-Anhalt,Einnahmen der Hochschulen (ohne Trägermittel),1.008993E9
+2022-01-01T00:00:00.000Z,Saarland,Ausgaben der Hochschulen,1.05712E9
+2022-01-01T00:00:00.000Z,Saarland,Trägermittel der Hochschulen,3.77465E8
+2022-01-01T00:00:00.000Z,Saarland,Drittmitteleinnahmen der Hochschulen,8.9679E7
+2022-01-01T00:00:00.000Z,Saarland,Einnahmen der Hochschulen (ohne Trägermittel),6.94412E8
+2019-01-01T00:00:00.000Z,Berlin,Ausgaben der Hochschulen,4.006163E9
+2019-01-01T00:00:00.000Z,Berlin,Trägermittel der Hochschulen,1.57561E9
+2019-01-01T00:00:00.000Z,Berlin,Drittmitteleinnahmen der Hochschulen,6.62383E8
+2019-01-01T00:00:00.000Z,Berlin,Einnahmen der Hochschulen (ohne Trägermittel),2.470672E9
+2022-01-01T00:00:00.000Z,Mecklenburg-Vorpommern,Ausgaben der Hochschulen,1.520092E9
+2022-01-01T00:00:00.000Z,Mecklenburg-Vorpommern,Trägermittel der Hochschulen,6.27281E8
+2022-01-01T00:00:00.000Z,Mecklenburg-Vorpommern,Drittmitteleinnahmen der Hochschulen,1.49702E8
+2022-01-01T00:00:00.000Z,Mecklenburg-Vorpommern,Einnahmen der Hochschulen (ohne Trägermittel),9.29496E8
+2021-01-01T00:00:00.000Z,Bayern,Ausgaben der Hochschulen,1.0596058E10
+2021-01-01T00:00:00.000Z,Bayern,Trägermittel der Hochschulen,4.672168E9
+2021-01-01T00:00:00.000Z,Bayern,Drittmitteleinnahmen der Hochschulen,1.463169E9
+2021-01-01T00:00:00.000Z,Bayern,Einnahmen der Hochschulen (ohne Trägermittel),5.806312E9
+2020-01-01T00:00:00.000Z,Saarland,Ausgaben der Hochschulen,9.87785E8
+2020-01-01T00:00:00.000Z,Saarland,Trägermittel der Hochschulen,3.65978E8
+2020-01-01T00:00:00.000Z,Saarland,Drittmitteleinnahmen der Hochschulen,7.3636E7
+2020-01-01T00:00:00.000Z,Saarland,Einnahmen der Hochschulen (ohne Trägermittel),6.50307E8
+2020-01-01T00:00:00.000Z,Mecklenburg-Vorpommern,Ausgaben der Hochschulen,1.323399E9
+2020-01-01T00:00:00.000Z,Mecklenburg-Vorpommern,Trägermittel der Hochschulen,5.29963E8
+2020-01-01T00:00:00.000Z,Mecklenburg-Vorpommern,Drittmitteleinnahmen der Hochschulen,1.26668E8
+2020-01-01T00:00:00.000Z,Mecklenburg-Vorpommern,Einnahmen der Hochschulen (ohne Trägermittel),8.10584E8
+2021-01-01T00:00:00.000Z,Hessen,Ausgaben der Hochschulen,4.856854E9
+2021-01-01T00:00:00.000Z,Hessen,Trägermittel der Hochschulen,2.374709E9
+2021-01-01T00:00:00.000Z,Hessen,Drittmitteleinnahmen der Hochschulen,5.9917E8
+2021-01-01T00:00:00.000Z,Hessen,Einnahmen der Hochschulen (ohne Trägermittel),2.553907E9
+2019-01-01T00:00:00.000Z,Hamburg,Ausgaben der Hochschulen,2.290119E9
+2019-01-01T00:00:00.000Z,Hamburg,Trägermittel der Hochschulen,9.38832E8
+2019-01-01T00:00:00.000Z,Hamburg,Drittmitteleinnahmen der Hochschulen,3.17534E8
+2019-01-01T00:00:00.000Z,Hamburg,Einnahmen der Hochschulen (ohne Trägermittel),1.306601E9
+2022-01-01T00:00:00.000Z,Bremen,Ausgaben der Hochschulen,5.78875E8
+2022-01-01T00:00:00.000Z,Bremen,Trägermittel der Hochschulen,2.9778E8
+2022-01-01T00:00:00.000Z,Bremen,Drittmitteleinnahmen der Hochschulen,1.48127E8
+2022-01-01T00:00:00.000Z,Bremen,Einnahmen der Hochschulen (ohne Trägermittel),2.88078E8
+2021-01-01T00:00:00.000Z,Thüringen,Ausgaben der Hochschulen,1.719322E9
+2021-01-01T00:00:00.000Z,Thüringen,Trägermittel der Hochschulen,7.90433E8
+2021-01-01T00:00:00.000Z,Thüringen,Drittmitteleinnahmen der Hochschulen,2.35773E8
+2021-01-01T00:00:00.000Z,Thüringen,Einnahmen der Hochschulen (ohne Trägermittel),1.092826E9
+2020-01-01T00:00:00.000Z,Schleswig-Holstein,Ausgaben der Hochschulen,2.246086E9
+2020-01-01T00:00:00.000Z,Schleswig-Holstein,Trägermittel der Hochschulen,6.61599E8
+2020-01-01T00:00:00.000Z,Schleswig-Holstein,Drittmitteleinnahmen der Hochschulen,1.97961E8
+2020-01-01T00:00:00.000Z,Schleswig-Holstein,Einnahmen der Hochschulen (ohne Trägermittel),1.36867E9
+2022-01-01T00:00:00.000Z,Schleswig-Holstein,Ausgaben der Hochschulen,2.383416E9
+2022-01-01T00:00:00.000Z,Schleswig-Holstein,Trägermittel der Hochschulen,7.21196E8
+2022-01-01T00:00:00.000Z,Schleswig-Holstein,Drittmitteleinnahmen der Hochschulen,2.46325E8
+2022-01-01T00:00:00.000Z,Schleswig-Holstein,Einnahmen der Hochschulen (ohne Trägermittel),1.520689E9
+2020-01-01T00:00:00.000Z,Sachsen-Anhalt,Ausgaben der Hochschulen,1.718403E9
+2020-01-01T00:00:00.000Z,Sachsen-Anhalt,Trägermittel der Hochschulen,7.06277E8
+2020-01-01T00:00:00.000Z,Sachsen-Anhalt,Drittmitteleinnahmen der Hochschulen,1.51323E8
+2020-01-01T00:00:00.000Z,Sachsen-Anhalt,Einnahmen der Hochschulen (ohne Trägermittel),9.73463E8
+2020-01-01T00:00:00.000Z,Niedersachsen,Ausgaben der Hochschulen,4.776931E9
+2020-01-01T00:00:00.000Z,Niedersachsen,Trägermittel der Hochschulen,2.643572E9
+2020-01-01T00:00:00.000Z,Niedersachsen,Drittmitteleinnahmen der Hochschulen,7.60645E8
+2020-01-01T00:00:00.000Z,Niedersachsen,Einnahmen der Hochschulen (ohne Trägermittel),2.288573E9
+2022-01-01T00:00:00.000Z,Niedersachsen,Ausgaben der Hochschulen,5.075837E9
+2022-01-01T00:00:00.000Z,Niedersachsen,Trägermittel der Hochschulen,2.733171E9
+2022-01-01T00:00:00.000Z,Niedersachsen,Drittmitteleinnahmen der Hochschulen,8.52309E8
+2022-01-01T00:00:00.000Z,Niedersachsen,Einnahmen der Hochschulen (ohne Trägermittel),2.505865E9
+2020-01-01T00:00:00.000Z,Brandenburg,Ausgaben der Hochschulen,6.90723E8
+2020-01-01T00:00:00.000Z,Brandenburg,Trägermittel der Hochschulen,5.37879E8
+2020-01-01T00:00:00.000Z,Brandenburg,Drittmitteleinnahmen der Hochschulen,1.53792E8
+2020-01-01T00:00:00.000Z,Brandenburg,Einnahmen der Hochschulen (ohne Trägermittel),1.8548E8
+2022-01-01T00:00:00.000Z,Sachsen-Anhalt,Ausgaben der Hochschulen,1.937493E9
+2022-01-01T00:00:00.000Z,Sachsen-Anhalt,Trägermittel der Hochschulen,7.68225E8
+2022-01-01T00:00:00.000Z,Sachsen-Anhalt,Drittmitteleinnahmen der Hochschulen,2.17233E8
+2022-01-01T00:00:00.000Z,Sachsen-Anhalt,Einnahmen der Hochschulen (ohne Trägermittel),1.15719E9
+2019-01-01T00:00:00.000Z,Bayern,Ausgaben der Hochschulen,9.607546E9
+2019-01-01T00:00:00.000Z,Bayern,Trägermittel der Hochschulen,4.147276E9
+2019-01-01T00:00:00.000Z,Bayern,Drittmitteleinnahmen der Hochschulen,1.360828E9
+2019-01-01T00:00:00.000Z,Bayern,Einnahmen der Hochschulen (ohne Trägermittel),5.246307E9
+2022-01-01T00:00:00.000Z,Brandenburg,Ausgaben der Hochschulen,8.19846E8
+2022-01-01T00:00:00.000Z,Brandenburg,Trägermittel der Hochschulen,5.71009E8
+2022-01-01T00:00:00.000Z,Brandenburg,Drittmitteleinnahmen der Hochschulen,1.74095E8
+2022-01-01T00:00:00.000Z,Brandenburg,Einnahmen der Hochschulen (ohne Trägermittel),2.53921E8
+2019-01-01T00:00:00.000Z,Hessen,Ausgaben der Hochschulen,4.5022E9
+2019-01-01T00:00:00.000Z,Hessen,Trägermittel der Hochschulen,2.243326E9
+2019-01-01T00:00:00.000Z,Hessen,Drittmitteleinnahmen der Hochschulen,5.65161E8
+2019-01-01T00:00:00.000Z,Hessen,Einnahmen der Hochschulen (ohne Trägermittel),2.358699E9
+2019-01-01T00:00:00.000Z,Sachsen,Ausgaben der Hochschulen,3.191007E9
+2019-01-01T00:00:00.000Z,Sachsen,Trägermittel der Hochschulen,1.191449E9
+2019-01-01T00:00:00.000Z,Sachsen,Drittmitteleinnahmen der Hochschulen,6.1512E8
+2019-01-01T00:00:00.000Z,Sachsen,Einnahmen der Hochschulen (ohne Trägermittel),1.788495E9
+2022-01-01T00:00:00.000Z,Rheinland-Pfalz,Ausgaben der Hochschulen,2.347026E9
+2022-01-01T00:00:00.000Z,Rheinland-Pfalz,Trägermittel der Hochschulen,8.00089E8
+2022-01-01T00:00:00.000Z,Rheinland-Pfalz,Drittmitteleinnahmen der Hochschulen,3.32835E8
+2022-01-01T00:00:00.000Z,Rheinland-Pfalz,Einnahmen der Hochschulen (ohne Trägermittel),1.178801E9
+2020-01-01T00:00:00.000Z,Bremen,Ausgaben der Hochschulen,5.16675E8
+2020-01-01T00:00:00.000Z,Bremen,Trägermittel der Hochschulen,2.79218E8
+2020-01-01T00:00:00.000Z,Bremen,Drittmitteleinnahmen der Hochschulen,1.36611E8
+2020-01-01T00:00:00.000Z,Bremen,Einnahmen der Hochschulen (ohne Trägermittel),2.81994E8
+2020-01-01T00:00:00.000Z,Rheinland-Pfalz,Ausgaben der Hochschulen,2.097752E9
+2020-01-01T00:00:00.000Z,Rheinland-Pfalz,Trägermittel der Hochschulen,7.40046E8
+2020-01-01T00:00:00.000Z,Rheinland-Pfalz,Drittmitteleinnahmen der Hochschulen,2.87162E8
+2020-01-01T00:00:00.000Z,Rheinland-Pfalz,Einnahmen der Hochschulen (ohne Trägermittel),1.030222E9
+2021-01-01T00:00:00.000Z,Hamburg,Ausgaben der Hochschulen,2.531905E9
+2021-01-01T00:00:00.000Z,Hamburg,Trägermittel der Hochschulen,1.246945E9
+2021-01-01T00:00:00.000Z,Hamburg,Drittmitteleinnahmen der Hochschulen,3.43409E8
+2021-01-01T00:00:00.000Z,Hamburg,Einnahmen der Hochschulen (ohne Trägermittel),1.458092E9
+2019-01-01T00:00:00.000Z,Rheinland-Pfalz,Ausgaben der Hochschulen,2.038189E9
+2019-01-01T00:00:00.000Z,Rheinland-Pfalz,Trägermittel der Hochschulen,7.43988E8
+2019-01-01T00:00:00.000Z,Rheinland-Pfalz,Drittmitteleinnahmen der Hochschulen,2.83165E8
+2019-01-01T00:00:00.000Z,Rheinland-Pfalz,Einnahmen der Hochschulen (ohne Trägermittel),1.005993E9
+2022-01-01T00:00:00.000Z,Sachsen,Ausgaben der Hochschulen,3.638259E9
+2022-01-01T00:00:00.000Z,Sachsen,Trägermittel der Hochschulen,1.220993E9
+2022-01-01T00:00:00.000Z,Sachsen,Drittmitteleinnahmen der Hochschulen,7.36849E8
+2022-01-01T00:00:00.000Z,Sachsen,Einnahmen der Hochschulen (ohne Trägermittel),2.089251E9
+2019-01-01T00:00:00.000Z,Saarland,Ausgaben der Hochschulen,9.3504E8
+2019-01-01T00:00:00.000Z,Saarland,Trägermittel der Hochschulen,2.96426E8
+2019-01-01T00:00:00.000Z,Saarland,Drittmitteleinnahmen der Hochschulen,7.8756E7
+2019-01-01T00:00:00.000Z,Saarland,Einnahmen der Hochschulen (ohne Trägermittel),6.18659E8
