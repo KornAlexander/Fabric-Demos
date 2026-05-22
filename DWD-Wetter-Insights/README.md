@@ -4,6 +4,8 @@
 
 An end-to-end Microsoft Fabric demo that loads German weather observations and forecasts from the [Deutscher Wetterdienst (DWD) Climate Data Center](https://opendata.dwd.de/) — via the open-source [`dwdown`](https://pypi.org/project/dwdown/) and [`wetterdienst`](https://pypi.org/project/wetterdienst/) libraries — into a Lakehouse, exposes them as a Direct Lake semantic model, and serves an interactive 4-page Power BI report. Plus a Data Pipeline for daily orchestration and a Notify notebook for success/failure mail-out.
 
+![Home page](./screenshots/home.png)
+
 The real point of this demo is the **architecture pattern**, which is reusable for any public-API time-series source:
 
 ```
@@ -56,14 +58,21 @@ License: [GeoNutzV](https://www.dwd.de/DE/service/copyright/copyright_node.html)
 
 ## Report pages
 
-| Page | Screenshot | Highlights |
-|---|---|---|
-| **Home** | [home.png](./screenshots/home.png) | Bundesland temperature comparison with IBCS PY deltas (Multi-Tier Bar custom visual) |
-| **Übersicht** | [uebersicht.png](./screenshots/uebersicht.png) | KPI cards (rows, stations, avg temp, rainfall), time-series, distribution |
-| **Stationen** | [stationen.png](./screenshots/stationen.png) | Azure Map of all stations, Top-N table, observations-per-station bar |
-| **Vorhersage** | [vorhersage.png](./screenshots/vorhersage.png) | Next-7-day forecast view (uses Mosmix tables) |
+### Home — Bundesland temperature comparison with IBCS PY deltas
 
 ![Home page](./screenshots/home.png)
+
+### Übersicht — KPI cards, time-series and Bundesland breakdowns
+
+![Übersicht page](./screenshots/uebersicht.png)
+
+### Stationen — Azure Map of all stations, Top-N table
+
+![Stationen page](./screenshots/stationen.png)
+
+### Vorhersage — Next-7-day Mosmix forecast view
+
+![Vorhersage page](./screenshots/vorhersage.png)
 
 ## Prerequisites
 
