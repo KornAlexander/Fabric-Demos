@@ -96,7 +96,8 @@ https://raw.githubusercontent.com/KornAlexander/Fabric-Demos/main/DWD-Wetter-Ins
 
 ```
 DWD-Wetter-Insights/
-  Install-DWD-Wetter-Insights.ipynb   # Fabric notebook installer
+  Install-DWD-Wetter-Insights.ipynb   # Fabric notebook installer (run this)
+  Install-DWD-Wetter-Insights.py      # Deploy logic — fetched and exec'd by the .ipynb
   README.md                           # this file
   screenshots/
     home.png
