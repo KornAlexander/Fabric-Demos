@@ -71,9 +71,9 @@ License: [GeoNutzV](https://www.dwd.de/DE/service/copyright/copyright_node.html)
 2. **No API tokens, no registration** — DWD Climate Data Center is fully open.
 3. (Optional, for the Notify notebook) the notebook user needs delegated `Mail.Send` permission, which they already have in any normal M365 tenant.
 
-## Install — Option A (recommended): Fabric notebook
+## Install
 
-This is the fastest path — no local Python, no `az login`, no env vars, no tokens.
+The fastest path — no local Python, no `az login`, no env vars, no tokens.
 
 1. Open your target Fabric workspace.
 2. **New → Import notebook → Upload** → pick [`Install-DWD-Wetter-Insights.ipynb`](./Install-DWD-Wetter-Insights.ipynb).
@@ -83,35 +83,6 @@ Direct raw URL of the installer notebook:
 
 ```
 https://raw.githubusercontent.com/KornAlexander/Fabric-Demos/main/DWD-Wetter-Insights/Install-DWD-Wetter-Insights.ipynb
-```
-
-## Install — Option B: from your laptop
-
-Requires `python>=3.10`, `azure-identity`, `requests`, and `az login --tenant <your-fabric-tenant>`.
-
-### PowerShell one-liner
-
-```powershell
-$env:FABRIC_WORKSPACE_ID = "<workspace-guid>"
-python -m pip install --quiet requests azure-identity
-python -c "import urllib.request as u; exec(u.urlopen('https://raw.githubusercontent.com/KornAlexander/Fabric-Demos/main/DWD-Wetter-Insights/Install-DWD-Wetter-Insights.py').read())"
-```
-
-### bash / zsh one-liner
-
-```bash
-export FABRIC_WORKSPACE_ID="<workspace-guid>"
-python -m pip install --quiet requests azure-identity && \
-python -c "import urllib.request as u; exec(u.urlopen('https://raw.githubusercontent.com/KornAlexander/Fabric-Demos/main/DWD-Wetter-Insights/Install-DWD-Wetter-Insights.py').read())"
-```
-
-### From a clone
-
-```bash
-git clone https://github.com/KornAlexander/Fabric-Demos.git
-cd Fabric-Demos/DWD-Wetter-Insights
-pip install requests azure-identity
-python Install-DWD-Wetter-Insights.py --workspace-id <guid>
 ```
 
 ## After install
@@ -125,8 +96,7 @@ python Install-DWD-Wetter-Insights.py --workspace-id <guid>
 
 ```
 DWD-Wetter-Insights/
-  Install-DWD-Wetter-Insights.ipynb   # Fabric notebook installer (recommended)
-  Install-DWD-Wetter-Insights.py      # Local-Python installer (CLI / one-liner)
+  Install-DWD-Wetter-Insights.ipynb   # Fabric notebook installer
   README.md                           # this file
   screenshots/
     home.png
