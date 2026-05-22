@@ -166,25 +166,46 @@ class Fabric:
         r = self.s.post(f"{FABRIC}/workspaces/{self.ws}/folders", json=body)
         return self._wait(r)["id"]
 
+    def _find_item(self, name: str, type_: str | None = None) -> dict | None:
+        url = f"{FABRIC}/workspaces/{self.ws}/items"
+        if type_:
+            url += f"?type={type_}"
+        for it in self.s.get(url).json().get("value", []):
+            if it.get("displayName") == name and (type_ is None or it.get("type") == type_):
+                return it
+        return None
+
+    def _wait_lh_sql(self, lh_id: str) -> str:
+        for _ in range(30):
+            d = self.s.get(f"{FABRIC}/workspaces/{self.ws}/lakehouses/{lh_id}").json()
+            ep = (d.get("properties") or {}).get("sqlEndpointProperties") or {}
+            if ep.get("provisioningStatus") == "Success":
+                return ep["id"]
+            time.sleep(3)
+        return ""
+
     def create_lakehouse(self, name: str, folder_id: str) -> tuple[str, str]:
+        existing = self._find_item(name, "Lakehouse")
+        if existing:
+            print(f"  Lakehouse '{name}' already exists -> reusing")
+            return existing["id"], self._wait_lh_sql(existing["id"])
         body = {
             "displayName": name,
             "folderId": folder_id,
             "creationPayload": {"enableSchemas": True},
         }
         r = self.s.post(f"{FABRIC}/workspaces/{self.ws}/lakehouses", json=body)
-        out = self._wait(r)
-        lh_id = out["id"]
-        # Wait for SQL endpoint to provision
-        for _ in range(30):
-            d = self.s.get(f"{FABRIC}/workspaces/{self.ws}/lakehouses/{lh_id}").json()
-            ep = (d.get("properties") or {}).get("sqlEndpointProperties") or {}
-            if ep.get("provisioningStatus") == "Success":
-                return lh_id, ep["id"]
-            time.sleep(3)
-        return lh_id, ""
+        lh_id = self._wait(r)["id"]
+        return lh_id, self._wait_lh_sql(lh_id)
 
     def create_item(self, display_name: str, type_: str, definition: dict, folder_id: str) -> str:
+        existing = self._find_item(display_name, type_)
+        if existing:
+            print(f"  {type_} '{display_name}' already exists -> updating definition")
+            body = {"definition": definition["definition"]}
+            r = self.s.post(f"{FABRIC}/workspaces/{self.ws}/items/{existing['id']}/updateDefinition", json=body)
+            self._wait(r)
+            return existing["id"]
         body = {
             "displayName": display_name,
             "type": type_,
