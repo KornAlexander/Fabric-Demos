@@ -4,23 +4,46 @@
 
 An end-to-end Microsoft Fabric demo that loads German higher-education statistics from the DESTATIS GENESIS REST API into a Lakehouse, exposes them as a Direct Lake semantic model and serves an interactive 8-page Power BI report — plus a Data Pipeline for orchestration and a Data Agent for natural-language Q&A.
 
-The real point of this demo is the **architecture pattern**, which is reusable for any public or customer data source:
+The real point of this demo is the **architecture pattern**, which is reusable for any public or customer data source.
 
+## Architecture
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/architecture-dark.svg">
+  <img alt="Hochschul-Insights architecture — DESTATIS GENESIS + Wikidata to Fabric Lakehouse, Direct Lake Semantic Model, Power BI Report and Data Agent" src="docs/architecture-light.svg">
+</picture>
+
+External sources (DESTATIS GENESIS REST API + Wikidata SPARQL) feed two PySpark notebooks orchestrated by a Data Pipeline. The notebooks write Delta tables into the `Genesis` schema of `WebinarLakehouse`. A Direct Lake Semantic Model (`Hochschule`) sits on top — no import, no refresh — and powers both the `Webinar Hochschule` Power BI report and the optional `Hochschul-Stats-Agent` for natural-language Q&A.
+
+<details>
+<summary>Mermaid source (regenerate SVGs at <a href="https://jumpstart.fabric.microsoft.com/tools/diagram-generator">jumpstart.fabric.microsoft.com/tools/diagram-generator</a>)</summary>
+
+```mermaid
+graph LR
+    GEN[DESTATIS GENESIS REST API]:::U2601
+    WIKI[Wikidata SPARQL]:::U2601
+    subgraph Fabric:::Workspace
+        PIPE[Hochschul-Insights GENESIS Pipeline]:::DataPipeline
+        LOADER[Hochschul-Insights GENESIS Loader]:::Notebook
+        DIMS[Hochschul-Insights GENESIS Dimensions]:::Notebook
+        LH[WebinarLakehouse]:::Lakehouse
+        SM[Hochschule]:::SemanticModel
+        RPT[Webinar Hochschule]:::Report
+        AGENT[Hochschul-Stats-Agent]:::DataAgent
+        direction LR
+    end
+    GEN -.-> LOADER
+    WIKI -.-> DIMS
+    PIPE ==> LOADER
+    PIPE ==> DIMS
+    LOADER --> LH
+    DIMS --> LH
+    LH --> SM
+    SM --> RPT
+    SM --> AGENT
 ```
-DESTATIS GENESIS REST API
-   |
-   v
-Notebook (PySpark)
-   |
-   v
-Lakehouse (Delta, schema "Genesis")
-   |
-   v   Direct Lake (no import, no refresh)
-Semantic Model
-   |
-   v
-Power BI Report  +  Data Agent (NL Q&A)
-```
+
+</details>
 
 ## What gets deployed
 
