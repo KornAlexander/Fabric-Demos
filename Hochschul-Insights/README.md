@@ -13,7 +13,12 @@ The real point of this demo is the **architecture pattern**, which is reusable f
   <img alt="Hochschul-Insights architecture — DESTATIS GENESIS + Wikidata to Fabric Lakehouse, Direct Lake Semantic Model, Power BI Report and Data Agent" src="docs/architecture-light.svg">
 </picture>
 
-External sources (DESTATIS GENESIS REST API + Wikidata SPARQL) feed two PySpark notebooks orchestrated by a Data Pipeline. The notebooks write Delta tables into the `Genesis` schema of `WebinarLakehouse`. A Direct Lake Semantic Model (`Hochschule`) sits on top — no import, no refresh — and powers both the `Webinar Hochschule` Power BI report and the optional `Hochschul-Stats-Agent` for natural-language Q&A.
+External sources feed the workspace via two interchangeable paths:
+
+- **Live mode** — DESTATIS GENESIS REST API → `Hochschul-Insights GENESIS Loader` notebook, orchestrated by `Hochschul-Insights GENESIS Pipeline`.
+- **Snapshot mode** — bundled CSVs (in `data/snapshot/`) → `Hochschul-Insights Snapshot Loader` notebook. No DESTATIS token required.
+
+Both paths write Delta into `WebinarLakehouse` (schema `Genesis`). The `Hochschul-Insights GENESIS Dimensions` notebook enriches with Wikidata SPARQL. A Direct Lake Semantic Model (`Hochschule`) sits on top — no import, no refresh — and powers both the `Webinar Hochschule` Power BI report and the optional `Hochschul-Stats-Agent` for natural-language Q&A.
 
 <details>
 <summary>Mermaid source (regenerate SVGs at <a href="https://jumpstart.fabric.microsoft.com/tools/diagram-generator">jumpstart.fabric.microsoft.com/tools/diagram-generator</a>)</summary>
@@ -21,10 +26,12 @@ External sources (DESTATIS GENESIS REST API + Wikidata SPARQL) feed two PySpark 
 ```mermaid
 graph LR
     GEN[DESTATIS GENESIS REST API]:::U2601
+    CSV[bundled snapshot CSVs]:::U1F5C4
     WIKI[Wikidata SPARQL]:::U2601
     subgraph Fabric:::Workspace
         PIPE[Hochschul-Insights GENESIS Pipeline]:::DataPipeline
         LOADER[Hochschul-Insights GENESIS Loader]:::Notebook
+        SNAP[Hochschul-Insights Snapshot Loader]:::Notebook
         DIMS[Hochschul-Insights GENESIS Dimensions]:::Notebook
         LH[WebinarLakehouse]:::Lakehouse
         SM[Hochschule]:::SemanticModel
@@ -33,10 +40,12 @@ graph LR
         direction LR
     end
     GEN -.-> LOADER
+    CSV -.-> SNAP
     WIKI -.-> DIMS
     PIPE ==> LOADER
     PIPE ==> DIMS
     LOADER --> LH
+    SNAP --> LH
     DIMS --> LH
     LH --> SM
     SM --> RPT
